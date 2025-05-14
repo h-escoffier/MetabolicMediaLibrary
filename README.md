@@ -1,6 +1,6 @@
 # MediumMetaMod
 
-Welcome to the **Metabolic Media Library**, a community-driven resource for standardized definitions of culture media used in genome-scale metabolic modeling. This repository provides a growing collection of media formulations mapped to popular human metabolic models (**Recon3D** and **Human-GEM**). It also includes integration scripts for **COBREXA (Julia)**, **COBRApy (Python)**, and **COBRA (MATLAB)** to easily load these media into metabolic models.
+Welcome to the **Medium Metablic Modeling Library**, a community-driven resource for standardized definitions of culture media used in genome-scale metabolic modeling. This repository provides a growing collection of media formulations mapped to popular human metabolic models (**Recon3D** and **Human-GEM**). It also includes integration scripts for **COBREXA (Julia)**, **COBRApy (Python)**, and **COBRA (MATLAB)** to easily load these media into metabolic models.
 
 -----------------------
 
@@ -105,5 +105,3 @@ This project builds upon the work of the metabolic modeling community.
 ## License
 
 This project is licensed under the MIT License unless otherwise stated. Please cite original model references when using this data in publications.
-
------------------------
