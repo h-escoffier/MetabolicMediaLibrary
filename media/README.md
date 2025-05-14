@@ -7,6 +7,9 @@ This folder contains definitions of various culture media used for metabolic mod
 | Medium Name                            | Reference/Source Link                        | Notes            |
 | :------------------------------------- | :------------------------------------------- | :--------------- |
 | [RPMI-1640](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/RPMI1640.tsv) | [Thermo Fisher RPMI-1640](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.187.html) | None |
+| [DMEM](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/DMEM.tsv) | [Thermo Fisher DMEM](https://www.thermofisher.com/us/en/home/technical-resources/media-formulation.8.html) | None |
+| [DMEM/F-12](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/DMEM_F12.tsv) | [Thermo Fisher DMEM/F-12](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.55.html) | None |
+| [MEM](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/MEM.tsv) | [Merck MEM](https://www.sigmaaldrich.com/LU/en/technical-documents/technical-article/cell-culture-and-cell-culture-analysis/mammalian-cell-culture/mem-formulation) | None |
 | [FBS](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/FBS.tsv) | [Price, P.J., Gregory In Vitro Cell.Dev.Biol.-Plant 18, 1982](https://doi.org/10.1007/BF02810081) | Prostaglandin F removed to causing infinitely large objective values |
 
 > **Note:** Feel free to contribute new media by creating a new file and adding an entry to this table.
