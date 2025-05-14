@@ -53,9 +53,9 @@ We welcome contributions of new media formulations or improvements to existing o
 2. Rename it appropriately (e.g., HamF12.csv).
 3. Fill in the required columns. Try to include both Recon3D and Human-GEM identifiers.
 4. Submit a pull request with:
-* A completed CSV file in the media/ directory.
-* Optionally, a brief note or citation about the source of concentrations.
-* Update the CONTRIBUTING.md file if needed.
+    * A completed CSV file in the media/ directory.
+    * Optionally, a brief note or citation about the source of concentrations.
+    * Update the CONTRIBUTING.md file if needed.
 
 See CONTRIBUTING.md for more details.
 
@@ -69,8 +69,6 @@ See CONTRIBUTING.md for more details.
 | :--------- | :------------------------------------------ | :---------------- |
 | **Recon3D**     | A comprehensive human metabolic model with metabolite structures and gene-protein-reaction (GPR) associations. | [VMH - Recon3D](https://www.vmh.life/#downloadview) |
 | **Human-GEM**   | An open, community-maintained human metabolic model. | [Human-GEM on GitHub](https://github.com/SysBioChalmers/Human-GEM) |
-
----
 
 ### Modeling Toolboxes
 
