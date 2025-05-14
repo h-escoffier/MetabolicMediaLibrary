@@ -1,40 +1,40 @@
-METABOLITE	REACTION	reaction_auto_kemp	reaction_gpmm	reaction_gecko	CONCENTRATION [M]
-4hpro_LT[e]	EX_4hpro_LT[e]	EX_4hpro[e]	EX_4hpro(e)	MAR08386	0.00015252
-Lcystin[e]	EX_Lcystin[e]	EX_Lcystin[e]	EX_Lcystin(e)	MAR09363	0.000207522
-aqcobal[e]	EX_aqcobal[e]	EX_aqcobal[e]	EX_aqcobal(e)	MAR09269	3.68903e-09
-arg_L[e]	EX_arg_L[e]	EX_arg_L[e]	EX_arg_L(e)	MAR09066	0.00114811
-asn_L[e]	EX_asn_L[e]	EX_asn_L[e]	EX_asn_L(e)	MAR09062	0.000378444
-asp_L[e]	EX_asp_L[e]	EX_asp_L[e]	EX_asp_L(e)	MAR09070	0.000150252
-btn[e]	EX_btn[e]	EX_btn[e]	EX_btn(e)	MAR09109	8.18632e-07
-ca2[e]	EX_ca2[e]	EX_ca2[e]		MAR09082	0.000423984
-chol[e]	EX_chol[e]	EX_chol[e]	EX_chol(e)	MAR09083	2.14869e-05
-cl[e]	EX_cl[e]	EX_cl[e]		MAR09150	0.108772
-fol[e]	EX_fol[e]	EX_fol[e]	EX_fol(e)	MAR09146	2.26552e-06
-glc_D[e]	EX_glc_D[e]	EX_glc_D[e]	EX_glc(e)	MAR09034	0.0111012
-gln_L[e]	EX_gln_L[e]	EX_gln_L[e]	EX_gln_L(e)	MAR09063	0.00205283
-glu_L[e]	EX_glu_L[e]	EX_glu_L[e]	EX_glu_L(e)	MAR09071	0.000135934
-gly[e]	EX_gly[e]	EX_gly[e]	EX_gly(e)	MAR09067	0.000133209
-gthrd[e]	EX_gthrd[e]	EX_gthrd[e]	EX_gthrd(e)	MAR09351	3.25394e-06
-hco3[e]	EX_hco3[e]	EX_hco3[e]	EX_hco3(e)	MAR09078	0.0238067
-his_L[e]	EX_his_L[e]	EX_his_L[e]	EX_his_L(e)	MAR09038	9.66806e-05
-ile_L[e]	EX_ile_L[e]	EX_ile_L[e]	EX_ile_L(e)	MAR09039	0.000381185
-inost[e]	EX_inost[e]	EX_inost[e]	EX_inost(e)	MAR09361	0.000194272
-k[e]	EX_k[e]	EX_k[e]	EX_k(e)	MAR09081	0.00536553
-leu_L[e]	EX_leu_L[e]	EX_leu_L[e]	EX_leu_L(e)	MAR09040	0.000381185
-lys_L[e]	EX_lys_L[e]	EX_lys_L[e]	EX_lys_L(e)	MAR09041	0.000218998
-met_L[e]	EX_met_L[e]	EX_met_L[e]	EX_met_L(e)	MAR09042	0.000100529
-na1[e]	EX_na1[e]	EX_na1[e]	EX_na1(e)	MAR09077	0.138053
-ncam[e]	EX_ncam[e]	EX_ncam[e]	EX_ncam(e)	MAR09378	8.18867e-06
-phe_L[e]	EX_phe_L[e]	EX_phe_L[e]	EX_phe_L(e)	MAR09043	9.08045e-05
-pi[e]	EX_pi[e]	EX_pi[e]	EX_pi(e)	MAR09072	0.00563539
-pnto_R[e]	EX_pnto_R[e]	EX_pnto_R[e]	EX_pnto_R(e)	MAR09145	1.04923e-06
-pro_L[e]	EX_pro_L[e]	EX_pro_L[e]	EX_pro_L(e)	MAR09068	0.000173717
-pydxn[e]	EX_pydxn[e]	EX_pydxn[e]	EX_pydxn(e)	MAR09144	4.86287e-06
-ribflv[e]	EX_ribflv[e]	EX_ribflv[e]	EX_ribflv(e)	MAR09143	5.31406e-07
-ser_L[e]	EX_ser_L[e]	EX_ser_L[e]	EX_ser_L(e)	MAR09069	0.00028547
-so4[e]	EX_so4[e]	EX_so4[e]	EX_so4(e)	MAR09074	0.000405783
-thm[e]	EX_thm[e]	EX_thm[e]	EX_thm(e)	MAR09159	2.96507e-06
-thr_L[e]	EX_thr_L[e]	EX_thr_L[e]	EX_thr_L(e)	MAR09044	0.000167898
-trp_L[e]	EX_trp_L[e]	EX_trp_L[e]	EX_trp_L(e)	MAR09045	2.44822e-05
-tyr_L[e]	EX_tyr_L[e]	EX_tyr_L[e]	EX_tyr_L(e)	MAR09064	0.00011103
-val_L[e]	EX_val_L[e]	EX_val_L[e]	EX_val_L(e)	MAR09046	0.000170721
+Mets_Recon3D	Mets_HumanGEM	ExRxns_Recon3D	ExRxns_HumanGEM	Concentration_M
+4hpro_LT[e]	MAM03037e	EX_4hpro[e]	MAR08386	0.00015252
+Lcystin[e]	MAM01629e	EX_Lcystin[e]	MAR09363	0.000207522
+aqcobal[e]	MAM01361e	EX_aqcobal[e]	MAR09269	3.68903e-09
+arg_L[e]	MAM01365e	EX_arg_L[e]	MAR09066	0.00114811
+asn_L[e]	MAM01369e	EX_asn_L[e]	MAR09062	0.000378444
+asp_L[e]	MAM01370e	EX_asp_L[e]	MAR09070	0.000150252
+btn[e]	MAM01401e	EX_btn[e]	MAR09109	8.18632e-07
+ca2[e]	MAM01413e	EX_ca2[e]	MAR09082	0.000423984
+chol[e]	MAM01513e	EX_chol[e]	MAR09083	2.14869e-05
+cl[e]	MAM01442e	EX_cl[e]	MAR09150	0.108772
+fol[e]	MAM01830e	EX_fol[e]	MAR09146	2.26552e-06
+glc_D[e]	MAM01965e	EX_glc_D[e]	MAR09034	0.0111012
+gln_L[e]	MAM01975e	EX_gln_L[e]	MAR09063	0.00205283
+glu_L[e]	MAM01974e	EX_glu_L[e]	MAR09071	0.000135934
+gly[e]	MAM01986e	EX_gly[e]	MAR09067	0.000133209
+gthrd[e]	MAM02026e	EX_gthrd[e]	MAR09351	3.25394e-06
+hco3[e]	MAM02046e	EX_hco3[e]	MAR09078	0.0238067
+his_L[e]	MAM02125e	EX_his_L[e]	MAR09038	9.66806e-05
+ile_L[e]	MAM02184e	EX_ile_L[e]	MAR09039	0.000381185
+inost[e]	MAM02171e	EX_inost[e]	MAR09361	0.000194272
+k[e]	MAM02200e	EX_k[e]	MAR09081	0.00536553
+leu_L[e]	MAM02360e	EX_leu_L[e]	MAR09040	0.000381185
+lys_L[e]	MAM02426e	EX_lys_L[e]	MAR09041	0.000218998
+met_L[e]	MAM02471e	EX_met_L[e]	MAR09042	0.000100529
+na1[e]	MAM02519e	EX_na1[e]	MAR09077	0.138053
+ncam[e]	MAM02583e	EX_ncam[e]	MAR09378	8.18867e-06
+phe_L[e]	MAM02724e	EX_phe_L[e]	MAR09043	9.08045e-05
+pi[e]	MAM02751e	EX_pi[e]	MAR09072	0.00563539
+pnto_R[e]	MAM02680e	EX_pnto_R[e]	MAR09145	1.04923e-06
+pro_L[e]	MAM02770e	EX_pro_L[e]	MAR09068	0.000173717
+pydxn[e]	MAM02817e	EX_pydxn[e]	MAR09144	4.86287e-06
+ribflv[e]	MAM02842e	EX_ribflv[e]	MAR09143	5.31406e-07
+ser_L[e]	MAM02896e	EX_ser_L[e]	MAR09069	0.00028547
+so4[e]	MAM02946e	EX_so4[e]	MAR09074	0.000405783
+thm[e]	MAM02982e	EX_thm[e]	MAR09159	2.96507e-06
+thr_L[e]	MAM02993e	EX_thr_L[e]	MAR09044	0.000167898
+trp_L[e]	MAM03089e	EX_trp_L[e]	MAR09045	2.44822e-05
+tyr_L[e]	MAM03101e	EX_tyr_L[e]	MAR09064	0.00011103
+val_L[e]	MAM03135e	EX_val_L[e]	MAR09046	0.000170721

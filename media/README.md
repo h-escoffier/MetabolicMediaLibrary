@@ -4,12 +4,9 @@ This folder contains definitions of various culture media used for metabolic mod
 
 ## Available Media
 
-| Medium Name       | Description                            | Reference/Source Link                        |
-| :---------------- | :------------------------------------- | :------------------------------------------- |
-| RPMI-1640         | Common medium for human cell lines     | [Thermo Fisher RPMI-1640](https://www.thermofisher.com/order/catalog/product/11875093) |
-| DMEM              | High-glucose medium for mammalian cells| [Thermo Fisher DMEM](https://www.thermofisher.com/order/catalog/product/11965092) |
-| MEM               | Minimal Essential Medium               | [Thermo Fisher MEM](https://www.thermofisher.com/order/catalog/product/11095080) |
-| F-12 Nutrient Mixture | Used for hybridoma and CHO cells | [Thermo Fisher F-12](https://www.thermofisher.com/order/catalog/product/11765062) |
+| Medium Name                            | Reference/Source Link                        |
+| :------------------------------------- | :------------------------------------------- |
+| [RPMI-1640](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/RPMI1640.tsv) | [Thermo Fisher RPMI-1640](https://www.thermofisher.com/order/catalog/product/11875093) |
 
 > **Note:** Feel free to contribute new media by creating a new file and adding an entry to this table.
 

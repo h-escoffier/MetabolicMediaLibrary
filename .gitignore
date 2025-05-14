@@ -13,5 +13,6 @@ tempCodeRunnerFile.py
 *.egg-info/
 .pytest_cache/
 
-# Ignore personal notes 
+# Ignore personal files 
+conversion/* 
 todo.txt
