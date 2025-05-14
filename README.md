@@ -1,6 +1,6 @@
 # MediumMetaMod
 
-Welcome to the **Metabolic Media Library**, a community-driven resource for standardized definitions of culture media used in genome-scale metabolic modeling. This repository provides a growing collection of media formulations mapped to popular human metabolic models (**Recon3D** and **Human-GEM**). It also includes integration scripts for **COBRA (MATLAB)**, **COBRApy (Python)**, and **COBREXA (Julia)** to easily load these media into metabolic models.
+Welcome to the **Metabolic Media Library**, a community-driven resource for standardized definitions of culture media used in genome-scale metabolic modeling. This repository provides a growing collection of media formulations mapped to popular human metabolic models (**Recon3D** and **Human-GEM**). It also includes integration scripts for **COBREXA (Julia)**, **COBRApy (Python)**, and **COBRA (MATLAB)** to easily load these media into metabolic models.
 
 -----------------------
 
@@ -58,6 +58,28 @@ We welcome contributions of new media formulations or improvements to existing o
 * Update the CONTRIBUTING.md file if needed.
 
 See CONTRIBUTING.md for more details.
+
+-----------------------
+
+## Resources
+
+### Genome-Scale Metabolic Models
+
+| Model      | Description                                 | Source / Download |
+| : -------- | :------------------------------------------ | :---------------- |
+| **Recon3D**     | A comprehensive human metabolic model with metabolite structures and gene-protein-reaction (GPR) associations. | [VMH - Recon3D](https://www.vmh.life/#downloadview) |
+| **Human-GEM**   | An open, community-maintained human metabolic model. | [Human-GEM on GitHub](https://github.com/SysBioChalmers/Human-GEM) |
+
+---
+
+### Modeling Toolboxes
+
+| Toolbox        | Language | Description                                    | Installation / Docs |
+| :------------- | :------- | :--------------------------------------------- | :-------------------|
+| **COBRA Toolbox** | MATLAB   | Original MATLAB-based framework for constraint-based modeling. | [COBRA Toolbox GitHub](https://github.com/opencobra/cobratoolbox) |
+| **COBRApy**       | Python   | Python implementation of the COBRA Toolbox.     | [COBRApy Docs](https://cobrapy.readthedocs.io) |
+| **COBREXA.jl**    | Julia    | Scalable metabolic modeling in Julia.           | [COBREXA.jl Docs](https://lcsb-biocore.github.io/COBREXA.jl/dev/) |
+
 
 -----------------------
 
