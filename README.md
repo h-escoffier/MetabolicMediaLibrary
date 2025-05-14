@@ -66,7 +66,7 @@ See CONTRIBUTING.md for more details.
 ### Genome-Scale Metabolic Models
 
 | Model      | Description                                 | Source / Download |
-| : -------- | :------------------------------------------ | :---------------- |
+| :--------- | :------------------------------------------ | :---------------- |
 | **Recon3D**     | A comprehensive human metabolic model with metabolite structures and gene-protein-reaction (GPR) associations. | [VMH - Recon3D](https://www.vmh.life/#downloadview) |
 | **Human-GEM**   | An open, community-maintained human metabolic model. | [Human-GEM on GitHub](https://github.com/SysBioChalmers/Human-GEM) |
 
@@ -75,11 +75,10 @@ See CONTRIBUTING.md for more details.
 ### Modeling Toolboxes
 
 | Toolbox        | Language | Description                                    | Installation / Docs |
-| :------------- | :------- | :--------------------------------------------- | :-------------------|
+| :------------- | :------- | :--------------------------------------------- | :------------------ |
 | **COBRA Toolbox** | MATLAB   | Original MATLAB-based framework for constraint-based modeling. | [COBRA Toolbox GitHub](https://github.com/opencobra/cobratoolbox) |
 | **COBRApy**       | Python   | Python implementation of the COBRA Toolbox.     | [COBRApy Docs](https://cobrapy.readthedocs.io) |
 | **COBREXA.jl**    | Julia    | Scalable metabolic modeling in Julia.           | [COBREXA.jl Docs](https://lcsb-biocore.github.io/COBREXA.jl/dev/) |
-
 
 -----------------------
 
