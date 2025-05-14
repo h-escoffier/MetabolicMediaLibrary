@@ -99,3 +99,7 @@ Culture medium composition has a strong impact on predicted phenotypes in constr
 ## Feedback & Improvements
 
 Suggestions and feedback are very welcome! If you encounter any issues, have ideas for new features, or notice room for improvement, feel free to open an issue or submit a pull request.
+
+## Acknowledgments
+
+This project builds upon the work of the metabolic modeling community.
