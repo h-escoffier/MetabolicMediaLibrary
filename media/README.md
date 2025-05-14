@@ -4,9 +4,10 @@ This folder contains definitions of various culture media used for metabolic mod
 
 ## Available Media
 
-| Medium Name                            | Reference/Source Link                        |
-| :------------------------------------- | :------------------------------------------- |
-| [RPMI-1640](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/RPMI1640.tsv) | [Thermo Fisher RPMI-1640](https://www.thermofisher.com/order/catalog/product/11875093) |
+| Medium Name                            | Reference/Source Link                        | Notes            |
+| :------------------------------------- | :------------------------------------------- | :--------------- |
+| [RPMI-1640](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/RPMI1640.tsv) | [Thermo Fisher RPMI-1640](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.187.html) | None |
+| [FBS](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/FBS.tsv) | [Price, P.J., Gregory In Vitro Cell.Dev.Biol.-Plant 18, 1982](https://doi.org/10.1007/BF02810081) | Prostaglandin F removed to causing infinitely large objective values |
 
 > **Note:** Feel free to contribute new media by creating a new file and adding an entry to this table.
 
