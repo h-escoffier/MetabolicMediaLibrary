@@ -50,10 +50,10 @@ We welcome contributions of new media formulations or improvements to existing o
 ### To add a new medium:
 
 1. Copy the template file.
-2. Rename it appropriately (e.g., HamF12.csv).
+2. Rename it appropriately (e.g., `RPMI1640.tsv`).
 3. Fill in the required columns. Try to include both Recon3D and Human-GEM identifiers.
 4. Submit a pull request with:
-    * A completed CSV file in the media/ directory.
+    * A completed TSV file in the media/ directory.
     * Optionally, a brief note or citation about the source of concentrations.
     * Update the CONTRIBUTING.md file if needed.
 
