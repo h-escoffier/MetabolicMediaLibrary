@@ -80,12 +80,6 @@ See CONTRIBUTING.md for more details.
 
 -----------------------
 
-## License
-
-This project is licensed under the MIT License unless otherwise stated. Please cite original model references when using this data in publications.
-
------------------------
-
 ## Why This Matters
 
 Culture medium composition has a strong impact on predicted phenotypes in constraint-based modeling. Standardizing and sharing these definitions will help:
@@ -100,6 +94,16 @@ Culture medium composition has a strong impact on predicted phenotypes in constr
 
 Suggestions and feedback are very welcome! If you encounter any issues, have ideas for new features, or notice room for improvement, feel free to open an issue or submit a pull request.
 
+-----------------------
+
 ## Acknowledgments
 
 This project builds upon the work of the metabolic modeling community.
+
+-----------------------
+
+## License
+
+This project is licensed under the MIT License unless otherwise stated. Please cite original model references when using this data in publications.
+
+-----------------------
