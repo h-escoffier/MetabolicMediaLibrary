@@ -1,0 +1,1638 @@
+rxn_id	rxn_name
+EX_10fthf[e]	Exchange of 10-Formyltetrahydrofolate
+EX_10fthf5glu[e]	Exchange of 10-Formyltetrahydrofolate-[Glu] (5)
+EX_10fthf6glu[e]	Exchange of 10-Formyltetrahydrofolate-[Glu] (6)
+EX_10fthf7glu[e]	Exchange of 10-Formyltetrahydrofolate-[Glu] (7)
+EX_11_cis_retfa[e]	Exchange of Fatty Acid 11-Cis-Retinol
+EX_13_cis_retnglc[e]	Exchange of 13-Cis-Retinoyl Glucuronide
+EX_1glyc_hs[e]	Exchange of 1 Acyl Phosphoglycerol
+EX_2425dhvitd2[e]	Exchange of 24R, 25-Dihyoxyvitamin D2
+EX_2425dhvitd3[e]	Exchange of 24R, 25-Dihydroxyvitamin D3
+EX_24nph[e]	Exchange of 2, 4 Dihydroxy Nitrophenol
+EX_25hvitd2[e]	Exchange of 25-Hydroxyvitamin D2
+EX_25hvitd3[e]	Exchange of 25-Hydroxyvitamin D3
+EX_2hb[e]	Exchange of 2-Hydroxybutyrate
+EX_2mcit[e]	Exchange of 2-Methylcitrate
+EX_34dhoxpeg[e]	Exchange of 3, 4-Dihydroxyphenylethyleneglycol
+EX_34dhphe[e]	Exchange of 3, 4-Dihydroxy-L-Phenylalanine
+EX_35cgmp[e]	Exchange of 3', 5'-Cyclic GMP
+EX_3aib[e]	Exchange of L-3-Amino-Isobutanoate
+EX_3aib_D[e]	Exchange of D-3-Amino-Isobutanoate
+EX_3mlda[e]	Exchange of 3-Methylimidazoleacetic Acid
+EX_4hdebrisoquine[e]	Exchange of 4 Hydroxy Debrisoquine
+EX_4hphac[e]	Exchange of 4-Hydroxyphenylacetate
+EX_4mptnl[e]	Exchange of 4-Methylpentanal
+EX_4mtolbutamide[e]	Exchange of 4 Hydroxy Tolbutamide
+EX_4nph[e]	Exchange of 4-Nitrophenol
+EX_4nphsf[e]	Exchange of 4-Nitrophenyl Sulfate
+EX_4pyrdx[e]	Exchange of 4-Pyridoxate
+EX_5adtststerone[e]	Exchange of 5Alpha-Dihydrotestosterone
+EX_5adtststeroneglc[e]	Exchange of 5Alpha-Dihydrotestosterone Glucuronide
+EX_5adtststerones[e]	Exchange of 5Alpha-Dihydrotestosterone Sulfate
+EX_5dhf[e]	Exchange of Pentaglutamyl Folate (Dhf)
+EX_5fthf[e]	Exchange of 5-Formyltetrahydrofolate
+EX_5homeprazole[e]	Exchange of 5 Hydroxy Omeprazole
+EX_5htrp[e]	Exchange of 5-Hydroxy-L-Tryptophan
+EX_5mthf[e]	Exchange of 5-Methyltetrahydrofolate
+EX_5thf[e]	Exchange of Pentaglutamyl Folate (Thf)
+EX_6dhf[e]	Exchange of Haxglutamyl Folate (Dhf)
+EX_6htststerone[e]	Exchange of 6 Beta Hydroxy Testosterone
+EX_6thf[e]	Exchange of Hexaglutamyl Folate (Thf)
+EX_7dhf[e]	Exchange of Heptaglutamyl Folate (Dhf)
+EX_7thf[e]	Exchange of Heptaglutamyl Folate (Thf)
+EX_9_cis_retfa[e]	Exchange of Fatty Acid 9-Cis-Retinol
+EX_abt[e]	Exchange of L-Arabinitol
+EX_acetone[e]	Exchange of Acetone
+EX_acgalfucgalacgalfuc12gal14acglcgalgluside_hs[e]	Exchange of Type Iiia Glycolipid
+EX_acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs[e]	Exchange of Type Iiiab
+EX_ach[e]	Exchange of Acetylcholine
+EX_acn13acngalgbside_hs[e]	Exchange of Sialyl (1, 3) Sialyl (2, 6) Galactosylgloboside (Homo Sapiens)
+EX_acn23acngalgbside_hs[e]	Exchange of Sialyl (2, 3) Sialyl (2, 6) Galactosylgloboside (Homo Sapiens)
+EX_acnacngal14acglcgalgluside_hs[e]	Exchange of 3', 8'-Ld1
+EX_acnacngalgbside_hs[e]	Exchange of Disialyl Galactosylgloboside (Homo Sapiens)
+EX_acngalacglcgal14acglcgalgluside_hs[e]	Exchange of Vi3Neuac-Nlc6Cer
+EX_adp[e]	Exchange of ADP
+EX_adprbp[e]	Exchange of ADPribose 2'-Phosphate
+EX_adrn[e]	Exchange of Adrenic Acid
+EX_adrnl[e]	Exchange of Adrenaline
+EX_aflatoxin[e]	Exchange of Aflatoxin B1
+EX_ahandrostanglc[e]	Exchange of Etiocholan-3Alpha-Ol-17-One 3-Glucuronide
+EX_ak2lgchol_hs[e]	Exchange of 1-Alkyl 2-Lysoglycerol 3-Phosphocholine
+EX_ala_B[e]	Exchange of Beta-Alanine
+EX_ala_D[e]	Exchange of D-Alanine
+EX_aldstrn[e]	Exchange of Aldosterone
+EX_amp[e]	Exchange of AMP
+EX_andrstrn[e]	Exchange of Androsterone
+EX_andrstrnglc[e]	Exchange of Androsterone Glucuronide
+EX_antipyrene[e]	Exchange of Antipyrene
+EX_apnnox[e]	Exchange of Alpha-Pinene-Oxide
+EX_appnn[e]	Exchange of (+)-Alpha-Pinene
+EX_aprgstrn[e]	Exchange of 20Alpha-Hydroxyprogesterone
+EX_aqcobal[e]	Exchange of Aquacob (III)Alamin
+EX_arach[e]	Exchange of Arachidate
+EX_arachd[e]	Exchange of Nc20:4
+EX_ascb_L[e]	Exchange of L-Ascorbate
+EX_asp_D[e]	Exchange of D-Aspartate
+EX_atp[e]	Exchange of ATP
+EX_avite1[e]	Exchange of Alpha-Tocopherol
+EX_avite2[e]	Exchange of Alpha-Tocotrienol
+EX_bhb[e]	Transport of (R)-3-Hydroxybutanoate  via H+ Symport
+EX_bildglcur[e]	Exchange of Bilirubin Beta-Diglucuronide
+EX_bilglcur[e]	Exchange of Blirubin Mono-Glucuronide
+EX_bilirub[e]	Exchange of Bilirubin
+EX_biocyt[e]	Exchange of Biocytin
+EX_bvite[e]	Exchange of Beta-Tocopherol
+EX_camp[e]	Exchange of CAMP
+EX_caro[e]	Exchange of Beta-Carotene
+EX_carveol[e]	Exchange of (E)-Carveol
+EX_cca_d3[e]	Exchange of Calcitroic Acid (D3)
+EX_chol[e]	Exchange of Choline
+EX_cholate[e]	Exchange of Cholate
+EX_chsterol[e]	Exchange of Cholesterol
+EX_chtn[e]	Exchange of Chitin
+EX_clpnd[e]	Exchange of Clupanodonic Acid (Docosapentaenoic (N-3))
+EX_cmp[e]	Exchange of CMP
+EX_co[e]	Exchange of Carbon Monoxide
+EX_coumarin[e]	Exchange of Coumarin
+EX_creat[e]	Exchange of Creatine
+EX_crmp_hs[e]	Exchange of Ceramide 1-Phosphate
+EX_crn[e]	Exchange of L-Carnitine
+EX_crtsl[e]	Exchange of Cortisol
+EX_crtstrn[e]	Exchange of Corticosterone
+EX_crvnc[e]	Exchange of Nc22:6
+EX_cspg_a[e]	Exchange of Chondroitin Sulfate A (Galnac4S-Glca) Proteoglycan
+EX_cspg_b[e]	Exchange of Chondroitin Sulfate B / Dermatan Sulfate (Idoa2S-Galnac4S) Proteoglycan
+EX_cspg_c[e]	Exchange of Chondroitin Sulfate C (Galnac6S-Glca) Proteoglycan
+EX_cspg_d[e]	Exchange of Chondroitin Sulfate D (GlcNac6S-Glca2S) Proteoglycan
+EX_cspg_e[e]	Exchange of Chondroitin Sulfate E (Galnac4, 6Dis-Glca) Proteoglycan
+EX_cyan[e]	Exchange of Hydrogen Cyanide
+EX_dag_hs[e]	Exchange of Diglyceride
+EX_dcsptn1[e]	Exchange of Docosa-4, 7, 10, 13, 16-Pentaenoic Acid (N-6)
+EX_debrisoquine[e]	Exchange of Debrisoquine
+EX_dgchol[e]	Exchange of Chenodeoxyglycocholate
+EX_dhdascb[e]	Exchange of Dehydroascorbide
+EX_dheas[e]	Exchange of Dehydroepiandrosterone Sulfate
+EX_dhf[e]	Exchange of 7, 8-Dihydrofolate
+EX_digalsgalside_hs[e]	Exchange of Digalactosylceramidesulfate
+EX_dlnlcg[e]	Exchange of Dihomo-Gamma-Linolenic Acid (N-6)
+EX_dmantipyrine[e]	Exchange of Demethylated Antipyrine
+EX_dmhptcrn[e]	Exchange of 2, 6 Dimethylheptanoyl Carnitine
+EX_dopa[e]	Exchange of Dopamine
+EX_dopasf[e]	Exchange of Dopamine 3-O-Sulfate
+EX_eaflatoxin[e]	Exchange of 8, 9 Epxoy Aflatoxin B1
+EX_ebastine[e]	Exchange of Ebastine
+EX_ebastineoh[e]	Exchange of Hydroxylated Ebastine
+EX_eicostet[e]	Exchange of Eicosatetranoic Acid
+EX_elaid[e]	Exchange of Elaidic Acid
+EX_estradiol[e]	Exchange of Estradiol
+EX_estradiolglc[e]	Exchange of Estradiol Glucuronide
+EX_estriolglc[e]	Exchange of 16-Glucuronide-Estriol
+EX_estroneglc[e]	Exchange of Estrone Glucuronide
+EX_estrones[e]	Exchange of Estrone 3-Sulfate
+EX_fuc13galacglcgal14acglcgalgluside_hs[e]	Exchange of Iii3Fuc-Nlc6Cer
+EX_fuc14galacglcgalgluside_hs[e]	Exchange of Lea Glycolipid
+EX_fucacgalfucgalacglcgalgluside_hs[e]	Exchange of (Gal)2 (Galnac)1 (Glc)1 (GlcNac)1 (LFuc)2 (Cer)1
+EX_fucacngal14acglcgalgluside_hs[e]	Exchange of Iv3-A-Neuac, Iii3-A-Fuc-Nlc4Cer
+EX_fucacngalacglcgalgluside_hs[e]	Exchange of Iv3-A-Neu5Ac, Iii4-A-Fuc-Lc4Cer
+EX_fucfuc12gal14acglcgalgluside_hs[e]	Exchange of Ley Glycolipid
+EX_fucfuc132galacglcgal14acglcgalgluside_hs[e]	Exchange of V3Fuc, Iii3Fuc-Nlc6Cer
+EX_fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs[e]	Exchange of (Gal)4 (Glc)1 (GlcNac)3 (LFuc)3 (Cer)1
+EX_fucfucfucgalacglcgal14acglcgalgluside_hs[e]	Exchange of (Gal)3 (Glc)1 (GlcNac)2 (LFuc)3 (Cer)1
+EX_fucfucgalacglcgalgluside_hs[e]	Exchange of Leb Glycolipid
+EX_fucgal14acglcgalgluside_hs[e]	Exchange of Lacto-N-Fucopentaosyl Iii Ceramide
+EX_fucgalfucgalacglcgalgluside_hs[e]	Exchange of (Gal)3 (Glc)1 (GlcNac)1 (LFuc)2 (Cer)1
+EX_fucgalgbside_hs[e]	Exchange of Fucosyl Galactosylgloboside (Homo Sapiens)
+EX_fuc_L[e]	Exchange of L-Fucose
+EX_galacglcgalgbside_hs[e]	Exchange of Gal-GlcNac-Gal Globoside (Homo Sapiens)
+EX_galfuc12gal14acglcgalgluside_hs[e]	Exchange of (Gal)3 (Glc)1 (GlcNac)1 (LFuc)1 (Cer)1
+EX_galfucgalacglcgal14acglcgalgluside_hs[e]	Exchange of (Gal)4 (Glc)1 (GlcNac)2 (LFuc)1 (Cer)1
+EX_galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs[e]	Exchange of (Gal)6 (Glc)1 (GlcNac)3 (LFuc)2 (Cer)1
+EX_galgalgalthcrm_hs[e]	Exchange of Gal-Gal-Gal-Gal-Gal-Glc-Cer (Homo Sapiens)
+EX_gbside_hs[e]	Exchange of Globoside (Homo Sapiens)
+EX_gchola[e]	Exchange of Glycocholate
+EX_gd1b2_hs[e]	Exchange of Gd1Beta (Homo Sapiens)
+EX_gd1c_hs[e]	Exchange of Gd1C (Homo Sapiens)
+EX_gdp[e]	Exchange of GDP
+EX_gluala[e]	Exchange of 5-L-Glutamyl-L-Alanine
+EX_glyc_S[e]	Exchange of (S)-Glycerate
+EX_glygn2[e]	Exchange of Glycogen, Structure 2 (Glycogenin-1, 6-{7[1, 4-Glc], 4[1, 4-Glc]})
+EX_glygn4[e]	Exchange of Glycogen, Structure 4 (Glycogenin-1, 6-{2[1, 4-Glc], [1, 4-Glc]})
+EX_glygn5[e]	Exchange of Glycogen, Structure 5 (Glycogenin-2[1, 4-Glc])
+EX_gmp[e]	Exchange of GMP
+EX_gp1c_hs[e]	Exchange of Gp1C (Homo Sapiens)
+EX_gp1calpha_hs[e]	Exchange of Gp1C Alpha (Homo Sapiens)
+EX_gq1b_hs[e]	Exchange of Gq1B (Homo Sapiens)
+EX_gq1balpha_hs[e]	Exchange of Gq1Balpha (Homo Sapiens)
+EX_gsn[e]	Exchange of Guanosine
+EX_gt1a_hs[e]	Exchange of Gt1A (Homo Sapiens)
+EX_gthox[e]	Exchange of Oxidized Glutathione
+EX_gthrd[e]	Exchange of Reduced Glutathione
+EX_gtp[e]	Exchange of GTP
+EX_h2o2[e]	Exchange of Hydrogen Peroxide
+EX_ha[e]	Exchange of Hyaluronan
+EX_ha_pre1[e]	Exchange of Hyaluronan Biosynthesis, Precursor 1
+EX_hco3[e]	Exchange of Bicarbonate
+EX_hcoumarin[e]	Exchange of Hydroxy Coumarin
+EX_hdca[e]	Exchange of Hexadecanoate (N-C16:0)
+EX_hdcea[e]	Exchange of Hexadecenoate (N-C16:1)
+EX_hestratriol[e]	Exchange of 4, 17 Dihydroxy Estradiol
+EX_hexc[e]	Exchange of Hexacosanoate (N-C26:0)
+EX_hista[e]	Exchange of Histamine
+EX_hom_L[e]	Exchange of L-Homoserine
+EX_hpdca[e]	Exchange of Heptadecanoate
+EX_hspg[e]	Exchange of Heparan Sulfate Proteoglycan
+EX_htaxol[e]	Exchange of Hydroxylated Taxol
+EX_i[e]	Exchange of Iodide
+EX_idp[e]	Exchange of IDP
+EX_imp[e]	Exchange of IMP
+EX_inost[e]	Exchange of Myo-Inositol
+EX_ksi[e]	Exchange of Keratan Sulfate I
+EX_ksi_deg1[e]	Exchange of Keratan Sulfate I, Degradation Product 1
+EX_ksii_core2[e]	Exchange of Keratan Sulfate Ii (Core 2-Linked)
+EX_ksii_core4[e]	Exchange of Keratan Sulfate Ii (Core 4-Linked)
+EX_lac_D[e]	Exchange of D-Lactate
+EX_Lcystin[e]	Exchange of L-Cystine
+EX_leuktrA4[e]	Exchange of Leukotriene A4
+EX_leuktrB4[e]	Exchange of Leukotriene B4
+EX_leuktrC4[e]	Exchange of Leukotriene C4
+EX_leuktrD4[e]	Exchange of Leukotriene D4
+EX_leuktrE4[e]	Exchange of Leukotriene E4
+EX_leuktrF4[e]	Exchange of Leukotriene F4
+EX_lgnc[e]	Exchange of Lignoceric Acid
+EX_limnen[e]	Exchange of Limonene
+EX_lipoate[e]	Exchange of Lipoate
+EX_lneldc[e]	Exchange of Linoelaidic Acid
+EX_lnlc[e]	Exchange of Linoleic Acid (All Cis C18:2)
+EX_lnlnca[e]	Exchange of Alpha-Linolenic Acid
+EX_lnlncg[e]	Exchange of Gamma-Linolenic Acid
+EX_lpchol_hs[e]	Exchange of Lysophosphatidylcholine
+EX_mag_hs[e]	Exchange of Monoacylglycerol 2 (Homo Sapiens)
+EX_meoh[e]	Exchange of Methanol
+EX_mercplaccys[e]	Exchange of 3-Mercaptolactate-Cysteine Disulfide
+EX_mthgxl[e]	Exchange of Methylglyoxal
+EX_n2m2nmasn[e]	Exchange of N-Acetyl-Beta-D-Glucosaminyl-1, 2-Alpha-D-Mannosyl-1, 3- (N-Acetyl-Beta-D-Glucosaminyl-1, 2-Alpha-D-Mannosyl-1, 6)- (N-Acetyl-Beta-D-Glucosaminyl-1, 4)-Beta-D-Mannosyl-1, 4-N-Acetyl-Beta-D-Glucosaminyl-R
+EX_nad[e]	Exchange of Nicotinamide Adenine Dinucleotide
+EX_nadp[e]	Exchange of Nicotinamide Adenine Dinucleotide Phosphate
+EX_ncam[e]	Exchange of Nicotinamide
+EX_nifedipine[e]	Exchange of Nifedipine
+EX_no[e]	Exchange of Nitric Oxide
+EX_npthl[e]	Exchange of Naphthalene
+EX_nrpphr[e]	Exchange of Norepinephrine
+EX_nrpphrsf[e]	Exchange of Sulfate Derivative of Norepinephrine
+EX_nrvnc[e]	Exchange of Nervonic Acid
+EX_o2s[e]	Exchange of Superoxide Anion
+EX_oagd3_hs[e]	Exchange of 9-O-Acetylated Gd3 (Homo Sapiens)
+EX_oagt3_hs[e]	Exchange of 9-O-Acetylated Gt3 (Homo Sapiens)
+EX_ocdca[e]	Exchange of Octadecanoate (N-C18:0)
+EX_ocdcea[e]	Exchange of Octadecenoate (N-C18:1)
+EX_octa[e]	Exchange of Octanoate (N-C8:0)
+EX_omeprazole[e]	Exchange of Omeprazole
+EX_onpthl[e]	Exchange of Naphthalene Epoxide
+EX_oxa[e]	Exchange of Oxalate
+EX_paf_hs[e]	Exchange of 1-Alkyl 2-Acteylglycerol 3-Phosphocholine (Homo Sapiens)
+EX_pchol_hs[e]	Exchange of Phosphatidylcholine (Homo Sapiens)
+EX_pe_hs[e]	Exchange of Phosphatidylethanolamine
+EX_peplys[e]	Exchange of Peptidyl-L-Lysine
+EX_perillyl[e]	Exchange of Perillyl Alcohol
+EX_pglyc_hs[e]	Exchange of Phosphatidylglycerol (Homo Sapiens)
+EX_pheacgln[e]	Exchange of Alpha-N-Phenylacetyl-L-Glutamine
+EX_phyQ[e]	Exchange of Phylloquinone
+EX_phyt[e]	Exchange of Phytanic Acid
+EX_prgstrn[e]	Exchange of Progesterone
+EX_pro_D[e]	Exchange of D-Proline
+EX_prostgd2[e]	Exchange of Prostaglandin D2
+EX_prostge1[e]	Exchange of Prostaglandin E1
+EX_prostge2[e]	Exchange of Prostaglandin E2
+EX_prostgf2[e]	Exchange of Prostaglandin F2Alpha
+EX_ps_hs[e]	Exchange of Phosphatidylserine (Homo Sapiens)
+EX_ptdca[e]	Exchange of Pentadecanoate
+EX_rbt[e]	Exchange of Ribitol
+EX_retfa[e]	Exchange of Fatty Acid Retinol
+EX_retinol[e]	Exchange of Retinol
+EX_retinol_9_cis[e]	Exchange of 9-Cis-Retinol
+EX_retinol_cis_11[e]	Exchange of Cis-11-Retinol
+EX_retn[e]	Exchange of Retinoate
+EX_retnglc[e]	Exchange of Retinoyl Glucuronide
+EX_Rtotal[e]	Exchange of R Total
+EX_Rtotal2[e]	Exchange of R Total 2 Position
+EX_Rtotal3[e]	Exchange of R Total 3 Position
+EX_s2l2fn2m2masn[e]	Exchange of Pa6
+EX_s2l2n2m2masn[e]	Exchange of De-Fuc Form of Pa6
+EX_sarcs[e]	Exchange of Sarcosine
+EX_sel[e]	Exchange of Selenate
+EX_ser_D[e]	Exchange of D-Serine
+EX_sl_L[e]	Exchange of L-Sulfolactate
+EX_spc_hs[e]	Exchange of Sphingosylphosphorylcholine (Homo Sapiens)
+EX_sph1p[e]	Exchange of Sphinganine 1-Phosphate
+EX_sphs1p[e]	Exchange of Sphingosine 1-Phosphate
+EX_srtn[e]	Exchange of Serotonin
+EX_strch1[e]	Exchange of Starch, Structure 1 (1, 6-{7[1, 4-Glc], 4[1, 4-Glc]})
+EX_strch2[e]	Exchange of Starch, Structure 2 (1, 6-{2[1, 4-Glc], [1, 4-Glc]})
+EX_strdnc[e]	Exchange of Stearidonic Acid
+EX_tag_hs[e]	Exchange of Triacylglycerol (Homo Sapiens)
+EX_tagat_D[e]	Exchange of D-Tagatose
+EX_taxol[e]	Exchange of Paclitaxel
+EX_tchola[e]	Exchange of Taurocholic Acid
+EX_tcynt[e]	Exchange of Thiocyanate
+EX_tdchola[e]	Exchange of Taurochenodeoxycholate
+EX_tethex3[e]	Exchange of Tetracosahexaenoic Acid, N-3
+EX_tetpent3[e]	Exchange of Tetracosapentaenoic Acid, N-3
+EX_tetpent6[e]	Exchange of Tetracosapentaenoic Acid, N-6
+EX_tettet6[e]	Exchange of Tetracosatetraenoic Acid N-6
+EX_thf[e]	Exchange of 5, 6, 7, 8-Tetrahydrofolate
+EX_thmmp[e]	Exchange of Thiamin Monophosphate
+EX_thmtp[e]	Exchange of Thiamin Triphosphate
+EX_thym[e]	Exchange of Thymine
+EX_thyox_L[e]	Exchange of L-Thyroxine
+EX_tmndnc[e]	Exchange of Timnodonic Acid
+EX_tolbutamide[e]	Exchange of Tolbutamide
+EX_triodthy[e]	Exchange of Triiodothyronine
+EX_triodthysuf[e]	Exchange of Triiodothyronine Sulfate
+EX_tststerone[e]	Exchange of Testosterone
+EX_tststeroneglc[e]	Exchange of Testosterone Glucuronide
+EX_tststerones[e]	Exchange of Testosterone Sulfate
+EX_tsul[e]	Exchange of Thiosulfate
+EX_ttdca[e]	Exchange of Tetradecanoate (N-C14:0)
+EX_txa2[e]	Exchange of Thromboxane A2
+EX_tymsf[e]	Exchange of Tyramine O-Sulfate
+EX_Tyr_ggn[e]	Exchange of Tyr-194 of Apo-Glycogenin Protein (Primer for Glycogen Synthesis)
+EX_udp[e]	Exchange of UDP
+EX_ump[e]	Exchange of UMP
+EX_urate[e]	Exchange of Urate
+EX_utp[e]	Exchange of UTP
+EX_vacc[e]	Exchange of Vaccenic Acid
+EX_vitd2[e]	Exchange of Vitamin D2
+EX_vitd3[e]	Exchange of Calctriol
+EX_whddca[e]	Exchange of Omega Hydroxy Dodecanoate (N-C12:0)
+EX_whhdca[e]	Exchange of Omega Hydroxy Hexadecanoate (N-C16:0)
+EX_whtststerone[e]	Exchange of W Hydroxy Testosterone
+EX_whttdca[e]	Exchange of Omega Hydroxy Tetradecanoate (N-C14:0)
+EX_xolest_hs[e]	Exchange of Cholesterol Ester
+EX_xolest2_hs[e]	Exchange of Cholesterol Ester (from FullR2)
+EX_xoltri24[e]	Exchange of 7-Alpha, 24(S)-Dihydroxycholesterol
+EX_xoltri25[e]	Exchange of 7-Alpha, 25-Dihydroxycholesterol
+EX_xoltri27[e]	Exchange of 7-Alpha, 27-Dihydroxycholesterol
+EX_xylt[e]	Exchange of Xylitol
+EX_yvite[e]	Exchange of Gamma-Tocopherol
+EX_4abutn[e]	Exchange of 4-Ammoniobutanal
+EX_acmana[e]	Exchange of N-Acetyl-D-Mannosamine
+EX_ahdt[e]	Exchange of 7, 8-Dihydroneopterin 3-Triphosphate
+EX_ctp[e]	Exchange of CTP
+EX_dgmp[e]	Exchange of dGMP
+EX_dgtp[e]	Exchange of dGTP
+EX_dha[e]	Exchange of Glycerone
+EX_dhap[e]	Exchange of Glycerone Phosphate
+EX_dtmp[e]	Exchange of dTMP
+EX_dttp[e]	Exchange of dTTP
+EX_fad[e]	Exchange of Flavin Adenine Dinucleotide Oxidized
+EX_fald[e]	Exchange of Formaldehyde
+EX_g1p[e]	Exchange of Alpha-D-Glucose 1-Phosphate
+EX_HC00229[e]	Exchange of Isomaltose
+EX_HC00250[e]	Exchange of Hydrosulfide
+EX_HC01104[e]	Exchange of 4-Nitrophenyl Phosphate
+EX_HC01361[e]	Exchange of Dihydroneopterin
+EX_HC01440[e]	Exchange of 3-Keto-Beta-D-Galactose
+EX_HC01441[e]	Exchange of Lactose-6P
+EX_HC01444[e]	Exchange of Galactosylglycerol
+EX_HC01446[e]	Exchange of 3-Ketolactose
+EX_HC01577[e]	Exchange of Gamma-Glutamyl-Beta-Cyanoalanine
+EX_HC01609[e]	Exchange of Uroporphyrinogeni
+EX_HC01610[e]	Exchange of Coproporphyrinogeni
+EX_HC01700[e]	Exchange of Gamma-Glutamyl-3-Aminopropiononitrile
+EX_HC02160[e]	Exchange of Gm2-Pool
+EX_HC02161[e]	Exchange of Gm1-Pool
+EX_itp[e]	Exchange of ITP
+EX_orot[e]	Exchange of Orotate
+EX_prpp[e]	Exchange of 5-O-Phosphonato-Alpha-D-Ribofuranosyl Diphosphate
+EX_pydx5p[e]	Exchange of Pyridoxal 5-Phosphate
+EX_udpg[e]	Exchange of [ (2R, 3S, 4R, 5R)-5- (2, 4-Dioxo-1, 2, 3, 4-Tetrahydropyrimidin-1-Yl)-3, 4-Dihydroxyoxolan-2-Yl]Methyl {[ (3R, 4S, 5S, 6R)-3, 4, 5-Trihydroxy-6- (Hydroxymethyl)Oxan-2-Yl Phosphonato]Oxy}Phosphonate
+EX_so3[e]	Exchange of Sulfite
+EX_sprm[e]	Exchange of Spermine
+EX_prostgh2[e]	Exchange of Prostaglandin H2
+EX_prostgi2[e]	Exchange of Prostaglandin I2
+EX_cdp[e]	Exchange of CDP
+EX_dtdp[e]	Exchange of ({[ (2R, 3S, 5R)-3-Hydroxy-5- (5-Methyl-2, 4-Dioxo-1, 2, 3, 4-Tetrahydropyrimidin-1-Yl)Oxolan-2-Yl]Methyl Phosphonato}Oxy)Phosphonate
+EX_HC00955[e]	Exchange of L-3-Cyanoalanine
+EX_HC00001[e]	Exchange of Albumin
+EX_HC00002[e]	Exchange of Antichymotrypsin
+EX_HC00003[e]	Exchange of Antitrypsin
+EX_HC00004[e]	Exchange of Apoa1
+EX_citr_L[e]	Exchange of L-Citrulline
+EX_HC01787[e]	Exchange of Lepidimoide
+EX_C02470[e]	Exchange of Xanthurenic Acid
+EX_HC01852[e]	Exchange of Fibrinogen
+EX_HC01939[e]	Exchange of Haptoglobin
+EX_HC01942[e]	Exchange of Plasminogen
+EX_HC01943[e]	Exchange of Prothrombin
+EX_HC01944[e]	Exchange of Apotransferin
+EX_HC00822[e]	Exchange of Chitobiose
+EX_C02528[e]	Exchange of Chenodeoxycholate
+EX_HC02192[e]	Exchange of Taurolithocholate
+EX_HC02193[e]	Exchange of Glycolithocholate
+EX_HC02195[e]	Exchange of Tauroursodeoxycholate
+EX_HC02196[e]	Exchange of Glycoursodeoxycholate
+EX_HC02220[e]	Chenodeoxycholic acid 3-sulfate exchange
+EX_HC02154[e]	Exchange
+EX_HC02199[e]	Exchange of Glutathionyl-Leuc4
+EX_HC02200[e]	Exchange of S-Glutathionyl-2-4-Dinitrobenzene
+EX_HC02201[e]	Exchange of S-Glutathionyl-Ethacrynic-Acid
+EX_HC02172[e]	Exchange of Zinc
+EX_HC02191[e]	Exchange of Lithocholate
+EX_HC02194[e]	Ursodeoxycholic acid exchange
+EX_HC02197[e]	Exchange of Sulfoglycolithocholate
+EX_HC02198[e]	Exchange of 2-[ (4R)-4-[ (1S, 2S, 5R, 7R, 10R, 11S, 14R, 15R)-2, 15-Dimethyl-5- (Sulfonatooxy)Tetracyclo[8.7.0.0^{2, 7}.0^{11, 15}]Heptadecan-14-Yl]Pentanamido]Ethane-1-Sulfonate
+EX_HC02187[e]	Exchange of Reverse-Triiodthyronine
+EX_HC02180[e]	Exchange of Thromboxane-B2
+EX_HC02202[e]	Exchange of Prostaglandin A1
+EX_HC02203[e]	Exchange of Prostaglandin-A2
+EX_HC02204[e]	Exchange of Prostaglandin-B1
+EX_HC02205[e]	Exchange of Prostaglandin-B2
+EX_HC02206[e]	Exchange of Prostaglandin C1
+EX_HC02207[e]	Exchange of Prostaglandin-C2
+EX_HC02208[e]	Exchange of Prostaglandin-D1
+EX_HC02210[e]	Exchange of Prostaglandin-D3
+EX_HC02213[e]	Exchange of Prostaglandin-E3
+EX_HC02214[e]	Exchange of Prostaglandin-F1Alpha
+EX_HC02216[e]	Exchange of Prostaglandin-F2Beta
+EX_HC02217[e]	Exchange of Prostaglandin-G2
+EX_malcoa[e]	Exchange of Malonyl Coenzyme A
+EX_arachcoa[e]	Exchange of Arachidyl Coenzyme A
+EX_coa[e]	Exchange of Coenzyme A
+EX_CE2250[e]	Exchange of 3-Oxodocosanoyl Coenzyme A
+EX_CE1935[e]	Exchange of Spermine Monoaldehyde
+EX_CE1940[e]	Exchange of Spermidine Monoaldehyde 2
+EX_CE1943[e]	Exchange of Spermidine Dialdehyde
+EX_CE2011[e]	Exchange of Hypothiocyanite
+EX_CE1936[e]	Exchange of Spermine Dialdehyde
+EX_CE1939[e]	Exchange of Spermidine Monoaldehyde 1
+EX_maltpt[e]	Exchange of Maltopentaose
+EX_CE2915[e]	Exchange of Beta-Casomorphin
+EX_CE4722[e]	Exchange of Beta-Casomorphin (1-6)
+EX_CE2916[e]	Exchange of Neocasomorphin
+EX_CE4723[e]	Exchange of Neocasomorphin (1-5)
+EX_CE2917[e]	Exchange of Apelin-13
+EX_CE4724[e]	Exchange of Apelin (1-12)
+EX_malthp[e]	Exchange of Maltoheptaose
+EX_CE2839[e]	Exchange of Maltodecaose
+EX_CE2838[e]	Exchange of Maltononaose
+EX_CE1950[e]	Exchange of Cyanosulfurous Acid Anion
+EX_cynt[e]	Exchange of Cyanate
+EX_23cump[e]	Exchange of 2',3'-Cyclic UMP
+EX_3ump[e]	Exchange of 3'-UMP
+EX_CE5786[e]	Exchange of Kinetensin
+EX_CE5788[e]	Exchange of Kinetensin 1-7
+EX_CE5789[e]	Exchange of Kinetensin 1-8
+EX_CE5797[e]	Exchange of Neuromedin N
+EX_CE5798[e]	Exchange of Neuromedin N (1-4)
+EX_CE5787[e]	Exchange of Kinetensin 1-3
+EX_CE5791[e]	Exchange of Kinetensin 4-8
+EX_CE5867[e]	Exchange of N-Acetyl-Seryl-Aspartyl-Lysyl-Proline
+EX_CE5868[e]	Exchange of N-Acetyl-Seryl-Aspartate
+EX_CE5869[e]	Exchange of Lysyl-Proline
+EX_CE4633[e]	Exchange of Hypochlorous Acid
+EX_CE4881[e]	Exchange of Nitryl Chloride
+EX_CE5854[e]	Exchange of Gama-Cehc-Glucuronide
+EX_CE1926[e]	Exchange of Gama-Carboxyethyl-Hydroxychroman
+EX_udpgal[e]	Exchange of UDP-D-Galactose
+EX_crm_hs[e]	Exchange of N-Acylsphingosine
+EX_galside_hs[e]	Exchange of D-Galactosyl-N-Acylsphingosine
+EX_CE0074[e]	Exchange of Alloxan
+EX_cdpea[e]	Exchange of CDP-Ethanolamine
+EX_12dgr120[e]	Exchange of 1, 2-Diacyl-Sn-Glycerol (Didodecanoyl, N-C12:0)
+EX_CE5853[e]	Exchange of Alpha-Cehc-Glucuronide
+EX_CE1925[e]	Exchange of 3'-Carboxy-Alpha-Chromanol
+EX_C04849[e]	Exchange of (5Z, 9E, 14Z)- (8Xi, 11R, 12S)-11, 12-Epoxy-8-Hydroxyicosa-5, 9, 14-Trienoate
+EX_3bcrn[e]	Exchange of 3-Hydroxy Butyryl Carnitine
+EX_3ddcrn[e]	Exchange of 3-Hydroxydodecanoyl Carnitine
+EX_3deccrn[e]	Exchange of 3-Hydroxydecanoyl Carnitine
+EX_3hdececrn[e]	Exchange of 3-Hydroxyhexadecenoyl Carnitine
+EX_3hexdcrn[e]	Exchange of 3-Hydroxyhexadecanoyl Carnitine
+EX_3ivcrn[e]	Exchange of 3-Hydroxy-Isovaleryl Carnitine
+EX_3octdec2crn[e]	Exchange of 3-Hydroxyoctadecadienoyl Carnitine
+EX_3octdeccrn[e]	Exchange of 3-Hydroxyoctadecanoyl Carnitine
+EX_3octdece1crn[e]	Exchange of 3-Hydroxy-Octadecenoyl Carnitine
+EX_3tdcrn[e]	Exchange of 3-Hydroxy-Tetradecanoyl Carnitine
+EX_3tetd7ecoacrn[e]	Exchange of 3-Hydroxy Tetradecenoyl-7-Carnitine
+EX_3thexddcoacrn[e]	Exchange of 3-Hydroxy Trans7, 10-Hexadecadienoyl Carnitine
+EX_3ttetddcoacrn[e]	Exchange of 3-Hydroxy Trans5, 8Tetradecadienoyl Carnitine
+EX_c101crn[e]	Exchange of Decenoyl Carnitine
+EX_c10crn[e]	Exchange of Decanoyl Carnitine
+EX_c10dc[e]	Exchange of Sebacoyl Carnitine
+EX_c12dc[e]	Exchange of Dodecanedioyl Carnitine
+EX_c16dc[e]	Exchange of Hexadecanedioic Acid Mono-L-Carnitine Ester
+EX_c3dc[e]	Exchange of Malonyl Carnitine
+EX_c4crn[e]	Exchange of Butyryl Carnitine
+EX_c4dc[e]	Exchange of Succinyl Carnitine
+EX_c51crn[e]	Exchange of Tiglyl Carnitine
+EX_c5dc[e]	Exchange of Glutaryl Carnitine
+EX_c6crn[e]	Exchange of Hexanoyl Carnitine
+EX_c6dc[e]	Exchange of Adipoyl Carnitine
+EX_c81crn[e]	Exchange of Octenoyl Carnitine
+EX_c8crn[e]	Exchange of Octanoyl Carnitine
+EX_c8dc[e]	Exchange of Suberyl Carnitine
+EX_ddece1crn[e]	Exchange of Dodecenoyl Carnitine
+EX_ddecrn[e]	Exchange of Lauroyl Carnitine
+EX_decdicrn[e]	Exchange of Decadienoyl Carnitine
+EX_doco13ac[e]	Exchange of Docosenoic Acid (C22:1)
+EX_docosac[e]	Exchange of Behenic Acid
+EX_docosdiac[e]	Exchange of Docosanedioic Acid
+EX_ivcrn[e]	Exchange of Isovaleryl Carnitine
+EX_tetdec2crn[e]	Exchange of Tetradecadienoyl Carnitine
+EX_tetdece1crn[e]	Exchange of Tetradecenoyl Carnitine
+EX_dca[e]	Exchange of Decanoate (N-C10:0)
+EX_4hpro[e]	Exchange of Hydroxy Proline
+EX_adpcbl[e]	Exchange of Adenosylcobalamin
+EX_alaala[e]	Exchange of Alanylalanine
+EX_bglc[e]	Exchange of Beta Glucans
+EX_carn[e]	Exchange of Carnosine
+EX_dchac[e]	Exchange of Deoxycholic Acid
+EX_glgchlo[e]	Exchange of Beta Glucan-Glycocholate Complex
+EX_gltcho[e]	Exchange of Beta Glucan-Taurocholic Acid Complex
+EX_gltdechol[e]	Exchange of Beta Glucan-Taurodeoxycholic Acid Complex
+EX_glygly[e]	Exchange of Glycylglycine
+EX_glysar[e]	Exchange of Glycylsarcosine
+EX_gum[e]	Exchange of Guar Gums
+EX_gumdchac[e]	Exchange of Guar Gum-Deoxyxholic Acid Complex
+EX_gumgchol[e]	Exchange of Guar Gum-Glycocholate Complex
+EX_gumtchol[e]	Exchange of Guar Gum-Taurocholic Acid Complex
+EX_leugly[e]	Exchange of Leucylglycine
+EX_leuleu[e]	Exchange of Leucylleucine
+EX_pect[e]	Exchange of Pectins
+EX_pectindchac[e]	Exchange of Pectin-Deoxycholic Acid Complex
+EX_pectingchol[e]	Exchange of Pectin-Glycocholate Complex
+EX_pectintchol[e]	Exchange of Pectin-Taurocholic Acid Complex
+EX_psyl[e]	Exchange of Psyllium
+EX_psylchol[e]	Exchange of Psyllium-Glycocholic Acid Complex
+EX_psyltchol[e]	Exchange of Psyllium-Taurocholic Acid Complex
+EX_psyltdechol[e]	Exchange of Psyllium-Taurodeoxycholic Acid Complex
+EX_sfcys[e]	Exchange of Sulfocysteine
+EX_tdechola[e]	Exchange of Taurodeoxycholic Acid
+EX_cysam[e]	Exchange of Cysteaminium
+EX_dpcoa[e]	Exchange of Dephospho Coenzyme A
+EX_fmn[e]	Exchange of FMN
+EX_hyptaur[e]	Exchange of Hypotaurine
+EX_oh1[e]	Exchange of Hydroxide Ion
+EX_pan4p[e]	Exchange of Pantetheine 4-Phosphate
+EX_ptth[e]	Exchange of Pantetheine
+EX_q10[e]	Exchange of Ubiquinone
+EX_q10h2[e]	Exchange of Ubiquinol
+EX_34hpp[e]	Exchange of 3- (4-Hydroxyphenyl)Pyruvate
+EX_3mob[e]	Exchange of 3-Methyl-2-Oxobutanoate
+EX_3mop[e]	Exchange of 3-Methyl-2-Oxopentanoate
+EX_4mop[e]	Exchange of 4-Methyl-2-Oxopentanoate
+EX_5mta[e]	Exchange of 5-S-Methyl-5-Thioadenosine
+EX_5oxpro[e]	Exchange of 5-Oxoprolinate
+EX_ahcys[e]	Exchange of S-Adenosyl-L-Homocysteine
+EX_aicar[e]	Exchange of 5-Amino-1- (5-Phospho-D-Ribosyl)Imidazole-4-Carboxamide
+EX_anth[e]	Exchange of Anthranilate
+EX_cbasp[e]	Exchange of N-Carbamoyl-L-Aspartate
+EX_idour[e]	Exchange of L-Iduronate
+EX_2pg[e]	Exchange of 2-Phospho-D-Glycerate
+EX_5hoxindoa[e]	Exchange of 5-Hydroxyindoleacetate
+EX_cala[e]	Exchange of N-Carbamoyl-Beta-Alaninate
+EX_cholp[e]	Exchange of Choline Phosphate
+EX_crtn[e]	Exchange of Creatinine
+EX_cyst_L[e]	Exchange of L-Cystathionine
+EX_dcmp[e]	Exchange of Deoxycytidylic Acid
+EX_dmgly[e]	Exchange of N,N-Dimethylglycine
+EX_ethamp[e]	Exchange of Ethanolamine Phosphate
+EX_g3pc[e]	Exchange of Glycerophosphocholine
+EX_glyald[e]	Exchange of D-Glyceraldehyde
+EX_gudac[e]	Exchange of Guanidinoacetic Acid
+EX_hcys_L[e]	Exchange of L-Homocysteine
+EX_icit[e]	Ex_icit[e]
+EX_kynate[e]	Exchange of Kynurenic Acid
+EX_L2aadp[e]	Exchange of L-2-Aminoadipate
+EX_Lkynr[e]	Exchange of L-Kynurenine
+EX_pep[e]	Exchange of Phosphoenolpyruvate
+EX_quln[e]	Exchange of Quinolinic Acid
+EX_xmp[e]	Exchange of Xanthylic Acid
+EX_xtsn[e]	Exchange of Xanthosine
+EX_3pg[e]	Exchange of 3-Phospho-D-Glycerate
+EX_3hanthrn[e]	Exchange
+EX_udpglcur[e]	Exchange
+EX_hLkynr[e]	Exchange
+EX_nicrnt[e]	Exchange
+EX_orot5p[e]	Exchange
+EX_glyc3p[e]	Exchange of Glycerophosphoric Acid
+EX_argsuc[e]	Exchange of L-Arginosuccinic Acid
+EX_acrn[e]	Exchange of O-Acetylcarnitine
+EX_pcrn[e]	Exchange of O-Propanoylcarnitine
+EX_lneldccrn[e]	Exchange of 6Z,9Z-Octadecadienoylcarnitine
+EX_odecrn[e]	Exchange of L-Oleoylcarnitine
+EX_stcrn[e]	Exchange of O-Octadecanoyl-R-Carnitine
+EX_pmtcrn[e]	Exchange of L-Palmitoylcarnitine
+EX_hdcecrn[e]	Exchange of Palmitoleoyl-Carnitine
+EX_3mtp[e]	Exchange of 3-Methyl-Thio-Propionate
+EX_C14769[e]	Exchange of 8, 9-EET
+EX_12HPET[e]	Exchange of 12-Hydroperoxyeicosa-5, 8, 10, 14-Tetraenoate
+EX_15HPET[e]	Exchange of 15(S)-HPETE
+EX_15kprostgf2[e]	Exchange of 15-Keto-Prostaglandin F2A
+EX_21hprgnlone[e]	Exchange of 21-Hydroxypregnenolone
+EX_2oxoadp[e]	Exchange of 2-Oxoadipate
+EX_34hpl[e]	Exchange of 3- (4-Hydroxyphenyl)Lactate
+EX_3hmp[e]	Exchange of 3-Hydroxy-2-Methylpropanoate
+EX_3hpp[e]	Exchange of 3-Hydroxypropionate
+EX_3hpppnohgluc[e]	Exchange of 3- (3-Hydroxy-Phenyl)Propionate Hydroxy Derivative Glucuronide
+EX_3mhis[e]	Exchange of Methyl-Histidine
+EX_3uib[e]	Exchange of 3-Ureidoisobutyrate
+EX_4aabutn[e]	Exchange of 4-Acetamidobutanoate
+EX_4tmeabutn[e]	Exchange of 4- (Trimethylammonio)Butanoate
+EX_56dthm[e]	Exchange of 5, 6-Dihydrothymine
+EX_56dura[e]	Exchange of 5, 6-Dihydrouracil
+EX_5HPET[e]	Exchange of 5(S)-HPETE
+EX_7dhchsterol[e]	Exchange of Cholesta-5, 7-Dien-3Beta-Ol
+EX_acgly[e]	Exchange of Acetyl-Glycine
+EX_aclys[e]	Exchange of Acetyl-Lysine
+EX_acorn[e]	Exchange of N (2)-Acetyl-L-Ornithine
+EX_acthr_L[e]	Exchange of Acetyl-Threonine
+EX_adpac[e]	Exchange of Adipic Acid
+EX_adpoh[e]	Exchange of 2-Hydroxyadipic Acid
+EX_amet[e]	Exchange of S-Adenosyl-L-Methionine
+EX_and19one[e]	Exchange of 19-Hydroxyandrost-4-Ene-3, 17-Dione
+EX_aracheth[e]	Exchange of O-Arachidonoyl Ethanolamine
+EX_biliverd[e]	Exchange of Biliverdin
+EX_C02356[e]	(S)-2-Aminobutanoate
+EX_C02712[e]	Exchange of N-Acetylmethionine
+EX_C04717[e]	Exchange of 13(S)-HPODE
+EX_C04805[e]	Exchange of 5(S)-HETE
+EX_C05957[e]	Exchange of Prostaglandin J2
+EX_C06314[e]	Exchange of Lipoxin A4
+EX_C06315[e]	Exchange of Lipoxin B4
+EX_C11695[e]	Exchange of Anandamide
+EX_C14768[e]	Exchange of 5, 6-EET
+EX_C14770[e]	Exchange of 11, 12-EET
+EX_C14771[e]	Exchange of 14, 15-EET
+EX_C14825[e]	Exchange of 9 (10)-Epome
+EX_C14826[e]	Exchange of 12 (13)-Epome
+EX_CE0955[e]	6-Oxo-Prostaglandin F1Alpha
+EX_CE1273[e]	Transport of 5Beta-Cholestane-3Alpha, 7Alpha, 12Alpha, 24S, 25-Pentol, ABC Transport
+EX_CE1297[e]	Exchange of 8-Dehydrocholesterol
+EX_CE1554[e]	Exchange of Acetyl-Alanine
+EX_CE1557[e]	Exchange of N-Acetyl-L-Asparagine
+EX_CE2028[e]	Exchange of Beta-Hydroxy-Beta-Methylbutyrate
+EX_CE2176[e]	Exchange of 3-O-Methyldopa
+EX_CE2445[e]	Exchange of 6-Trans-Leukotriene B4
+EX_CE2537[e]	Exchange of 15-Hydroxy- (8Z, 11Z, 13E)-Eicosatrienoate
+EX_CE4843[e]	Exchange of Cis, Cis-11, 14-Eicosadienoyl Coenzyme A
+EX_CE5304[e]	Exchange of 15-Deoxy-Pgd2
+EX_CE6031[e]	Exchange of Androsterone Sulfate
+EX_CE6247[e]	Exchange of 5, 12, 20-Trihete
+EX_CE7082[e]	Exchange of 15(S)-HEPE
+EX_CE7083[e]	Exchange of Leukotriene B5
+EX_CE7172[e]	Exchange of 14, 15-DIHETE
+EX_cortsn[e]	Exchange of Cortisone
+EX_didecaeth[e]	Exchange of C12:0-Ethanolamide, Didecanoyl Ethanolamide
+EX_diholineth[e]	Exchange of Dihomo-Gamma-Linolenoyl Ethanolamide
+EX_docohxeth[e]	Exchange of Docosahexaenoyl Ethanolamide
+EX_docteteth[e]	Exchange of Docosatetraenoyl Ethanolamide (22:4, Delta 7, 10, 13, 16)
+EX_dodecanac[e]	Exchange of Dodecanedioic Acid
+EX_elaidcrn[e]	Exchange of Elaidic Carnitine
+EX_forglu[e]	Exchange of N-Formimidoyl-L-Glutamate
+EX_HC00319[e]	Exchange of Malonate
+EX_HC00900[e]	Exchange of Methylmalonate
+EX_hepdeceth[e]	Exchange of Heptadecanoyl Thanolamide (C17:0)
+EX_hexdeceeth[e]	Exchange of Hexadecenoyl Ethanolamide, C16:1-Ethanolamide (Delta 9)
+EX_hexdiac[e]	Exchange of Hexadecanediocacid
+EX_hgentis[e]	Exchange of Homogentisate
+EX_hmcarn[e]	Exchange of Homocarnosine
+EX_hmcr[e]	Exchange of Homocitrulline
+EX_hxcoa[e]	Exchange of Hexanoate
+EX_leuktrB4wcooh[e]	Exchange of W-Carboxy Leukotriene B4
+EX_leuktrB4woh[e]	Exchnage for W-Hydroxyl Leukotriene B4
+EX_lineth[e]	Exchange of Linoleoyl Ethanolamide
+EX_lnlccrn[e]	Exchange of Linoleyl Carnitine
+EX_Lpipecol[e]	Exchange of L-Pipecolic Acid
+EX_lthstrl[e]	Exchange of Lathosterol
+EX_magarachi_hs[e]	Exchange of 1-Arachidonoyl Glycerol
+EX_maglinl_hs[e]	Exchange of 1-Linoleoylglycerol
+EX_magole_hs[e]	Exchange of 1-Oleoylglycerol
+EX_magpalm_hs[e]	Exchange of 1-Palmitoylglycerol
+EX_magste_hs[e]	Exchange of 1-Stearoylglycerol
+EX_mev_R[e]	Exchange of (R)-Mevalonate
+EX_mi1p_D[e]	Exchange of Myo-Inositol 1-Phosphate
+EX_Nacasp[e]	Exchange of N-Acetyl-L-Aspartate
+EX_nwharg[e]	Exchange of N- (Omega)-Hydroxyarginine
+EX_oleth[e]	Exchange of Oleoyl Ethanolamide
+EX_pailar_hs[e]	Exchange of 1-Arachidonoylglycerophosphoinositol
+EX_pailpalm_hs[e]	Exchange of 1-Palmitoylglycerophosphoinositol
+EX_pailste_hs[e]	Exchange of 1-Stearoylglycerophosphoinositol
+EX_pchol2linl_hs[e]	Exchange of 2-Linoleoylglycerophosphocholine
+EX_pchol2ole_hs[e]	Exchange of 2-Oleoylglycerophosphocholine
+EX_pchol2palm_hs[e]	Exchange of 2-Palmitoylglycerophosphocholine
+EX_pchol2ste_hs[e]	Exchange of 2-Stearoylglycerophosphocholine
+EX_pcholar_hs[e]	Exchange of 1-Arachidonoyl-Glycero-3-Phosphocholine
+EX_pcholdoc_hs[e]	Exchange of 1-Docosahexaenoylglycerophosphocholine
+EX_pcholeic_hs[e]	Exchange of 1-Eicosadienoylglycerophosphocholine (Delta 11, 14)
+EX_pcholet_hs[e]	Exchange of 1-Eicosatrienoylglycerophosphocholine (Delta 11, 14, 17)
+EX_pcholhep_hs[e]	Exchange of 1-Heptadecanoylglycerophosphocholine
+EX_pchollinl_hs[e]	Exchange of 1-Linoleoylglycerophosphocholine (Delta 9, 12)
+EX_pcholmyr_hs[e]	Exchange of 1-Myristoylglycerophosphocholine
+EX_pcholn15_hs[e]	Exchange of 1-Pentadecanoylglycerophosphocholine, Sn1-Lpc (15:0)
+EX_pcholn183_hs[e]	Exchange of 1-Octadeca-Trienoylglycerophosphocholine, Sn1-Lpc (18:3, Delta 9, 12, 15)
+EX_pcholn1836_hs[e]	Exchange of 1-Octadeca-Trienoylglycerophosphocholine, Sn1-Lpc (18:3, Delta 6, 9, 12)
+EX_pcholn19_hs[e]	Exchange of 1-NoNADecanoylglycerophosphocholine, Sn1-Lpc (19:0)
+EX_pcholn201_hs[e]	Exchange of 1-Eicosenoylglycerophosphocholine (Delta 11) , Sn1-Lpc (20:1)
+EX_pcholn203_hs[e]	Exchange of 1-Dihomo-Linolenoylglycerophosphocholine (20:3, Delta 8, 11, 14), Lysopc A C20:3
+EX_pcholn204_hs[e]	Exchange of 1-Eicosatetraenoylglycerophosphocholine (Delta 8, 11, 14, 17), Sn1-Lpc (20:4)
+EX_pcholn205_hs[e]	Exchange of 1-Eicosapentenoylglycerophosphocholine (Delta 5, 8, 11, 14, 17), Sn1-Lpc (20:5)
+EX_pcholn224_hs[e]	Exchange of 1-Docosatetraenoylglycerophosphocholine (Delta 7, 10, 13, 16), Sn1-Lpc (22:4)
+EX_pcholn225_hs[e]	Exchange of 1-Docosapentenoylglycerophosphocholine (Delta 7, 10, 13, 16, 19), Sn1-Lpc (22:5)-W3
+EX_pcholn2254_hs[e]	Exchange of 1-Docosapentenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16), Sn1-Lpc (22:5)-W6
+EX_pcholn226_hs[e]	Exchange of 1-Docosahexenoylglycerophosphocholine (Delta 4, 7, 10, 13, 16, 19), Sn1-Lpc (22:6)
+EX_pcholn24_hs[e]	Exchange of 1-Lignocericylglycerophosphocholine (24:0), Lysopc A C24
+EX_pcholn261_hs[e]	Exchange of Lysopc A C26:1 (Delta 5)
+EX_pcholn28_hs[e]	Exchange of Lysopc A C28:0
+EX_pcholn281_hs[e]	Exchange of Lysopc A C28:1 (Delta 5)
+EX_pcholole_hs[e]	Exchange of 1-Oleoylglycerophosphocholine (Delta 9)
+EX_pcholpalm_hs[e]	Exchange of 1-Palmitoylglycerophosphocholine
+EX_pcholpalme_hs[e]	Exchange of 1-Palmitoleoylglycerophosphocholine (Delta 9)
+EX_pcholste_hs[e]	Exchange of 1-Stearoylglycerophosphocholine
+EX_pcollg5hlys[e]	Exchange of Erythro-5-Hydroxy-L-Lysinium
+EX_pe12_hs[e]	Exchange of 1-Didecanoylglycerophosphoethanolamine (C12:0 Pe)
+EX_pe13_hs[e]	Exchange of 1-Tridecanoylglycerophosphoethanolamine (C13:0 Pe)
+EX_pe14_hs[e]	Exchange of 1-Myristoylglycerophosphoethanolamine (C14:0 Pe)
+EX_pe15_hs[e]	Exchange of 1-Pentadecanoylglycerophosphoethanolamine (C15:0 Pe)
+EX_pe161_hs[e]	Exchange of 1-Hexadecenoylglycerophosphoethanolamine (C16:1 Pe, Delta 9)
+EX_pe17_hs[e]	Exchange of 1-Heptadecanoylglycerophosphoethanolamine (C17:0 Pe)
+EX_pe203_hs[e]	Exchange of 1-Eicosatrienoylglycerophosphoethanolamine (Delta 11, 14, 17), Lpe (20:3)
+EX_pe224_hs[e]	Exchange of 1-Docosatetraenoyglycerophosphoethanolamine (22:4, Delta 7, 10, 13, 16)
+EX_pe226_hs[e]	Exchange of 1-Docosahexenoylglyceroethanolamine (Delta 4, 7, 10, 13, 16, 19), Lpe (22:6)
+EX_pe2linl_hs[e]	Exchange of 2-Linoleoylglycerophosphoethanolamine
+EX_pear_hs[e]	Exchange of 1-Arachidonoyl-Sn-Glycero-3-Phosphoethanolamine
+EX_pedh203_hs[e]	Exchange of 1-Dihomo-Linolenoylglycerophosphoethanolamine (20:3, Delta 8, 11, 14)
+EX_pelinl_hs[e]	Exchange of 1-Linoleoylglycerophosphoethanolamine (Delta 9, 12)
+EX_pendecaeth[e]	Exchange of Pentadecanoyl Thanolamide (C15:0)
+EX_peole_hs[e]	Exchange of 1-Oleoylglycerophosphoethanolamine (Delta 9)
+EX_pepalm_hs[e]	Exchange of 1-Palmitoylglycerophosphoethanolamine
+EX_peste_hs[e]	Exchange of 1-Stearoylglycerophosphoethanolamine
+EX_pmeth[e]	Exchange of Palmitoylethanolamide
+EX_saccrp_L[e]	Exchange of L-Saccharopinate
+EX_sebacid[e]	Exchange of Sebacic Acid
+EX_sphmyln180241_hs[e]	Exchange of Sphingomyelin (D18:0/24:1)
+EX_sphmyln18114_hs[e]	Exchange of Sphingomyelin (D18:1/14:0)
+EX_sphmyln18115_hs[e]	Exchange of Sphingomyelin (D18:1/15:0)
+EX_sphmyln18116_hs[e]	Exchange of Sphingomyelin (D18:1/16:0)
+EX_sphmyln181161_hs[e]	Exchange of Sphingomyelin (D18:1/16:1)
+EX_sphmyln18117_hs[e]	Exchange of Sphingomyelin (D18:1/17:0)
+EX_sphmyln18118_hs[e]	Exchange of Sphingomyelin (D18:1/18:0)
+EX_sphmyln181181_hs[e]	Exchange of Sphingomyelin (D18:1/18:1)
+EX_sphmyln18120_hs[e]	Exchange of Sphingomyelin (D18:1/20:0)
+EX_sphmyln181201_hs[e]	Exchange of Sphingomyelin (D18:1/20:1)
+EX_sphmyln18121_hs[e]	Exchange of Sphingomyelin (D18:1/21:0)
+EX_sphmyln18122_hs[e]	Exchange of Sphingomyelin (D18:1/22:0)
+EX_sphmyln181221_hs[e]	Exchange of Sphingomyelin (D18:1/22:1)
+EX_sphmyln18123_hs[e]	Exchange of Sphingomyelin (D18:1/23:0)
+EX_sphmyln1824_hs[e]	Exchange of Sphingomyelin (D18:0/24:0)
+EX_sphmyln1825_hs[e]	Exchange of Sphingomyelin (D18:0/25:0)
+EX_steeth[e]	Exchange of Stearoyl Ethanolamide
+EX_subeac[e]	Exchange of Suberic Acid
+EX_tetdeca511ac[e]	Exchange of Cis-5, 8-Tetradecadienoic Acid
+EX_tetdecaeth[e]	Exchange of C14:0-Ethanolamide, Tetradecanoyl Ethanolamide
+EX_thrnt[e]	Exchange of L-Threonate
+EX_tmlys[e]	Exchange of N6, N6, N6-Trimethyl-L-Lysine
+EX_trideceth[e]	Exchange of Tridecanoyl Thanolamide (C13:0)
+EX_ttdcrn[e]	Exchange of Tetradecanoyl Carnitine
+EX_txb2[e]	Exchange of Thromboxane B2
+EX_urcan[e]	Exchange of Urocanate
+EX_wharachd[e]	Exchange of W-Hydroxyl Arachidonic Acid
+EX_xolest181_hs[e]	Exchange of 1-Vaccenoyl-Cholesterol, Cholesterol-Ester (18:1, Delta 11)
+EX_xolest182_hs[e]	Exchange of 1-Linoleoyl-Cholesterol, Cholesterol-Ester (18:2, Delta 9, 12)
+EX_xolest183_hs[e]	Exchange of 1-Gamma-Linolenoyl-Cholesterol, Cholesterol-Ester (18:3, Delta 6, 9, 12)
+EX_xolest204_hs[e]	Exchange of Cholesteryl Arachidonate, Cholesterol-Ester (20:4, Delta 5, 8, 11, 14)
+EX_xolest205_hs[e]	Exchange of 1-Timnodnoyl-Cholesterol, Cholesterol-Ester (20:5, Delta 5, 8, 11, 14, 17)
+EX_xolest226_hs[e]	Exchange of Cholesteryl Docosahexanoate, Cholesterol-Ester (22:6, Delta 4, 7, 10, 13, 16, 19)
+EX_acile_L[e]	Exchange of Acetyl Isoleucine
+EX_acleu_L[e]	Exchange of Acetyl Leucine
+EX_achom_L[e]	Exchange of Acetyl Homoserine
+EX_phacgly[e]	Exchange of Phenylacetylglycine
+EX_estriol[e]	Exchange of Estriol
+EX_3hpppn[e]	Exchange of 3- (3-Hydroxy-Phenyl)Propionate
+EX_3moxtyr[e]	Exchange of 3-Methoxytyramine
+EX_5aop[e]	Exchange of 5-Amino-4-Oxopentanoate
+EX_abt_D[e]	Exchange of D-Arabitol
+EX_acglu[e]	Exchange of N-Acetyl-L-Glutamate
+EX_alltn[e]	Exchange of Allantoin
+EX_CE2510[e]	Exchange of 11-Cis-Eicosenoate
+EX_CE2516[e]	Exchangefor (8Z, 11Z, 14Z)-Eicosatrienoic Acid
+EX_ddca[e]	Exchange of Laurate
+EX_glyc_R[e]	Exchange of D-Glycerate
+EX_glyc2p[e]	Exchange of Glycerol-2-Phosphate
+EX_glyclt[e]	Exchange of Glycolate
+EX_Lcyst[e]	Exchnage for L-Cysteate
+EX_oaa[e]	Exchange of Oxaloacetate
+EX_pac[e]	Exchange of Phenylacetate
+EX_phlac[e]	Exchange of Phenyl Lactate
+EX_pser_L[e]	Exchange of O-Phospho-L-Serine
+EX_ttdcea[e]	Exchange of Tetradecenoate (N-C14:1)
+EX_3hcinnm[e]	3-Hydroxycinnamic Acid Exchange
+EX_3hppa[e]	3-Hydroxyphenylpropionic Acid Exchange
+EX_bgly[e]	Exchange of Hippurate (Benzoylglycinate)
+EX_pheacgly[e]	Exchange of Phenylacetylglycine
+EX_bz[e]	Benzoic Acid Exchange
+EX_pcresol[e]	P-Cresol Exchange
+EX_pcs[e]	Exchange of P-Cresol Sulfate
+EX_inds[e]	Exchange of Indoxyl Sulfate
+EX_normete_L[e]	Exchange of L-Normetanephrine
+EX_mepi[e]	Exchange of Metanephrine
+EX_C05300[e]	Exchange of 16Alpha-Hydroxyestrone
+EX_retinal[e]	Exchange of Retinal
+EX_maltttr[e]	Exchange of Maltotetraose
+EX_1mncam[e]	Exchange of 1-Methylnicotinamide
+EX_progly[e]	Exchange of L-Prolinylglycine
+EX_dhbpt[e]	Exchange of 6,7-Dihydrobiopterin
+EX_thbpt[e]	Exchange of 5,6,7,8-Tetrahydrobiopterin
+EX_adprib[e]	Exchange of Adenosine-5'-Diphosphate-Ribose
+EX_alaargcys[e]	Exchange of AlaArgCys
+EX_alaarggly[e]	Exchange of AlaArgGly
+EX_alaasnleu[e]	Exchange of AlaAsnLeu
+EX_alaglylys[e]	Exchange of AlaGlyLys
+EX_alahisala[e]	Exchange of AlaHisAla
+EX_alalysthr[e]	Exchange of AlaLysThr
+EX_argalaala[e]	Exchange of ArgAlaAla
+EX_argalaphe[e]	Exchange of ArgAlaPhe
+EX_argalathr[e]	Exchange of ArgAlaThr
+EX_argarg[e]	Exchange of ArgArg
+EX_argarglys[e]	Exchange of ArgArgLys
+EX_argargmet[e]	Exchange of ArgArgMet
+EX_argcysgly[e]	Exchange of ArgCysGly
+EX_argcysser[e]	Exchange of ArgCysSer
+EX_arggluglu[e]	Exchange of ArgGluGlu
+EX_argglupro[e]	Exchange of ArgGluPro
+EX_argglygly[e]	Exchange of ArgGlyGly
+EX_arghisthr[e]	Exchange of ArgHisThr
+EX_argleuphe[e]	Exchange of ArgLeuPhe
+EX_arglysasp[e]	Exchange of ArgLysAsp
+EX_argphearg[e]	Exchange of ArgPheArg
+EX_argpromet[e]	Exchange of ArgProMet
+EX_argprothr[e]	Exchange of ArgProThr
+EX_argserser[e]	Exchange of ArgSerSer
+EX_argtyrval[e]	Exchange of ArgtyrVal
+EX_argvalcys[e]	Exchange of ArgValCys
+EX_argvaltrp[e]	Exchange of ArgValTrp
+EX_asnasnarg[e]	Exchange of AsnAsnArg
+EX_asncyscys[e]	Exchange of AsnCysCys
+EX_asnmetpro[e]	Exchange of AsnMetPro
+EX_asnpheasp[e]	Exchange of AsnPheAsp
+EX_asnphecys[e]	Exchange of AsnPheCys
+EX_asntyrgly[e]	Exchange of AsntyrGly
+EX_asntyrphe[e]	Exchange of AsntyrPhe
+EX_asntyrthr[e]	Exchange of AsntyrThr
+EX_aspalaarg[e]	Exchange of AspAlaArg
+EX_aspasnglu[e]	Exchange of AspAsnGlu
+EX_aspglu[e]	Exchange of AspGlu
+EX_aspglupro[e]	Exchange of AspGluPro
+EX_aspglutrp[e]	Exchange of AspGluTrp
+EX_asphiscys[e]	Exchange of AspHisCys
+EX_asphispro[e]	Exchange of AspHisPro
+EX_asplysglu[e]	Exchange of AspLysGlu
+EX_asplyshis[e]	Exchange of AspLysHis
+EX_aspmetasp[e]	Exchange of AspMetAsp
+EX_aspprolys[e]	Exchange of AspProLys
+EX_aspvalasn[e]	Exchange of AspValAsn
+EX_cysasnmet[e]	Exchange of CysAsnMet
+EX_cysaspphe[e]	Exchange of CysAspPhe
+EX_cyscys[e]	Exchange of CysCys
+EX_cysglnmet[e]	Exchange of CysGlnMet
+EX_cysgluhis[e]	Exchange of CysGluHis
+EX_cysglutrp[e]	Exchange of CysGluTrp
+EX_cysleuthr[e]	Exchange of CysLeuThr
+EX_cyssermet[e]	Exchange of CysSerMet
+EX_cystyrasn[e]	Exchange of CystyrAsn
+EX_glnasngln[e]	Exchange of GlnAsnGln
+EX_glnhishis[e]	Exchange of GlnHisHis
+EX_glnhislys[e]	Exchange of GlnHisLys
+EX_glnlyslys[e]	Exchange of GlnLysLys
+EX_glnlystrp[e]	Exchange of GlnLysTrp
+EX_glnproglu[e]	Exchange of GlnProGlu
+EX_glntrpglu[e]	Exchange of GlnTrpGlu
+EX_glntyrleu[e]	Exchange of GlntyrLeu
+EX_gluargleu[e]	Exchange of GluArgLeu
+EX_gluasnleu[e]	Exchange of GluAsnLeu
+EX_gluglu[e]	Exchange of GluGlu
+EX_gluilelys[e]	Exchange of GluIleLys
+EX_gluleu[e]	Exchange of GluLeu
+EX_glumet[e]	Exchange of GluMet
+EX_glumethis[e]	Exchange of GluMetHis
+EX_gluthr[e]	Exchange of GluThr
+EX_gluthrlys[e]	Exchange of GluThrLys
+EX_glutrpala[e]	Exchange of GluTrpAla
+EX_glyhisasn[e]	Exchange of GlyHisAsn
+EX_glyhislys[e]	Exchange of GlyHisLys
+EX_glylyscys[e]	Exchange of GlyLysCys
+EX_glylysphe[e]	Exchange of GlyLysPhe
+EX_glytyrlys[e]	Exchange of GlytyrLys
+EX_glyvalhis[e]	Exchange of GlyValHis
+EX_hisargcys[e]	Exchange of HisArgCys
+EX_hisargser[e]	Exchange of HisArgSer
+EX_hisasp[e]	Exchange of HisAsp
+EX_hiscyscys[e]	Exchange of HisCysCys
+EX_hisglnala[e]	Exchange of HisGlnAla
+EX_hisglu[e]	Exchange of HisGlu
+EX_hisglugln[e]	Exchange of HisGluGln
+EX_hisglylys[e]	Exchange of HisGlyLys
+EX_hishislys[e]	Exchange of HisHisLys
+EX_hislysala[e]	Exchange of HisLysAla
+EX_hislysglu[e]	Exchange of HisLysGlu
+EX_hislysile[e]	Exchange of HisLysIle
+EX_hislysthr[e]	Exchange of HisLysThr
+EX_hislysval[e]	Exchange of HisLysVal
+EX_hismet[e]	Exchange of HisMet
+EX_hismetgln[e]	Exchange of HisMetGln
+EX_hisphearg[e]	Exchange of HisPheArg
+EX_hisprolys[e]	Exchange of HisProLys
+EX_histrphis[e]	Exchange of HisTrpHis
+EX_ileargile[e]	Exchange of IleArgIle
+EX_ileasnhis[e]	Exchange of IleAsnHis
+EX_ileasp[e]	Exchange of IleAsp
+EX_ileglnglu[e]	Exchange of IleGlnGlu
+EX_ileglyarg[e]	Exchange of IleGlyArg
+EX_ileprolys[e]	Exchange of IleProLys
+EX_ileserarg[e]	Exchange of IleSerArg
+EX_iletrptyr[e]	Exchange of IleTrptyr
+EX_leualaarg[e]	Exchange of LeuAlaArg
+EX_leuasnasp[e]	Exchange of LeuAsnAsp
+EX_leuasplys[e]	Exchange of LeuAspLys
+EX_leuleutrp[e]	Exchange of LeuLeuTrp
+EX_leupro[e]	Exchange of LeuPro
+EX_leuproarg[e]	Exchange of LeuProArg
+EX_leusertrp[e]	Exchange of LeuSerTrp
+EX_leutrp[e]	Exchange of LeuTrp
+EX_leutrparg[e]	Exchange of LeuTrpArg
+EX_leutyrtyr[e]	Exchange of Leutyrtyr
+EX_leuval[e]	Exchange of LeuVal
+EX_lysargleu[e]	Exchange of LysArgLeu
+EX_lyscyshis[e]	Exchange of LysCysHis
+EX_lysglnphe[e]	Exchange of LysGlnPhe
+EX_lysgluglu[e]	Exchange of LysGluGlu
+EX_lyslyslys[e]	Exchange of LysLysLys
+EX_lyspheile[e]	Exchange of LysPheIle
+EX_lystrparg[e]	Exchange of LysTrpArg
+EX_lystyrile[e]	Exchange of LystyrIle
+EX_lysvalphe[e]	Exchange of LysValPhe
+EX_lysvaltrp[e]	Exchange of LysValTrp
+EX_metargleu[e]	Exchange of MetArgLeu
+EX_metasntyr[e]	Exchange of MetAsntyr
+EX_metglntyr[e]	Exchange of MetGlntyr
+EX_metglyarg[e]	Exchange of MetGlyArg
+EX_methislys[e]	Exchange of MetHisLys
+EX_metmetile[e]	Exchange of MetMetIle
+EX_metphearg[e]	Exchange of MetPheArg
+EX_mettrpphe[e]	Exchange of MetTrpPhe
+EX_pheasnmet[e]	Exchange of PheAsnMet
+EX_pheasp[e]	Exchange of PheAsp
+EX_pheglnphe[e]	Exchange of PheGlnPhe
+EX_pheleu[e]	Exchange of PheLeu
+EX_pheleuasp[e]	Exchange of PheLeuAsp
+EX_pheleuhis[e]	Exchange of PheLeuHis
+EX_phelysala[e]	Exchange of PheLysAla
+EX_phelyspro[e]	Exchange of PheLysPro
+EX_phephe[e]	Exchange of PhePhe
+EX_phepheasn[e]	Exchange of PhePheAsn
+EX_phephethr[e]	Exchange of PhePheThr
+EX_pheproarg[e]	Exchange of PheProArg
+EX_phesertrp[e]	Exchange of PheSerTrp
+EX_phethrlys[e]	Exchange of PheThrLys
+EX_phetrpleu[e]	Exchange of PheTrpLeu
+EX_phetyr[e]	Exchange of Phetyr
+EX_phetyrgln[e]	Exchange of PhetyrGln
+EX_phetyrlys[e]	Exchange of PhetyrLys
+EX_proargasp[e]	Exchange of ProArgAsp
+EX_proargcys[e]	Exchange of ProArgCys
+EX_proasncys[e]	Exchange of ProAsnCys
+EX_procys[e]	Exchange of ProCys
+EX_proglnpro[e]	Exchange of ProGlnPro
+EX_proglulys[e]	Exchange of ProGluLys
+EX_prohis[e]	Exchange of ProHis
+EX_prohistyr[e]	Exchange of ProHistyr
+EX_proleuarg[e]	Exchange of ProLeuArg
+EX_prolyspro[e]	Exchange of ProLysPro
+EX_prophe[e]	Exchange of ProPhe
+EX_proproarg[e]	Exchange of ProProArg
+EX_propropro[e]	Exchange of ProProPro
+EX_protrplys[e]	Exchange of ProTrpLys
+EX_protrpthr[e]	Exchange of ProTrpThr
+EX_provalgln[e]	Exchange of ProValGln
+EX_serargala[e]	Exchange of SerArgAla
+EX_serargtrp[e]	Exchange of SerArgTrp
+EX_sercysarg[e]	Exchange of SerCysArg
+EX_serglyglu[e]	Exchange of SerGlyGlu
+EX_serlyshis[e]	Exchange of SerLysHis
+EX_serphelys[e]	Exchange of SerPheLys
+EX_sertrphis[e]	Exchange of SerTrpHis
+EX_thrargtyr[e]	Exchange of ThrArgtyr
+EX_thrasntyr[e]	Exchange of ThrAsntyr
+EX_thrglnglu[e]	Exchange of ThrGlnGlu
+EX_thrglntyr[e]	Exchange of ThrGlntyr
+EX_thrhishis[e]	Exchange of ThrHisHis
+EX_thrilearg[e]	Exchange of ThrIleArg
+EX_thrmetarg[e]	Exchange of ThrMetArg
+EX_thrphearg[e]	Exchange of ThrPheArg
+EX_thrserarg[e]	Exchange of ThrSerArg
+EX_thrthrarg[e]	Exchange of ThrThrArg
+EX_thrtyrmet[e]	Exchange of ThrtyrMet
+EX_trpalapro[e]	Exchange of TrpAlaPro
+EX_trpargala[e]	Exchange of TrpArgAla
+EX_trpaspasp[e]	Exchange of TrpAspAsp
+EX_trpglngln[e]	Exchange of TrpGlnGln
+EX_trpglugly[e]	Exchange of TrpGluGly
+EX_trpgluleu[e]	Exchange of TrpGluLeu
+EX_trpglupro[e]	Exchange of TrpGluPro
+EX_trpglutyr[e]	Exchange of TrpGlutyr
+EX_trpglyleu[e]	Exchange of TrpGlyLeu
+EX_trpglyphe[e]	Exchange of TrpGlyPhe
+EX_trpglyval[e]	Exchange of TrpGlyVal
+EX_trphismet[e]	Exchange of TrpHisMet
+EX_trpilelys[e]	Exchange of TrpIleLys
+EX_trpiletrp[e]	Exchange of TrpIleTrp
+EX_trpleuval[e]	Exchange of TrpLeuVal
+EX_trplys[e]	Exchange of TrpLys
+EX_trpmetarg[e]	Exchange of TrpMetArg
+EX_trpmetval[e]	Exchange of TrpMetVal
+EX_trpphe[e]	Exchange of TrpPhe
+EX_trpprogly[e]	Exchange of TrpProGly
+EX_trpproleu[e]	Exchange of TrpProLeu
+EX_trpproval[e]	Exchange of TrpProVal
+EX_trpsertyr[e]	Exchange of TrpSertyr
+EX_trpthrglu[e]	Exchange of TrpThrGlu
+EX_trpthrile[e]	Exchange of TrpThrIle
+EX_trpthrtyr[e]	Exchange of TrpThrtyr
+EX_trptyrgln[e]	Exchange of TrptyrGln
+EX_trptyrtyr[e]	Exchange of Trptyrtyr
+EX_trpvalasp[e]	Exchange of TrpValAsp
+EX_tyrala[e]	Exchange of TyrAla
+EX_tyralaphe[e]	Exchange of TyrAlaPhe
+EX_tyrargglu[e]	Exchange of TyrArgGlu
+EX_tyrargser[e]	Exchange of TyrArgSer
+EX_tyrasparg[e]	Exchange of TyrAspArg
+EX_tyrcysgly[e]	Exchange of TyrCysGly
+EX_tyrcysthr[e]	Exchange of TyrCysThr
+EX_tyrglu[e]	Exchange of TyrGlu
+EX_tyrleuarg[e]	Exchange of TyrLeuArg
+EX_tyrphetyr[e]	Exchange of TyrPhetyr
+EX_tyrthr[e]	Exchange of TyrThr
+EX_tyrtrpphe[e]	Exchange of TyrTrpPhe
+EX_tyrtyr[e]	Exchange of Tyrtyr
+EX_tyrvalmet[e]	Exchange of TyrValMet
+EX_valarggly[e]	Exchange of ValArgGly
+EX_valhisasn[e]	Exchange of ValHisAsn
+EX_valleuphe[e]	Exchange of ValLeuPhe
+EX_vallystyr[e]	Exchange of ValLystyr
+EX_valphearg[e]	Exchange of ValPheArg
+EX_valprotrp[e]	Exchange of ValProTrp
+EX_valserarg[e]	Exchange of ValSerArg
+EX_valtrpphe[e]	Exchange of ValTrpPhe
+EX_valtrpval[e]	Exchange of ValTrpVal
+EX_valval[e]	Exchange of ValVal
+EX_trpglyasp[e]	Exchange of TrpGlyAsp
+EX_homoval[e]	Exchange of Homovanillate
+EX_sphmyln_hs[e]	Exchange of Sphingomyelin
+EX_hxa[e]	Exchange of Hexanoate (N-C6:0)
+EX_Lhcystin[e]	Exchange of Homocystine
+EX_core4[e]	Exchange of Core 4 (Mucin O-Glycan)
+EX_core5[e]	Exchange of Core 5 (Mucin O-Glycan)
+EX_core7[e]	Exchange of Core 7 (Mucin O-Glycan)
+EX_core8[e]	Exchange of Core 8 (Mucin O-Glycan)
+EX_dsT_antigen[e]	Exchange of Disialyl-T Antigen
+EX_f1a[e]	Exchange of F1Alpha (Mucin O-Glycan)
+EX_galam[e]	Exchange of Galactosamine
+EX_gncore1[e]	Exchange of gncore 1 (Mucin O-Glycan)
+EX_gncore2[e]	Exchange of GlcNac-Alpha-1, 4-Core 2
+EX_mqn10[e]	Exchange of Menaquinone 10
+EX_mqn11[e]	Exchange of Menaquinone 11
+EX_mqn7[e]	Exchange of Menaquinone 7
+EX_mqn9[e]	Exchange of Menaquinone 9
+EX_s2l2n2m2m[e]	Exchange of De-Fuc Form of Pa6 (W/O Peptide Linkage)
+EX_sTn_antigen[e]	Exchange of Sialyl-Tn Antigen
+EX_lpam[e]	Exchange of Lipoamide
+EX_acgal[e]	Exchange of N-Acetylgalactosamine
+EX_acnam[e]	Exchange of N-Acetylneuraminate
+EX_pcreat[e]	Exchange of Phosphocreatine
+EX_HC00342[e]	Exchange of Cis-Aconitate
+EX_C08261[e]	Exchange of Azelaic Acid
+EX_pa_hs[e]	Exchange of Phosphatidate
+EX_CE2934[e]	Exchange of O-Methylhippurate
+EX_dxtrn[e]	Exchange of Phosphorylase-Limit Dextrin
+EX_dhcholestanate[e]	Exchange of 3Alpha, 7Alpha-Dihydroxy-5Beta-Cholestanate
+EX_thcholstoic[e]	Exchange of 3Alpha, 7Alpha, 12Alpha-Trihydroxy-5Beta-Cholestanoate
+EX_xol7ah3[e]	Exchange of 5Beta-Cholestane-3Alpha, 7Alpha, 26-Triol
+EX_xol7aone[e]	Exchange of 7Alpha-Hydroxycholest-4-En-3-One
+EX_xoldiolone[e]	Exchange of 7Alpha, 12Alpha-Dihydroxycholest-4-En-3-One
+EX_7klitchol[e]	Exchange of 7-Ketolithocholate
+EX_2obut[e]	Exchange of 2-Oxobutanoate
+EX_glutar[e]	Exchange of Glutarate
+EX_glcn[e]	Exchange of D-Gluconate
+EX_acac[e]	Exchange of Acetoacetate
+EX_adn[e]	Exchange of Adenosine
+EX_akg[e]	Exchange of 2-Oxoglutarate
+EX_asn_L[e]	Exchange of L-Asparagine
+EX_asp_L[e]	Exchange of L-Aspartate
+EX_but[e]	Exchange of Butyrate (N-C4:0)
+EX_ca2[e]	Exchange of Calcium
+EX_cgly[e]	Exchange of Cysteinyl-Glycine
+EX_cl[e]	Exchange of Chloride
+EX_co2[e]	Exchange of Carbon Dioxide
+EX_cytd[e]	Exchange of Cytidine
+EX_dad_2[e]	Exchange of 2-Deoxyadenosine
+EX_dcyt[e]	Exchange of Deoxycytidine
+EX_dgsn[e]	Exchange of Deoxyguanosine
+EX_din[e]	Exchange of Deoxyinosine
+EX_duri[e]	Exchange of Deoxyuridine
+EX_fe2[e]	Exchange of Iron (Fe2+)
+EX_fe3[e]	Exchange of Iron (Fe3+)
+EX_fum[e]	Exchange of Fumarate
+EX_gal[e]	Exchange of D-Galactose
+EX_glu_L[e]	Exchange of L-Glutamate
+EX_glyb[e]	Exchange of Glycine Betaine
+EX_glyleu[e]	Exchange of Glycylleucine
+EX_glyphe[e]	Exchange of Glycylphenylalaine
+EX_glypro[e]	Exchange of Glypro
+EX_h[e]	Exchange of Proton
+EX_h2o[e]	Exchange of Water
+EX_ile_L[e]	Exchange of L-Isoleucine
+EX_ins[e]	Exchange of Inosine
+EX_k[e]	Exchange of Kalium
+EX_lac_L[e]	Exchange of L-Lactate
+EX_leu_L[e]	Exchange of L-Leucine
+EX_lys_L[e]	Exchange of L-Lysine
+EX_mal_L[e]	Exchange of L-Malate
+EX_met_L[e]	Exchange of L-Methionine
+EX_na1[e]	Exchange of Sodium
+EX_no2[e]	Exchange of Nitrite
+EX_o2[e]	Exchange of Oxugen
+EX_orn[e]	Exchange of Ornithine
+EX_pi[e]	Exchange of Phosphate
+EX_ppi[e]	Exchange of Ppi
+EX_pro_L[e]	Exchange of L-Proline
+EX_ribflv[e]	Exchange of Riboflavin
+EX_ser_L[e]	Exchange of L-Serine
+EX_so4[e]	Exchange of Sulfate
+EX_succ[e]	Exchange of Succinate
+EX_thymd[e]	Exchange of Thymidine
+EX_urea[e]	Exchange of Urea
+EX_uri[e]	Exchange of Uridine
+EX_val_L[e]	Exchange of L-Valine
+EX_pnto_R[e]	Exchange of (R)-Pantothenate
+EX_gly[e]	Exchange of Glycine
+EX_cys_L[e]	Exchange of L-Cysteine
+EX_ala_L[e]	Exchange of L-Alanine
+EX_his_L[e]	Exchange of L-Histidine
+EX_thr_L[e]	Exchange of L-Threonine
+EX_gln_L[e]	Exchange of L-Glutamine
+EX_phe_L[e]	Exchange of L-Phenylalanine
+EX_tyr_L[e]	Exchange of L-Tyrosine
+EX_arg_L[e]	Exchange of L-Arginine
+EX_for[e]	Exchange of Formate
+EX_nac[e]	Exchange of Nicotinate
+EX_ind3ac[e]	Exchange of Indole-3-Acetate
+EX_nh4[e]	Exchange of Ammonia
+EX_ac[e]	Exchange of Acetate
+EX_acgam[e]	Exchange of N-Acetyl-D-Glucosamine
+EX_cit[e]	Exchange of Citrate
+EX_csn[e]	Exchange of Cytosine
+EX_drib[e]	Exchange of Deoxyribose
+EX_etha[e]	Exchange of Ethanolamine
+EX_fol[e]	Exchange of Folate
+EX_fru[e]	Exchange of D-Fructose
+EX_galt[e]	Exchange of Galactitol
+EX_glcr[e]	Exchange of Glcr
+EX_glcur[e]	Exchange of D-Glucuronate
+EX_glyc[e]	Exchange of Glycerol
+EX_hxan[e]	Exchange of Hypoxanthine
+EX_malt[e]	Exchange of Maltose
+EX_malthx[e]	Exchange of Maltohexaose
+EX_malttr[e]	Exchange of Maltotriose
+EX_man[e]	Exchange of D-Mannose
+EX_ptrc[e]	Exchange of 1, 4-Butanediammonium
+EX_rib_D[e]	Exchange of Ribose
+EX_spmd[e]	Exchange of Spermidine
+EX_thm[e]	Exchange of Thiamin
+EX_trp_L[e]	Exchange of L-Tryptophan
+EX_ura[e]	Exchange of Uracil
+EX_xan[e]	Exchange of Xanthine
+EX_xyl_D[e]	Exchange of D-Xylose
+EX_pydxn[e]	Exchange of Pyridoxine
+EX_pydx[e]	Exchange of Pyridoxal
+EX_pydam[e]	Exchange of Pyridoxamine
+EX_4hbz[e]	Exchange of 4-Hydroxybenzoate
+EX_34dhpha[e]	Exchange of 34Dhpha
+EX_ppa[e]	Exchange of Propionate
+EX_arab_L[e]	Exchange of L-Arabinose
+EX_gam[e]	Exchange of D-Glucosamine
+EX_pyr[e]	Exchange of Pyruvate
+EX_tre[e]	Exchange of Trehalose
+EX_btn[e]	Exchange of Biotin
+EX_lcts[e]	Exchange of Lactose
+EX_ade[e]	Exchange of Adenine
+EX_etoh[e]	Exchange of Ethanol
+EX_acald[e]	Exchange of Acetaldehyde
+EX_sucr[e]	Exchange of Sucrose
+EX_pheme[e]	Exchange of Heme
+EX_mqn8[e]	Exchange of Menaquinone 8
+EX_gua[e]	Exchange of Guanine
+EX_4abut[e]	Exchange of 4-Aminobutanoate
+EX_indole[e]	Exchange of Indole
+EX_taur[e]	Exchange of Taurine
+EX_ch4s[e]	Exchange of Methanethiol
+EX_phpyr[e]	Exchange of Phenylpyruvate
+EX_tym[e]	Exchange of Tyramine
+EX_2hyoxplac[e]	2-Hydroxyphenylacetate
+EX_lanost[e]	Exchange of Lanosterol
+EX_3mox4hoxm[e]	Exchange of 3-Methoxy-4-Hydroxymandelate
+EX_glx[e]	Exchange of Glyoxylate
+EX_CE4970[e]	Exchange of 2-Methylbutyrylglycine
+EX_CE2026[e]	Exchange of 3-Methyl-Crotonyl-Glycine
+EX_CE4968[e]	Exchange of Isovalerylglycine
+EX_actyr[e]	Exchange of N-Acetyl-Tyrosine
+EX_sucaceto[e]	Exchange of Succinylacetone
+EX_vanillac[e]	Exchange of Vanil-Lactate
+EX_nacvanala[e]	Exchange of Acetyl-Vanilalanine
+EX_2h3mv[e]	Exchange of 2-Hydroxy-3-Methyl-Valerate
+EX_2hiv[e]	Exchange of 2-Hydroxy-Isovalerate
+EX_2m3hbu[e]	Exchange of 2-Methyl-3-Hydroxy-Butyrate
+EX_2m3hvac[e]	Exchange of 2-Methyl-3-Hydroxy-Valerate
+EX_3h3mglt[e]	Exchange of 3-Hydroxy-3-Methyl-Glutarate
+EX_3mglutac[e]	Exchange of 3-Methyl-Glutaconate
+EX_3mglutr[e]	Exchange of 3-Methyl-Glutarate
+EX_ppiogly[e]	Exchange of Propionyl-Glycine
+EX_mvlac[e]	Exchange of Mevalonate-Lactone
+EX_tiggly[e]	Exchange of Tiglylglycine
+EX_3ohglutac[e]	Excahnge of 3-Hydroxy-Glutarate
+EX_glutcon[e]	Exchange of Glutaconate
+EX_3hivac[e]	Exchange of 3-Hydroxy-Isovalerate
+EX_3hadpac[e]	Exchange of 3-Hydroxy-Adipate
+EX_3ohsebac[e]	Exchange of 3-Hydroxy-Sebacic Acid
+EX_3ohsubac[e]	Exchange of 3-Hydoxy-Suberic Acid
+EX_5ohhexa[e]	Exchange of 5-Hydroxy-Hexanoate
+EX_7ohocata[e]	Exchange of 7-Hydroxy-Octanoate
+EX_ethmalac[e]	Exchange of Ethylmalonic Acid
+EX_hexgly[e]	Exchange of Hexanoyl-Glycine
+EX_methsucc[e]	Exchange of Methyl-Succinate
+EX_subgly[e]	Exchange of Suberyl-Glycine
+EX_4ohbut[e]	Exchange of 4-Hydroxy-Butyrate
+EX_2hxic_L[e]	Exchange of 2-Hydroxy-Isocaproate
+EX_2hydog[e]	Exchnage of 2-Hydroxy-Glutarate
+EX_thexdd[e]	Exchange of 7Z, 10Z-Hexadecadienoic Acid
+EX_hexdtr[e]	Exchange of 7, 10, 13-Hexadecatrienoic Acid
+EX_hpdece[e]	Exchange of Trans-Delta-2-Heptadecanoic Acid
+EX_eic21114tr[e]	Exchange of Trans, Cis, Cis-2, 11, 14-Eicosatrienoic Acid
+EX_5eipenc[e]	Exchange of 5, 8, 11, 14, 17-Eicosapentenoic Acid
+EX_CE4969[e]	Exchange of Isobutyrylglycine
+EX_CE1310[e]	Exchange of N-Acetyl-L-Cysteine
+EX_agm[e]	Exchange of Agmatinium
+EX_T4hcinnm[e]	Exchange of Trans-4-Coumarate
+EX_sucsal[e]	Exchange of Succinic Semialdehyde
+EX_CE7081[e]	Exchange of 15(R)-HEPE
+EX_egme[e]	Exchange of Succinic Semialdehyde
+EX_12harachd[e]	Exchange of 12 Hydroxy Arachidonic Acid
+EX_18harachd[e]	Exchange of 18 Hydroxy Arachidonic Acid
+EX_sql[e]	Exchange of Squalene
+EX_orn_D[e]	Exchange of Ornithine
+EX_5g2oxpt[e]	Exchange of 5-Guanidino-2-Oxopentanoic Acid
+EX_andrstndn[e]	Exchange of Androst-4-Ene-3, 17-Dione
+EX_dhea[e]	Exchange of 3Beta-Hydroxyandrost-5-En-17-One
+EX_eandrstrn[e]	Exchange of 16Alpha-Hydroxydehydroepiandrosterone
+EX_ahandrostan[e]	Exchange of 3Alpha-Hydroxy-5Beta-Androstan-17-One
+EX_andrstandn[e]	Exchange of 5Alpha-Androstane-3, 17-Dione
+EX_CE2209[e]	Exchange of 5Alpha-Androstane-3Alpha, 17Beta-Diol
+EX_estrone[e]	Exchange of Estrone
+EX_C05298[e]	Exchange of 2-Hydroxyestrone
+EX_C05301[e]	Exchange of 2-Hydroxyestradiol-17Beta
+EX_C05299[e]	Exchange of 2-Methoxyestrone
+EX_C05302[e]	Exchange of 2-Methoxyestradiol-17Beta
+EX_CE5072[e]	Exchange of 21-Hydroxyallopregnanolone
+EX_11docrtsl[e]	Exchange of 11-Deoxycortisol
+EX_11docrtstrn[e]	Exchange of 11-Deoxycorticosterone
+EX_prgnlone[e]	Exchange of Pregnenolone
+EX_CE2211[e]	Exchange of Allopregnanolone
+EX_17ahprgstrn[e]	Exchange of 17Alpha-Hydroxyprogesterone
+EX_17ahprgnlone[e]	Exchange of 17Alpha-Hydroxypregnenolone
+EX_C03681[e]	Exchange of 5Alpha-Pregnane-3, 20-Dione
+EX_HC02020[e]	Exchange of Cholesterol-Ester-Palm
+EX_prgnlones[e]	Exchange of Pregnenolone Sulfate
+EX_CE1352[e]	Exchange of 17Alpha-Hydroxypregnenolone Sulfate
+EX_xol24oh[e]	Exchange of (24S)-24-Hydroxycholesterol
+EX_xol27oh[e]	Exchange of 26-Hydroxycholesterol
+EX_xol25oh[e]	Exchange of 25-Hydroxycholesterol
+EX_dsmsterol[e]	Exchange of Desmosterol
+EX_chsterols[e]	Exchange of Cholesterol Sulfate
+EX_3ityr_L[e]	Exchange of 3-Iodo-L-Tyrosine
+EX_35diotyr[e]	Exchange of 3, 5-Diiodo-L-Tyrosine
+EX_13_cis_retn[e]	Exchange of 13-Cis-Retinoate
+EX_CE1617[e]	Exchange of 9-Cis-Retinoate
+EX_HC00460[e]	Exchange of 2,5-Dihydroxybenzoate
+EX_34dhoxmand[e]	Exchange of 3,4-Dihydroxymandelate
+EX_fna5moxam[e]	Exchange of Formyl-N-Acetyl-5-Methoxykynurenamine
+EX_CE5643[e]	Exchange of Peroxynitrite
+EX_CE7090[e]	Exchange of 18R-Hydroxy-5Z,8Z,11Z,14Z,16E-Eicosapentaenoic Acid
+EX_CE7085[e]	Exchange of (+-)-5-Hydroxy-6E,8Z,11Z,14Z,17Z-Eicosapentaenoic Acid
+EX_CE7096[e]	Exchange of 5,15-Dihydroxyeicosatetraenoic Acid
+EX_CE4877[e]	Exchange of 15-Deoxy-Prostaglandin J2
+EX_CE1447[e]	Exchange of 11-Dehydrothromboxane B2
+EX_CE2006[e]	Exchange of 4-Hydroxy-2-Nonenal
+EX_CE1401[e]	Exchange of Homocysteine Thiolactone
+EX_glucys[e]	Exchange of Gamma-L-Glutamyl-L-Cysteine
+EX_n8aspmd[e]	Exchange of N(8)-Acetylspermidine
+EX_CE6205[e]	Exchange of 5-Methoxytryptophol
+EX_melatn[e]	Exchange of Melatonine
+EX_6hoxmelatn[e]	Exchange of 6-Hydroxymelatonin
+EX_trypta[e]	Exchange of Tryptamine
+EX_C10164[e]	Exchange of Picolinic Acid
+EX_CE4890[e]	Exchange of N-Methylsalsolinol
+EX_C09642[e]	Exchange of (-)-Salsolinol
+EX_C05769[e]	Exchange of Coproporphyrin I
+EX_C05767[e]	Exchange of Uroporphyrin I
+EX_C05770[e]	Exchange of Coproporphyrin Iii
+EX_mhista[e]	Exchange of N(Tele)-Methylhistaminium
+EX_ppbng[e]	Exchange of Porphobilinogen
+EX_13dampp[e]	Exchange of Trimethylenediaminium
+EX_mma[e]	Exchange of Methylammonium
+EX_12ppd_R[e]	Exchange of (R)-Propane-1,2-Diol
+EX_ametam[e]	Exchange of S-Adenosylmethioninamine
+EX_xylu_L[e]	Exchange of L-Xylulose
+EX_xylu_D[e]	Exchange of Xylu_D
+EX_CE0737[e]	Exchange of Malonic Dialdehyde
+EX_sphings[e]	Exchange of Sphingosine
+EX_hdd2crn[e]	Exchange of Trans-Hexadec-2-Enoyl Carnitine
+EX_im4ac[e]	Exchange of Imidazol-4-Ylacetate
+EX_CE1918[e]	Exchange of 5-Hydroxytryptophol
+EX_mlthf[e]	Exchange of 5,10-Methylenetetrahydrofolate
+EX_ppp9[e]	Exchange of Protoporphyrin
+EX_aact[e]	Exchange of Ammonioacetone
+EX_CE2705[e]	Exchange of Quinonoid Dihydrobiopterin
+EX_sphgn[e]	Exchange of Sphinganine
+EX_selmeth[e]	Exchange of Selenomethionine
+EX_N1aspmd[e]	Exchange of N(1)-Acetylspermidine
+EX_1a25dhvitd3[e]	Exchange of Calcitriol
+EX_prist[e]	Exchange of Pristanic Acid
+EX_CE2049[e]	Exchange of 12,13-Hydroxyoctadec-9(Z)-Enoate
+EX_CE2047[e]	Exchange of 9,10-Hydroxyoctadec-12(Z)-Enoate
+EX_fdp[e]	Exchange of D-Fructose 1,6-Bisphosphate
+EX_coke[e]	Exchange of Cocaine
+EX_5a2opntn[e]	Exchange of 5-Amino-2-Oxopentanoic Acid
+EX_arg_D[e]	Exchange of D-Arginine
+EX_vldl_hs[e]	Exchange of VLDL_Hs
+EX_idl_hs[e]	Exchange of IDL_Hs
+EX_ldl_hs[e]	Exchange of LDL_Hs
+EX_hdl_hs[e]	Exchange of HDL_Hs
+EX_HC00005[e]	Exchange of ApoB100
+EX_HC00006[e]	Exchange of Apo C1
+EX_HC00007[e]	Exchange of Apo C2
+EX_HC00008[e]	Exchange of Apo C3
+EX_HC00009[e]	Exchange of Apo E
+EX_dopa4sf[e]	Exchange of Dopamine 4-O-Sulfate
+EX_dopa4glcur[e]	Exchange of Dopamine 4-O-Glucuronide
+EX_dopa3glcur[e]	Exchange of Dopamine 3-O-Glucuronide
+EX_4glu56dihdind[e]	Exchange of 4-S-Glutathionyl-5, 6-Dihydroxyindoline
+EX_5cysdopa[e]	Exchange of 5-S-Cysteinyldopamine
+EX_CE5025[e]	Exchange of 5-S-Glutathionyl-Dopamine
+EX_CE2172[e]	Exchange of 6, 7-Dihydroxy-1, 2, 3, 4-Tetrahydroisoquinoline
+EX_CE5629[e]	Exchange of 6, 7-Dihydroxy-1, 2, 3, 4-Tetrahydroisoquinoline
+EX_gd3_hs[e]	Exchange/Demand Reaction
+EX_gluside_hs[e]	Exchange/Demand Reaction
+EX_gm3_hs[e]	Exchange/Demand Reaction
+EX_cmpacna[e]	Exchange of CMP-N-Acetyl-Beta-Neuraminate
+EX_gd2_hs[e]	Exchange of Gd2
+EX_gd1a_hs[e]	Exchange of Gd1A
+EX_34dhpe[c]	Exchange of 3, 4-Dihydroxyphenylethanol
+EX_pail_hs[e]	Exchange of 1-Phosphatidyl-1D-Myo-Inositol
+EX_CE1243[e]	Exchange of (12S)-12-hydroxyheptadeca-5,8,10-trienoic acid (12S-HHT)
+EX_CE5026[e]	Exchange of 5-S-Glutathionyl-L-Dopa
+EX_5cysgly34dhphe[e]	Exchange of 5-S-Cysteinylglycine Dopa
+EX_CE1261[e]	Exchange of 5-S-Cysteinyldopa
+EX_galgluside_hs[e]	Exchange of Galactosyl Glucosyl Ceramide
+EX_ga1_hs[e]	Exchange of Gibberellin A1
+EX_gm1a_hs[e]	Exchange of Gm1Alpha
+EX_gm2a_hs[e]	Exchange of Gm2Alpha
+EX_gm1_hs[e]	Exchange of Ganglioside Gm1
+EX_gm2_hs[e]	Exchange of N-Acetyl-Beta-D-Galactosaminyl-(1->4)-[Alpha-N-Acetylneuraminosyl-(2->3)]-Beta-D-Galactosyl-Beta-D-Glucosyl-(1<->1)-Ceramide Anion
+EX_gm1b_hs[e]	Exchange of Gm1B
+EX_gd1b_hs[e]	Exchange of Gd1B
+EX_gt1b_hs[e]	Exchange of Gt1B
+EX_M03044[e]	HMR_7114
+EX_M01403[e]	HMR_7116
+EX_CN0020[e]	HMR_7118
+EX_M00932[e]	HMR_7120
+EX_M00545[e]	HMR_7122
+EX_M00228[e]	HMR_7124
+EX_M00242[e]	HMR_7126
+EX_M02957[e]	HMR_9023
+EX_M01570[e]	HMR_9024
+EX_M03147[e]	HMR_9025
+EX_M02048[e]	HMR_9026
+EX_M02353[e]	HMR_9027
+EX_M01569[e]	HMR_9028
+EX_M03146[e]	HMR_9029
+EX_M02047[e]	HMR_9030
+EX_M02352[e]	HMR_9031
+EX_apoC_Lys[e]	HMR_9089
+EX_pre_prot[e]	HMR_9130
+EX_dad_5[e]	HMR_9154
+EX_M02723[e]	HMR_9157
+EX_xtp[e]	HMR_9202
+EX_adpglc[e]	HMR_9298
+EX_M03161[e]	HMR_9708
+EX_nadh[e]	Exchange of Nicotinamide Adenine Dinucleotide - Reduced
+EX_glc_D[e]	Exchange of D-Glucose
+EX_sbt_D[e]	Exchange of D-Sorbitol
+EX_12dhchol[e]	EX_12dhchol(e)
+EX_3dhcdchol[e]	EX_3dhcdchol(e)
+EX_3dhchol[e]	EX_3dhchol(e)
+EX_3dhdchol[e]	EX_3dhdchol(e)
+EX_3dhlchol[e]	EX_3dhlchol(e)
+EX_7dhcdchol[e]	EX_7dhcdchol(e)
+EX_7dhchol[e]	EX_7dhchol(e)
+EX_ca24g[e]	EX_ca24g(e)
+EX_ca3s[e]	EX_ca3s(e)
+EX_cdca24g[e]	EX_cdca24g(e)
+EX_cdca3g[e]	EX_cdca3g(e)
+EX_coprost[e]	EX_coprost(e)
+EX_dca24g[e]	EX_dca24g(e)
+EX_dca3g[e]	EX_dca3g(e)
+EX_dca3s[e]	EX_dca3s(e)
+EX_gca3s[e]	EX_gca3s(e)
+EX_gcdca3s[e]	EX_gcdca3s(e)
+EX_gdca3s[e]	EX_gdca3s(e)
+EX_gudca3s[e]	EX_gudca3s(e)
+EX_hca24g[e]	EX_hca24g(e)
+EX_hca6g[e]	EX_hca6g(e)
+EX_hdca24g[e]	EX_hdca24g(e)
+EX_hdca6g[e]	EX_hdca6g(e)
+EX_hyochol[e]	EX_hyochol(e)
+EX_icdchol[e]	EX_icdchol(e)
+EX_isochol[e]	EX_isochol(e)
+EX_lca24g[e]	EX_lca24g(e)
+EX_lca3g[e]	EX_lca3g(e)
+EX_lca3s[e]	EX_lca3s(e)
+EX_tca3s[e]	EX_tca3s(e)
+EX_tcdca3s[e]	EX_tcdca3s(e)
+EX_tdca3s[e]	EX_tdca3s(e)
+EX_thyochol[e]	EX_thyochol(e)
+EX_tudca3s[e]	EX_tudca3s(e)
+EX_uchol[e]	EX_uchol(e)
+EX_udca3s[e]	EX_udca3s(e)
+EX_12htacr[e]	exchange reaction for 12-hydroxy tacrolimus in intestinal lumen
+EX_1331tacr[e]	exchange reaction for 13,31-O-Didesmethyl-tacrolimus in hepatic vein
+EX_13dmt[e]	exchange reaction for 13-O-desmethyl tacrolimus in intestinal lumen
+EX_14hmdz[e]	exchange reaction for 1,4-Dihydroxy-midazolam in hepatic vein
+EX_1513tacr[e]	exchange reaction for 13,15-O-didesmethyl tacrolimus in intestinal lumen
+EX_1531tacr[e]	exchange reaction for 15, 31-O-Didesmethyl-tacrolimus in hepatic vein
+EX_15dmt[e]	exchange reaction for 15-O-desmethyl tacrolimus in intestinal lumen
+EX_1hibup_S[e]	exchange reaction for 1-hydroxy-ibuprofen in hepatic vein
+EX_1hibupglu_S[e]	exchange reaction for 1-hydroxy S-ibuprofen-glucuronide in hepatic vein
+EX_1hmdgluc[e]	exchange reaction for 1-OH-midazolam-glucuronide in portal blood
+EX_1ohmdz[e]	exchange reaction for 1-OH-midazolam in portal blood
+EX_2hatvacid[e]	exchange reaction for 2-hydroxy-atorvastatin-acid in portal blood
+EX_2hatvacidgluc[e]	exchange reaction for 2-hydroxy-atorvastatin-acyl-glucuronide in bile
+EX_2hatvlac[e]	exchange reaction for 2-hydroxy-atorvastatin-lactone in portal blood
+EX_2hatvlacgluc[e]	exchange reaction for 2-hydroxy-atorvastatin-lactone-glucuronide in bile
+EX_2hibup_R[e]	exchange reaction for R-2-hydroxy-ibuprofen in hepatic vein
+EX_2hibup_S[e]	exchange reaction for S-2-hydroxy-ibuprofen in hepatic vein
+EX_2hibupglu_S[e]	exchange reaction for 2-hydroxy S-ibuprofen-glucuronide in hepatic vein
+EX_31dmt[e]	exchange reaction for 31-O-desmethyl tacrolimus in intestinal lumen
+EX_35dhpvs[e]	exchange reaction for 3-alpha-5-beta-dihydroxy pravastatin in portal blood
+EX_35dsmv[e]	exchange reaction for 3,5-dihydrodiol-simvastatin-lactone form in bile
+EX_3hibup_R[e]	exchange reaction for R-3-hydroxy-ibuprofen in hepatic vein
+EX_3hibup_S[e]	exchange reaction for S-3-hydroxy-ibuprofen in hepatic vein
+EX_3hibupglu_S[e]	exchange reaction for 3-hydroxy S-ibuprofen-glucuronide in hepatic vein
+EX_3hlvstacid[e]	exchange reaction for 3-hydroxy-lovastatin acid form in bile
+EX_3hpvs[e]	exchange reaction for 3-hydroxy pravastatin in portal blood
+EX_3hpvstet[e]	exchange reaction of 3-S-hydroxy-pravastatin-tetranor in hepatic vein
+EX_3hsmvacid[e]	exchange reaction for 3-hydroxy-simvastatin-acid form form in bile
+EX_3ispvs[e]	exchange reaction for 3-alpha-iso-pravastatin in portal blood
+EX_3ohacmp[e]	exchange reaction for 3-OH-acetaminophen in hepatic vein
+EX_4bhglz[e]	exchange reaction for 4-beta-OH-gliclazide in hepatic vein
+EX_4hatvacid[e]	exchange reaction for 4-hydroxy-atorvastatin-acid in portal blood
+EX_4hatvlac[e]	exchange reaction for 4-hydroxy-atorvastatin-lactone in portal blood
+EX_4hmdgluc[e]	exchange reaction for 4-OH-midazolam-glucuronide in hepatic vein
+EX_4ohmdz[e]	exchange reaction for 4-OH-midazolam in hepatic vein
+EX_56dhpvs[e]	exchange reaction of 3-keto-5,6,-dihydroxy-pravastatin in hepatic vein
+EX_56eppvs[e]	exchange reaction of 5,6-epoxy-3-alpha-iso-pravastatin in hepatic vein
+EX_5ohfvs[e]	exchnage reaction for 5-hydroxy-fluvastatin in bile
+EX_5ohfvsglu[e]	exchnage reaction for 5-hydroxy-fluvastatin-glucuronide in hepatic vein
+EX_6ahglz[e]	exchange reaction for 6-alpha-OH-gliclazide in hepatic vein
+EX_6bhglz[e]	exchange reaction for 6-beta-OH-gliclazide in hepatic vein
+EX_6bhglzglc[e]	exchange reaction for 6-beta-OH-gliclazide-glucuronide in hepatic vein
+EX_6csmvacid[e]	exchange reaction for 6-beta-carboxy-simvastatin-acid form in bile
+EX_6epvs[e]	exchange reaction for 6-epi-pravastatin in portal blood
+EX_6hlvst[e]	exchange reaction for 6-beta-hydroxy-lovastatin in portal blood
+EX_6hmsmvacid[e]	exchange reaction for6-beta-hydroxy-methyl-simvastatin-acid form in bile
+EX_6hsmvacid[e]	exchange reaction for 6-beta-hydroxy simvastatin acid in bile
+EX_6melvacid[e]	exchange reaction for 6-exomethylene-lovastatin-acid form in bile
+EX_6melvst[e]	exchange reaction for 6-exomethylene-lovastatin in portal blood
+EX_6ohfvs[e]	exchnage reaction for 6-hydroxy-fluvastatin in bile
+EX_6ohfvsglu[e]	exchange reaction for 6-hydroxy-fluvastatin-glucuronide in hepatic vein
+EX_7ahglz[e]	exchange reaction for 7-alpha-OH-gliclazide in hepatic vein
+EX_7bhglz[e]	exchange reaction for 7-beta-OH-gliclazide in hepatic vein
+EX_7bhglzglc[e]	exchange reaction for 7-beta-OH-gliclazide-glucuronide in hepatic vein
+EX_7hpvs[e]	exchange reaction of 7-hydroxy-3-alpha-iso-pravastatin in hepatic vein
+EX_acmp[e]	exchange reaction for acetaminophen in small intestinal lumen
+EX_acmpglu[e]	exchange reaction for acetaminophen-glucuronide-conjugate in portal blood
+EX_acmpglut[e]	exchange reaction for acetaminophen-glutathione-conjugate in intestinal lumen
+EX_allop[e]	exchange reaction for allopurinol in intestinal lumen
+EX_am19cs[e]	exchange reaction for AM19-cyclosporine in hepatic vein
+EX_am1a4ncs[e]	exchange reaction for AM1A4N-cyclosporine in bile
+EX_am1accs[e]	exchange reaction for AM1Ac-cyclosporine in hepatic vein
+EX_am1acs[e]	exchange reaction for AM1A (cyclosporine) in portal blood
+EX_am1alcs[e]	exchange reaction for AM1AL (cyclosporine) in portal blood
+EX_am1c4n9cs[e]	exchange reaction for AM1c4N9-cyclosporine in bile
+EX_am1c9cs[e]	exchange reaction for AM1c9-cyclosporine in hepatic vein
+EX_am1ccs[e]	exchange reaction for AM1c-cyclosporine in hepatic vein
+EX_am1cglc[e]	exchange reaction for AM1c-glucuronide in bile
+EX_am1csa[e]	exchange reaction for AM1 (cyclosporine) in portal blood
+EX_am4n9cs[e]	exchange reaction for AM4N9-cyclosporine in hepatic vein
+EX_am4ncs[e]	exchange reaction for AM4N (cyclosporine) in portal blood
+EX_am9csa[e]	exchange reaction for AM9 (cyclosporine) in portal blood
+EX_atvacid[e]	exchange reaction for atorvastatin in intestinal lumen
+EX_atvlac[e]	exchange reaction for atorvastatin-lactone in portal blood
+EX_caribup_R[e]	exchange reaction for R-carboxy ibuprofen in hepatic vein
+EX_caribup_s[e]	exchange reaction for S-carboxy ibuprofen in hepatic vein
+EX_caribupglu_S[e]	exchange reaction for S-carboxy ibuprofen glucuronide in hepatic vein
+EX_crglz[e]	exchange reaction for carboxy-gliclazide in hepatic vein
+EX_crvs[e]	exchange reaction for cerivastatin in intestinal lumen
+EX_crvsm1[e]	exchange reaction for cerivastatin-M1 in hepatic vein
+EX_crvsm23[e]	exchange reaction for cerivastatin-M23 in hepatic vein
+EX_crvsm24[e]	exchange reaction for cerivastatin-M24 in hepatic vein
+EX_csa[e]	exchange reaction for cyclosporine in intestinal lumen
+EX_csasulp[e]	exchange reaction for cyclosporine-sulphate in hepatic vein
+EX_cysacmp[e]	exchange reaction for cysteine-conjugate-acetaminophen in hepatic vein
+EX_deoxfvs[e]	exchange reaction for deoxy-fluvastatin-dinor in hepatic vein
+EX_desfvs[e]	exchange reaction for N-desisopropyl-fluvastatin in bile
+EX_dhglz[e]	exchange reaction for dehydro-gliclazide in hepatic vein
+EX_dspvs[e]	exchange reaction of desacyl dehydro-pravastatin in hepatic vein
+EX_epoxtac[e]	exchange reaction for 31-O-Desmethyl,19-Hydroxy,37, 39-Epoxy-tacrolimus in hepatic vein
+EX_fvs[e]	exchange reaction for fluvastatin in intestinal lumen
+EX_fvstet[e]	exchange reaction for des-isopropyl-dihydro-fluvastatin-tetranor in hepatic vein
+EX_fvstetglu[e]	exchange reaction for des-isopropyl-dihydro-fluvastatin-tetranor-glucuronide in hepatic vein
+EX_glc3meacp[e]	exchange reaction for glucuronide-conjugate of 3-methoxy-acetaminophen in hepatic vein
+EX_glz[e]	exchange reaction for gliclazide in intestinal lumen
+EX_gtacmp[e]	exchange reaction for glucuronide-thiomethyl-acetaminophen conjugate in hepatic vein
+EX_ibup_R[e]	exchange reaction for ibuprofen_R in intestinal lumen
+EX_ibup_S[e]	exchange reaction for ibuprofen_S in intestinal lumen
+EX_ibupgluc[e]	exchange reaction for ibuprofen acyl glucuronide in portal blood
+EX_isolvstacid[e]	exchange reaction for 3-hydroxy-iso-delta-4,5-hydroxy acid form of lovastatin in bile
+EX_lst4exp[e]	exchange reaction for Losartan-E3174 in portal blood
+EX_lstn[e]	exchange reaction for losartan in intestinal lumen
+EX_lstn1gluc[e]	exchange reaction for Losartan-N1-glucuronide in hepatic vein
+EX_lstnm1[e]	exchange reaction for Losartan-M1 in hepatic vein
+EX_lstnm2[e]	exchange reaction for Losartan-M2 in hepatic vein
+EX_lstnm4[e]	exchange reaction for Losartan-M4 (glucuronide derivative) in hepatic vein
+EX_lstnm5[e]	exchange reaction for Losartan-M5 in hepatic vein
+EX_lstnm7[e]	exchange reaction for Losartan-N2-glucuronide / Losartan-M7 in portal blood
+EX_lvst[e]	exchange reaction for lovastatin in intestinal lumen
+EX_mdz[e]	exchange reaction for midazolam in intestinal lumen
+EX_mdzglc[e]	exchange reaction for midazolam-glucuronide in hepatic vein
+EX_meracmp[e]	exchange reaction for acetaminophen-mercapturate-conjugate in portal blood
+EX_mhglz[e]	exchange reaction for Methyl-hydroxy-gliclazide in hepatic vein
+EX_ndersv[e]	exchange reaction for N-desmethyl-rosuvastatin in bile
+EX_nfd[e]	exchange reaction for nifedipine in intestinal lumen
+EX_nfdac[e]	exchange reaction of acid metabolite of nifedipine in portal vein
+EX_nfdlac[e]	exchange reaction of lactone form of nifedipine in portal vein
+EX_nfdnpy[e]	exchange reaction of nitropyridine metabolite of nifedipine in portal vein
+EX_nfdoh[e]	exchange reaction of hydroxy metabolite of nifedipine in portal vein
+EX_oxyp[e]	exchange reaction for oxypurinol in portal blood
+EX_oxyp1rb[e]	exchange reaction for oxypurinol-1-riboside in hepatic vein
+EX_oxyp7rb[e]	exchange reaction for oxypurinol-7-riboside in hepatic vein
+EX_profvs[e]	exchnage reaction for des-isoproylpropionic-acid-fluvastatin in hepatic vein
+EX_ptvst[e]	exchange reaction for pitavastatin in intestinal lumen
+EX_ptvstlac[e]	exchange reaction for pravastatin-lactone in hepatic vein
+EX_ptvstm3[e]	exchange reaction for pitavastatin-M3 in bile
+EX_pvs[e]	exchange reaction for pravastatin in intestinal lumen
+EX_pvsgluc[e]	exchange reaction of pravastatin glucuronide in hepatic vein
+EX_rsv[e]	exchange reaction for rosuvastatin in intestinal lumen
+EX_rsvlac[e]	exchange reaction for rosuvastatin-5S-lactone in bile
+EX_s3meacmp[e]	exchange reaction for sulphate-conjugate-3-methoxy-acetaminophen in hepatic vein
+EX_smv[e]	exchange reaction for simvastatin in intestinal lumen
+EX_smvacid[e]	exchange reaction for simvastatin dihydroxy acid form in hepatic vein
+EX_stacmp[ev]	exchange reaction for sulphate-thiomethyl-acetaminophen conjugate in hepatic vein
+EX_sulpacmp[e]	exchange reaction for acetaminophen-sulphate in hepatic vein
+EX_tacr[e]	exchange reaction for tacrolimus in intestinal lumen
+EX_tauribup_S[e]	exchange reaction for taurine conjugate of S-ibuprofen in hepatic vein
+EX_thrfvs[e]	exchange reaction for threo-isomer of fluvastain in hepatic vein
+EX_tlacfvs[e]	exchange reaction for trans-lactone-fluvastatin in hepatic vein
+EX_tmd[e]	exchange reaction for torasemide in intestinal lumen
+EX_tmdm1[e]	exchange reaction for Torasemide-M1 in hepatic vein
+EX_tmdm3[e]	exchange reaction for Torasemide-M3 in hepatic vein
+EX_tmdm5[e]	exchange reaction for Torasemide-M5 in hepatic vein
+EX_tripvs[e]	exchange reaction of triol metabolite of pravastatin in hepatic vein
+EX_tsacmgluc[e]	exchange reaction for thiomethyl-sulphoxide-acetaminophen-glucuronide in hepatic vein
+EX_tsacmsul[e]	exchange reaction for thiomethyl-sulphoxide-acetaminophen-sulphate in hepatic vein
+EX_lvstacid[e]	EX_lvstacid(e)
+EX_ptvstm13[e]	EX_ptvstm13(e)
+EX_caproic[e]	EX_caproic[e]
+EX_1a25dhvitd2[e]	EX_1a25dhvitd2(e)
+EX_C13856[e]	EX_C13856[e]
+EX_M02956[e]	EX_M02956[e]
+EX_M00234[e]	EX_M00234[e]
+EX_M01807[e]	EX_M01807[e]
+EX_M00503[e]	EX_M00503[e]
+EX_M00241[e]	EX_M00241[e]
+EX_M01820[e]	EX_M01820[e]
+EX_M00510[e]	EX_M00510[e]
+EX_M01819[e]	EX_M01819[e]
+EX_M00003[e]	EX_M00003[e]
+EX_M00008[e]	EX_M00008[e]
+EX_M00010[e]	EX_M00010[e]
+EX_M00017[e]	EX_M00017[e]
+EX_M00019[e]	EX_M00019[e]
+EX_M00021[e]	EX_M00021[e]
+EX_M00115[e]	EX_M00115[e]
+EX_M00117[e]	EX_M00117[e]
+EX_M00260[e]	EX_M00260[e]
+EX_M00265[e]	EX_M00265[e]
+EX_M00315[e]	EX_M00315[e]
+EX_M00341[e]	EX_M00341[e]
+EX_M01197[e]	EX_M01197[e]
+EX_M01207[e]	EX_M01207[e]
+EX_M01235[e]	EX_M01235[e]
+EX_M01238[e]	EX_M01238[e]
+EX_M01582[e]	EX_M01582[e]
+EX_M02053[e]	EX_M02053[e]
+EX_M02457[e]	EX_M02457[e]
+EX_M02613[e]	EX_M02613[e]
+EX_M02745[e]	EX_M02745[e]
+EX_M03045[e]	EX_M03045[e]
+EX_M03051[e]	EX_M03051[e]
+EX_M03153[e]	EX_M03153[e]
+EX_M02560[e]	EX_M02560[e]
+EX_M02561[e]	EX_M02561[e]
+EX_C01601[e]	EX_C01601[e]
+EX_M02909[e]	EX_M02909[e]
+EX_M02108[e]	EX_M02108[e]
+EX_M03117[e]	EX_M03117[e]
+EX_M03134[e]	EX_M03134[e]
+EX_M01268[e]	EX_M01268[e]
+EX_HC02080[e]	EX_HC02080[e]
+EX_M01111[e]	EX_M01111[e]
+EX_h2co3[e]	EX_h2co3[e]
+EX_C07535[e]	EX_C07535[e]
+EX_M01872[e]	EX_M01872[e]
+EX_M01870[e]	EX_M01870[e]
+EX_ditp[e]	EX_ditp[e]
+EX_hnifedipine[e]	EX_hnifedipine[e]
+EX_M02446[e]	EX_M02446[e]
+EX_M02447[e]	EX_M02447[e]
+EX_M02449[e]	EX_M02449[e]
+EX_M02451[e]	EX_M02451[e]
+EX_itacon[e]	EX_itacon[e]
+EX_adpman[e]	EX_adpman[e]
+EX_rbl_D[e]	EX_rbl_D[e]
+EX_M01966[e]	EX_M01966[e]
+EX_M02155[e]	EX_M02155[e]
+EX_M01989[e]	EX_M01989[e]
+EX_M02837[e]	EX_M02837[e]
+EX_M02382[e]	EX_M02382[e]
+EX_M02035[e]	EX_M02035[e]
+EX_M02467[e]	EX_M02467[e]
+EX_M02821[e]	EX_M02821[e]
+EX_mg2[e]	EX_mg2[e]
+EX_cu2[e]	EX_cu2[e]
+EX_M01571[e]	EX_M01571[e]
+EX_gpi_sig[e]	EX_gpi_sig[e]
+EX_M01881[e]	EX_M01881[e]
+EX_M03131[e]	EX_M03131[e]
+EX_n5m2masn[e]	EX_n5m2masn[e]
+EX_hretn[e]	EX_hretn[e]
+EX_kdn[e]	EX_kdn[e]
+EX_m3gacpail_prot_hs[e]	EX_m3gacpail_prot_hs[e]
+EX_dolichol_L[e]	EX_dolichol_L[e]
