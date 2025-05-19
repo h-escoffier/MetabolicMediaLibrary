@@ -1,0 +1,54 @@
+Mets_Recon3D	Mets_HumanGEM	ExRxns_Recon3D	ExRxns_HumanGEM	Concentration_M
+ac[e]	MAM01252e	EX_ac[e]	MAR09086	0.000368
+ade[e]	MAM01279e	EX_ade[e]	MAR09253	1e-06
+ala_L[e]	MAM01307e	EX_ala_L[e]	MAR09061	3.034e-05
+aqcobal[e]	MAM01361e	EX_aqcobal[e]	MAR09269	1e-08
+arg_L[e]	MAM01365e	EX_arg_L[e]	MAR09066	0.00029952999999999995
+asn_L[e]	MAM01369e	EX_asn_L[e]	MAR09062	0.0001
+asp_L[e]	MAM01370e	EX_asp_L[e]	MAR09070	0.0001
+btn[e]	MAM01401e	EX_btn[e]	MAR09109	3e-08
+ca2[e]	MAM01413e	EX_ca2[e]	MAR09082	0.001599
+chol[e]	MAM01513e	EX_chol[e]	MAR09083	0.0001
+cl[e]	MAM01442e	EX_cl[e]	MAR09150	0.11643400029999999
+cys_L[e]	MAM01628e	EX_cys_L[e]	MAR09065	0.00019886
+fe2[e]	MAM01821e	EX_fe2[e]	MAR09076	1.02e-06
+fol[e]	MAM01830e	EX_fol[e]	MAR09146	1.17e-06
+glc_D[e]	MAM01965e	EX_glc_D[e]	MAR09034	0.005555
+glu_L[e]	MAM01974e	EX_glu_L[e]	MAR09071	3e-05
+gly[e]	MAM01986e	EX_gly[e]	MAR09067	3.067e-05
+hco3[e]	MAM02046e	EX_hco3[e]	MAR09078	0.014
+his_L[e]	MAM02125e	EX_his_L[e]	MAR09038	0.0002
+ile_L[e]	MAM02184e	EX_ile_L[e]	MAR09039	0.000503
+inost[e]	MAM02171e	EX_inost[e]	MAR09361	4e-05
+k[e]	MAM02200e	EX_k[e]	MAR09081	0.003973
+leu_L[e]	MAM02360e	EX_leu_L[e]	MAR09040	0.001
+lys_L[e]	MAM02426e	EX_lys_L[e]	MAR09041	0.000995
+met_L[e]	MAM02471e	EX_met_L[e]	MAR09042	0.000101
+mg2[e]	MAM02482e	EX_mg2[e]	MAR13072	0.010016
+na1[e]	MAM02519e	EX_na1[e]	MAR09077	0.12537188866
+ncam[e]	MAM02583e	EX_ncam[e]	MAR09378	5e-05
+nh4[e]	MAM02579e	EX_nh4[e]	MAR11420	8.13e-09
+phe_L[e]	MAM02724e	EX_phe_L[e]	MAR09043	0.0002
+pi[e]	MAM02751e	EX_pi[e]	MAR09072	0.0005
+pnto_R[e]	MAM02680e	EX_pnto_R[e]	MAR09145	2.516e-05
+pro_L[e]	MAM02770e	EX_pro_L[e]	MAR09068	0.0001
+ptrc[e]	MAM02812e	EX_ptrc[e]	MAR11426	1.24e-09
+pydxn[e]	MAM02817e	EX_pydxn[e]	MAR09144	1.0189999999999999e-05
+pyr[e]	MAM02819e	EX_pyr[e]	MAR09133	0.001
+ribflv[e]	MAM02842e	EX_ribflv[e]	MAR09143	1e-08
+ser_L[e]	MAM02896e	EX_ser_L[e]	MAR09069	0.000304
+so4[e]	MAM02946e	EX_so4[e]	MAR09074	0.010017027021666701
+thm[e]	MAM02982e	EX_thm[e]	MAR09159	1e-05
+thr_L[e]	MAM02993e	EX_thr_L[e]	MAR09044	0.000101
+thymd[e]	MAM02996e	EX_thymd[e]	MAR09423	1.0000000000000001e-07
+trp_L[e]	MAM03089e	EX_trp_L[e]	MAR09045	2e-05
+tyr_L[e]	MAM03101e	EX_tyr_L[e]	MAR09064	0.0001
+val_L[e]	MAM03135e	EX_val_L[e]	MAR09046	0.001
+zn2[e]	MAM03157e	EX_HC02172[e]	MAR09080	1.0416667e-09
+
+# Unmapped metabolite names (no corresponding mets in Recon3D or Human-GEM)
+# Metabolites_Names	Concentration_M
+# Lipoic acid	1.000000e-08
+# Ammonium metavanadate (NH4VO3)	3.000000e-09
+# Nickelous Chloride NiCl2 6H2O	5.130000e-09
+# Sodium Meta Silicate Na2SiO3 9H2O	9.859160e-06

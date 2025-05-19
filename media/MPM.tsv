@@ -1,0 +1,97 @@
+Mets_Recon3D	Mets_HumanGEM	ExRxns_Recon3D	ExRxns_HumanGEM	Concentration_M
+2hb[e]	MAM00648e	EX_2hb[e]	MAR09216	5.5e-05
+3aib[e]	MAM02325e	EX_3aib[e]	MAR09221	2.6e-05
+4hpro_LT[e]	MAM03037e	EX_4hpro[e]	MAR08386	1.3e-05
+Lcystin[e]	MAM01629e	EX_Lcystin[e]	MAR09363	6.7e-05
+Lpipecol[e]	MAM02413e	EX_Lpipecol[e]	MAR10255	2.2e-06
+ac[e]	MAM01252e	EX_ac[e]	MAR09086	4e-05
+acetone[e]	MAM01256e	EX_acetone[e]	MAR09243	6.8e-05
+acgly[e]	MAM03397e	EX_acgly[e]	MAR10196	8.5e-05
+acrn[e]	MAM02634e	EX_acrn[e]	MAR09920	6e-06
+agm[e]	MAM01303e	EX_agm[e]	MAR09684	3.285582862e-07
+ala_L[e]	MAM01307e	EX_ala_L[e]	MAR09061	0.000435
+amet[e]	MAM02877e	EX_amet[e]	MAR10202	5.007511267e-07
+aqcobal[e]	MAM01361e	EX_aqcobal[e]	MAR09269	1.5e-08
+arg_L[e]	MAM01365e	EX_arg_L[e]	MAR09066	0.0001
+ascb_L[e]	MAM01368e	EX_ascb_L[e]	MAR09158	6.8e-05
+asn_L[e]	MAM01369e	EX_asn_L[e]	MAR09062	5e-05
+asp_L[e]	MAM01370e	EX_asp_L[e]	MAR09070	1.3e-05
+avite1[e]	MAM01327e	EX_avite1[e]	MAR09151	1.8600000000000002e-06
+bhb[e]	MAM00157e	EX_bhb[e]	MAR09134	0.000103
+btn[e]	MAM01401e	EX_btn[e]	MAR09109	4.1e-06
+ca2[e]	MAM01413e	EX_ca2[e]	MAR09082	0.002143
+chol[e]	MAM01513e	EX_chol[e]	MAR09083	7.1e-06
+chsterol[e]	MAM01450e	EX_chsterol[e]	MAR09285	7.8e-07
+cit[e]	MAM01587e	EX_cit[e]	MAR09286	0.000117
+citr_L[e]	MAM01588e	EX_citr_L[e]	MAR09201	3.7e-05
+cl[e]	MAM01442e	EX_cl[e]	MAR09150	0.10600600091
+creat[e]	MAM01619e	EX_creat[e]	MAR09290	3.7e-05
+crn[e]	MAM02348e	EX_crn[e]	MAR09292	4e-05
+crtn[e]	MAM01621e	EX_crtn[e]	MAR09460	8e-05
+cys_L[e]	MAM01628e	EX_cys_L[e]	MAR09065	3.2e-05
+fe3[e]	MAM01822e	EX_fe3[e]	MAR09096	2e-06
+fol[e]	MAM01830e	EX_fol[e]	MAR09146	2.3e-06
+for[e]	MAM01833e	EX_for[e]	MAR09318	6e-05
+glc_D[e]	MAM01965e	EX_glc_D[e]	MAR09034	0.004996
+gln_L[e]	MAM01975e	EX_gln_L[e]	MAR09063	0.000513
+glu_L[e]	MAM01974e	EX_glu_L[e]	MAR09071	9e-05
+gly[e]	MAM01986e	EX_gly[e]	MAR09067	0.000295
+glyb[e]	MAM01393e	EX_glyb[e]	MAR09341	7.4e-05
+glyc[e]	MAM01983e	EX_glyc[e]	MAR09085	9.5e-05
+gthrd[e]	MAM02026e	EX_gthrd[e]	MAR09351	3.1e-05
+hco3[e]	MAM02046e	EX_hco3[e]	MAR09078	0.026193
+his_L[e]	MAM02125e	EX_his_L[e]	MAR09038	0.00011
+hxan[e]	MAM02159e	EX_hxan[e]	MAR09358	1.4e-05
+ile_L[e]	MAM02184e	EX_ile_L[e]	MAR09039	7.7e-05
+inost[e]	MAM02171e	EX_inost[e]	MAR09361	1.11e-05
+k[e]	MAM02200e	EX_k[e]	MAR09081	0.004829
+lac_D[e]	MAM01716e	EX_lac_D[e]	MAR09136	0.001
+lac_L[e]	MAM02403e	EX_lac_L[e]	MAR09135	0.001
+leu_L[e]	MAM02360e	EX_leu_L[e]	MAR09040	0.000132
+lnlc[e]	MAM02387e	EX_lnlc[e]	MAR09035	2.8500000000000002e-06
+lys_L[e]	MAM02426e	EX_lys_L[e]	MAR09041	0.00021
+met_L[e]	MAM02471e	EX_met_L[e]	MAR09042	2.5e-05
+mg2[e]	MAM02482e	EX_mg2[e]	MAR13072	0.0007390000000000001
+na1[e]	MAM02519e	EX_na1[e]	MAR09077	0.12577572910999998
+ncam[e]	MAM02583e	EX_ncam[e]	MAR09378	8.2e-06
+nh4[e]	MAM02579e	EX_nh4[e]	MAR11420	2.5001040000000003e-05
+orn[e]	MAM02658e	EX_orn[e]	MAR09087	7.4e-05
+phe_L[e]	MAM02724e	EX_phe_L[e]	MAR09043	7.5e-05
+pi[e]	MAM02751e	EX_pi[e]	MAR09072	0.001015
+pnto_R[e]	MAM02680e	EX_pnto_R[e]	MAR09145	4.2000000000000004e-06
+pro_L[e]	MAM02770e	EX_pro_L[e]	MAR09068	0.00021
+ptrc[e]	MAM02812e	EX_ptrc[e]	MAR11426	9.933569256e-07
+pydxn[e]	MAM02817e	EX_pydxn[e]	MAR09144	4.9000000000000005e-06
+pyr[e]	MAM02819e	EX_pyr[e]	MAR09133	9.3e-05
+ribflv[e]	MAM02842e	EX_ribflv[e]	MAR09143	3e-07
+ser_L[e]	MAM02896e	EX_ser_L[e]	MAR09069	0.00014
+so4[e]	MAM02946e	EX_so4[e]	MAR09074	0.00030300503999999997
+spmd[e]	MAM02923e	EX_spmd[e]	MAR11427	6.196213425e-09
+sprm[e]	MAM02926e	EX_sprm[e]	MAR09715	3.9537412280000006e-08
+succ[e]	MAM02943e	EX_succ[e]	MAR09415	2.1e-05
+taur[e]	MAM02961e	EX_taur[e]	MAR09418	0.000104
+thm[e]	MAM02982e	EX_thm[e]	MAR09159	3e-06
+thr_L[e]	MAM02993e	EX_thr_L[e]	MAR09044	0.000142
+trp_L[e]	MAM03089e	EX_trp_L[e]	MAR09045	6e-05
+tyr_L[e]	MAM03101e	EX_tyr_L[e]	MAR09064	7.6e-05
+urate[e]	MAM03120e	EX_urate[e]	MAR09075	0.00027
+urea[e]	MAM03121e	EX_urea[e]	MAR09438	0.004
+val_L[e]	MAM03135e	EX_val_L[e]	MAR09046	0.00023
+zn2[e]	MAM03157e	EX_HC02172[e]	MAR09080	1e-05
+
+# Unmapped metabolite names (no corresponding mets in Recon3D or Human-GEM)
+# Metabolites_Names	Concentration_M
+# L-Pyroglutamate2	1.000000e-04
+# Methyl acetoacetate	4.000000e-05
+# Retinol acetate	2.400000e-07
+# D,L-alpha tocopherol acetate	1.690000e-06
+# BSA fractionV IgG free fatty acid poor	3.788000e-05
+# Hu Holo Transferrin	6.500000e-08
+# Hydrocortisone	1.379000e-07
+# Linolenic acid	1.440000e-06
+# Oleic acid	2.830000e-06
+# Calcitonine	5.900000e-09
+# Cadaverine	3.914660e-08
+# G-aminobutyric acid	3.394104e-07
+# 1-3-diaminopropane	9.443520e-08
+# (NH4)6Mo7O24	1.040000e-09

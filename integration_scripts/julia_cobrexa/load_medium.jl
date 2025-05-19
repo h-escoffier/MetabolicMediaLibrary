@@ -121,8 +121,8 @@ for rxn in ex_rxns
 end
 
 # Add the medium constraints to ConstraintTree
-# medium_model_cst = model_cst * :medium_constraint^C.ConstraintTree(Symbol(ex_rxn) => C.Constraint(model_cst.fluxes[Symbol(ex_rxn)].value, (lb, ub)) for (ex_rxn, (lb, ub)) in medium_constraints)
-medium_model_cst = model_cst * :medium_constraint^C.ConstraintTree(Symbol(ex_rxn) => C.Constraint(model_cst.fluxes[Symbol(ex_rxn)].value, (flux, 1000.0)) for (ex_rxn, flux) in medium_fluxes)
+medium_model_cst = model_cst * :medium_constraint^C.ConstraintTree(Symbol(ex_rxn) => C.Constraint(model_cst.fluxes[Symbol(ex_rxn)].value, (lb, ub)) for (ex_rxn, (lb, ub)) in medium_constraints)
+# medium_model_cst = model_cst * :medium_constraint^C.ConstraintTree(Symbol(ex_rxn) => C.Constraint(model_cst.fluxes[Symbol(ex_rxn)].value, (flux, 1000.0)) for (ex_rxn, flux) in medium_fluxes)
 
 # ## Perform FBA on medium constrained model
 
@@ -133,6 +133,8 @@ medium_model_opt = optimized_values(
 )
 
 medium_model_opt.objective
+
+medium_model_fva_fluxes = constraints_variability(medium_model_cst, medium_model_cst.fluxes, optimizer = HiGHS.Optimizer)
 
 # ## Optional : Save the uptakes and secretions fluxes of the model 
 
@@ -149,7 +151,15 @@ data_model = DataFrame(
 data_medium_model = filter(row -> row.Rxn in ex_rxns, data_medium_model)
 data_model = filter(row -> row.Rxn in ex_rxns, data_model)
 
+data_total = DataFrame(
+    Rxn = [String(key) for key in keys(ec_variabilities.fluxes)],
+    Lower = [ec_variabilities.fluxes[key][1] for key in keys(ec_variabilities.fluxes)],
+    Upper = [ec_variabilities.fluxes[key][2] for key in keys(ec_variabilities.fluxes)],
+)
+
+
 # Write to a TSV file
 CSV.write("medium_model.tsv", data_medium_model; delim='\t')
 CSV.write("model.tsv", data_model; delim='\t')
+CSV.write("medium_model_fva.tsv", data_total; delim='\t')
 

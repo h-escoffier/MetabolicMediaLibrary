@@ -67,6 +67,7 @@ for rxn in ex_rxns:
         reaction.lower_bound = 0.0
     # reaction.upper_bound = 1000.0
 
+
 # Perform FBA on medium constrained model + all exchange closed 
 solution_medium = model.optimize()
 
