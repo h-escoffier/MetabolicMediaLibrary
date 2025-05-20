@@ -37,6 +37,7 @@ glyb[e]	MAM01393e	EX_glyb[e]	MAR09341	7.2e-05
 glyc[e]	MAM01983e	EX_glyc[e]	MAR09085	8.2e-05
 gthrd[e]	MAM02026e	EX_gthrd[e]	MAR09351	3.7e-05
 hco3[e]	MAM02046e	EX_hco3[e]	MAR09078	0.026187
+hcys_L[e]	MAM02133e	EX_hcys_L[e]	MAR09853	9e-06
 his_L[e]	MAM02125e	EX_his_L[e]	MAR09038	0.00012
 hxan[e]	MAM02159e	EX_hxan[e]	MAR09358	5e-06
 ile_L[e]	MAM02184e	EX_ile_L[e]	MAR09039	0.00014
@@ -76,7 +77,6 @@ zn2[e]	MAM03157e	EX_HC02172[e]	MAR09080	1.5e-06
 
 # Unmapped metabolite names (no corresponding mets in Recon3D or Human-GEM)
 # Metabolites_Names	Concentration_M
-# L-Homocyszeine	9.000000e-06
 # L-Pyroglutamate2	2.000000e-05
 # Methyl acetoacetate	4.100000e-05
 # Ammonium metavanadate (NH4VO3)	2.600000e-09
