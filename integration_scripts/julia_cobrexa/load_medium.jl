@@ -77,7 +77,6 @@ const mandatory_ex_rxns = Dict(
     "MAR09047" => -1000.0, # Water - H2O
     "MAR09058" => -1000.0, # Carbon Dioxide - CO2
     "MAR09079" => -1000.0, # Proton - H 
-    "MAR09386" => -1000.0, # Hydroxide - OH
     ) 
 
 medium_fluxes = merge(medium_fluxes, mandatory_ex_rxns)

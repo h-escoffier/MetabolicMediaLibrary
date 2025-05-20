@@ -38,11 +38,10 @@ mandatory_ex_rxns = {
     "MAR09047": -1000.0,  # H2O
     "MAR09058": -1000.0,  # CO2
     "MAR09079": -1000.0,  # H+
-    "MAR09386": -1000.0   # OH-
 }
 medium_fluxes.update(mandatory_ex_rxns)
 
-# print(medium_fluxes)
+print(medium_fluxes)
 
 # Id exchange reactions 
 ex_rxns = model.exchanges # Warning find only exchange (not demand or sink)
@@ -61,7 +60,11 @@ print(solution_full.objective_value)
 for rxn in ex_rxns:
     reaction = model.reactions.get_by_id(rxn.id)
     if rxn.id in medium_fluxes:
+        # print(rxn.name)
+        # print(reaction.lower_bound)
         reaction.lower_bound = medium_fluxes[rxn.id]
+        # print(reaction.lower_bound)
+        # print('------------------------')
         # reaction.lower_bound = -1000.0
     else:
         reaction.lower_bound = 0.0
@@ -70,7 +73,7 @@ for rxn in ex_rxns:
 
 # Perform FBA on medium constrained model + all exchange closed 
 solution_medium = model.optimize()
-
+print(solution_medium)
 print(solution_medium.objective_value)
 
 exchange_fluxes_medium = pd.DataFrame([

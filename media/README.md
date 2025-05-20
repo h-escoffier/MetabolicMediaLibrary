@@ -26,6 +26,5 @@ Some metabolites are always included in the media definitions, as they represent
 | Water | h2o[e] | MAM02040e | EX_h2o[e] | MAR09047 | -1000 to 1000 |
 | Carbon dioxide | co2[e] | MAM01596e | EX_co2[e] | MAR09058 | -1000 to 1000 |
 | Proton | h[e] | MAM02039e | EX_h[e] | MAR09079 | -1000 to 1000 |
-| Hydroxide | oh1[e] | MAM02147e | EX_oh1[e] | MAR09386 | -1000 to 1000 |
 
 > Modify these defaults in your script or media file as needed for your specific application.
