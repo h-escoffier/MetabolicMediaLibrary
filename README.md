@@ -67,8 +67,8 @@ See CONTRIBUTING.md for more details.
 
 | Model      | Description                                 | Source / Download |
 | :--------- | :------------------------------------------ | :---------------- |
-| **Recon3D**     | A comprehensive human metabolic model with metabolite structures and gene-protein-reaction (GPR) associations. | [VMH - Recon3D](https://www.vmh.life/#downloadview) |
 | **Human-GEM**   | An open, community-maintained human metabolic model. | [Human-GEM on GitHub](https://github.com/SysBioChalmers/Human-GEM) |
+| **Recon3D**     | A comprehensive human metabolic model with metabolite structures and gene-protein-reaction (GPR) associations. | [VMH - Recon3D](https://www.vmh.life/#downloadview) |
 
 ### Modeling Toolboxes
 
