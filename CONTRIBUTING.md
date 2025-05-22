@@ -16,9 +16,9 @@ To add a new medium :
 
 2. **Fill out the columns**:
    - Use the following format:
-     | Mets_Recon3D | Mets_HumanGEM | ExRxns_Recon3D | ExRxns_HumanGEM | Concentration_M |
-     | :--------------- | :--------------- | :--------------- | :--------------- | :--------------- | 
-     | glc_D[e] | MAM01965e | EX_glc_D[e] | MAR08386 | 0.0111012 |
+   | Metabolite_Name        | Mets_HumanGEM | ExRxns_HumanGEM | Mets_Recon3D | ExRxns_Recon3D | Concentration_M |
+   | :--------------------- | :------------ | :---------------| :------------| :--------------| :---------------|
+   | glucose                | MAM01965e     | MAR09034        | glc_D[e]     | EX_glc_D[e]    | 0.010011        |
 
    - You may leave some columns blank if data isn't available, but the structure must be preserved.
 
