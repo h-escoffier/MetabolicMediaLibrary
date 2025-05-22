@@ -16,6 +16,7 @@ To add a new medium :
 
 2. **Fill out the columns**:
    - Use the following format:
+   
    | Metabolite_Name        | Mets_HumanGEM | ExRxns_HumanGEM | Mets_Recon3D | ExRxns_Recon3D | Concentration_M |
    | :--------------------- | :------------ | :---------------| :------------| :--------------| :---------------|
    | glucose                | MAM01965e     | MAR09034        | glc_D[e]     | EX_glc_D[e]    | 0.010011        |
