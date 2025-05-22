@@ -1,33 +1,35 @@
-Mets_Recon3D	Mets_HumanGEM	ExRxns_Recon3D	ExRxns_HumanGEM	Concentration_M
-Lcystin[e]	MAM01629e	EX_Lcystin[e]	MAR09363	0.000201137
-arg_L[e]	MAM01365e	EX_arg_L[e]	MAR09066	0.000398747
-ca2[e]	MAM01413e	EX_ca2[e]	MAR09082	0.00181052
-chol[e]	MAM01513e	EX_chol[e]	MAR09083	2.86492e-05
-cl[e]	MAM01442e	EX_cl[e]	MAR09150	0.120431
-fe3[e]	MAM01822e	EX_fe3[e]	MAR09096	2.47525e-07
-fol[e]	MAM01830e	EX_fol[e]	MAR09146	9.06208e-06
-glc_D[e]	MAM01965e	EX_glc_D[e]	MAR09034	0.0249778
-gln_L[e]	MAM01975e	EX_gln_L[e]	MAR09063	0.00399617
-gly[e]	MAM01986e	EX_gly[e]	MAR09067	0.000399627
-hco3[e]	MAM02046e	EX_hco3[e]	MAR09078	0.0440424
-his_L[e]	MAM02125e	EX_his_L[e]	MAR09038	0.000200353
-ile_L[e]	MAM02184e	EX_ile_L[e]	MAR09039	0.000800488
-inost[e]	MAM02171e	EX_inost[e]	MAR09361	3.99645e-05
-k[e]	MAM02200e	EX_k[e]	MAR09081	0.00536553
-leu_L[e]	MAM02360e	EX_leu_L[e]	MAR09040	0.000800488
-lys_L[e]	MAM02426e	EX_lys_L[e]	MAR09041	0.000799343
-met_L[e]	MAM02471e	EX_met_L[e]	MAR09042	0.000201059
-na1[e]	MAM02519e	EX_na1[e]	MAR09077	0.155373
-ncam[e]	MAM02583e	EX_ncam[e]	MAR09378	3.27547e-05
-phe_L[e]	MAM02724e	EX_phe_L[e]	MAR09043	0.00039954
-pi[e]	MAM02751e	EX_pi[e]	MAR09072	0.000905863
-pnto_R[e]	MAM02680e	EX_pnto_R[e]	MAR09145	1.67877e-05
-pydxn[e]	MAM02817e	EX_pydxn[e]	MAR09144	1.94515e-05
-ribflv[e]	MAM02842e	EX_ribflv[e]	MAR09143	1.06281e-06
-ser_L[e]	MAM02896e	EX_ser_L[e]	MAR09069	0.000399657
-so4[e]	MAM02946e	EX_so4[e]	MAR09074	0.000811482
-thm[e]	MAM02982e	EX_thm[e]	MAR09159	1.18603e-05
-thr_L[e]	MAM02993e	EX_thr_L[e]	MAR09044	0.000797515
-trp_L[e]	MAM03089e	EX_trp_L[e]	MAR09045	7.8343e-05
-tyr_L[e]	MAM03101e	EX_tyr_L[e]	MAR09064	0.000398178
-val_L[e]	MAM03135e	EX_val_L[e]	MAR09046	0.00080239
+Metabolite_Name	Mets_HumanGEM	ExRxns_HumanGEM	Mets_Recon3D	ExRxns_Recon3D	Concentration_M
+Ca2+	MAM01413e	MAR09082	ca2[e]	EX_ca2[e]	0.001802
+Fe3+	MAM01822e	MAR09096	fe3[e]	EX_fe3[e]	2.475e-07
+HCO3-	MAM02046e	MAR09078	hco3[e]	EX_hco3[e]	0.044048
+K+	MAM02200e	MAR09081	k[e]	EX_k[e]	0.005333
+Mg2+	MAM02482e	MAR13072	mg2[e]	EX_mg2[e]	0.000814
+Na+	MAM02519e	MAR09077	na1[e]	EX_na1[e]	0.155299
+Pi	MAM02751e	MAR09072	pi[e]	EX_pi[e]	0.000906
+arginine	MAM01365e	MAR09066	arg_L[e]	EX_arg_L[e]	0.000398
+chloride	MAM01442e	MAR09150	cl[e]	EX_cl[e]	0.11748
+choline	MAM01513e	MAR09083	chol[e]	EX_chol[e]	2.86e-05
+cystine	MAM01629e	MAR09363	Lcystin[e]	EX_Lcystin[e]	0.000201
+folate	MAM01830e	MAR09146	fol[e]	EX_fol[e]	9.1e-06
+glucose	MAM01965e	MAR09034	glc_D[e]	EX_glc_D[e]	0.025
+glutamine	MAM01975e	MAR09063	gln_L[e]	EX_gln_L[e]	0.004
+glycine	MAM01986e	MAR09067	gly[e]	EX_gly[e]	0.0004
+histidine	MAM02125e	MAR09038	his_L[e]	EX_his_L[e]	0.0002
+inositol	MAM02171e	MAR09361	inost[e]	EX_inost[e]	4e-05
+isoleucine	MAM02184e	MAR09039	ile_L[e]	EX_ile_L[e]	0.000802
+leucine	MAM02360e	MAR09040	leu_L[e]	EX_leu_L[e]	0.000802
+lysine	MAM02426e	MAR09041	lys_L[e]	EX_lys_L[e]	0.000798
+methionine	MAM02471e	MAR09042	met_L[e]	EX_met_L[e]	0.000201
+nicotinamide	MAM02583e	MAR09378	ncam[e]	EX_ncam[e]	3.28e-05
+pantothenate	MAM02680e	MAR09145	pnto_R[e]	EX_pnto_R[e]	8.400000000000001e-06
+phenylalanine	MAM02724e	MAR09043	phe_L[e]	EX_phe_L[e]	0.0004
+pyridoxine	MAM02817e	MAR09144	pydxn[e]	EX_pydxn[e]	1.9600000000000002e-05
+pyruvate	MAM02819e	MAR09133	pyr[e]	EX_pyr[e]	0.001
+riboflavin	MAM02842e	MAR09143	ribflv[e]	EX_ribflv[e]	1.1e-06
+serine	MAM02896e	MAR09069	ser_L[e]	EX_ser_L[e]	0.0004
+sulfate	MAM02946e	MAR09074	so4[e]	EX_so4[e]	0.000814
+thiamin	MAM02982e	MAR09159	thm[e]	EX_thm[e]	1.12e-05
+threonine	MAM02993e	MAR09044	thr_L[e]	EX_thr_L[e]	0.000798
+tryptophan	MAM03089e	MAR09045	trp_L[e]	EX_trp_L[e]	7.8e-05
+tyrosine	MAM03101e	MAR09064	tyr_L[e]	EX_tyr_L[e]	0.000399
+valine	MAM03135e	MAR09046	val_L[e]	EX_val_L[e]	0.000803
