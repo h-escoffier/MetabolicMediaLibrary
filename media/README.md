@@ -20,11 +20,11 @@ This folder contains definitions of various culture media used for metabolic mod
 
 Some metabolites are always included in the media definitions, as they represent essential environmental conditions or atmospheric gases (e.g., oxygen). Below is a list of these metabolites and their associated exchange reactions typically included by default.
 
-| Name | Mets_Recon3D | Mets_HumanGEM | Rxns_Recon3D | Rxns_HumanGEM | Default Bounds |
-| :--- | :----------- | :------------ | :----------- | :------------ | :------------- | 
-| Oxygen | o2[e] | MAM02630e | EX_o2[e] | MAR09048 | -1000 to 0 | 
-| Water | h2o[e] | MAM02040e | EX_h2o[e] | MAR09047 | -1000 to 1000 |
-| Carbon dioxide | co2[e] | MAM01596e | EX_co2[e] | MAR09058 | -1000 to 1000 |
-| Proton | h[e] | MAM02039e | EX_h[e] | MAR09079 | -1000 to 1000 |
+| Metabolite_Name        | Mets_HumanGEM | ExRxns_HumanGEM | Mets_Recon3D | ExRxns_Recon3D |
+| :--------------------- | :------------ | :---------------| :------------| :--------------|
+| Oxygen                 | MAM02630e     | MAR09048        | o2[e]        | EX_o2[e]       |
+| Water                  | MAM02040e     | MAR09047        | h2o[e]       | EX_h2o[e]      |
+| Carbon dioxide         | MAM01596e     | MAR09058        | co2[e]       | EX_co2[e]      |
+| Proton                 | MAM02039e     | MAR09079        | h[e]         | EX_h[e]        |
 
 > Modify these defaults in your script or media file as needed for your specific application.
