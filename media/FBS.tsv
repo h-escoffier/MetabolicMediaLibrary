@@ -1,17 +1,17 @@
-Metabolite_Name	Mets_HumanGEM	ExRxns_HumanGEM	Mets_Recon3D	ExRxns_Recon3D
-bilirubin	MAM01396e	MAR09273	bilirub[e]	EX_bilirub[e]
-Ca2+	MAM01413e	MAR09082	ca2[e]	EX_ca2[e]
-cholesterol	MAM01450e	MAR09285	chsterol[e]	EX_chsterol[e]
-chloride	MAM01442e	MAR09150	cl[e]	EX_cl[e]
-creatinine	MAM01621e	MAR09460	crtn[e]	EX_crtn[e]
-cortisol	MAM01615e	MAR09293	crtsl[e]	EX_crtsl[e]
-glucose	MAM01965e	MAR09034	glc_D[e]	EX_glc_D[e]
-K+	MAM02200e	MAR09081	k[e]	EX_k[e]
-Na+	MAM02519e	MAR09077	na1[e]	EX_na1[e]
-Pi	MAM02751e	MAR09072	pi[e]	EX_pi[e]
-progesterone	MAM02769e	MAR09393	prgstrn[e]	EX_prgstrn[e]
-prostaglandin E1	MAM02785e	MAR09396	prostge1[e]	EX_prostge1[e]
-retinol	MAM02834e	MAR09147	retinol[e]	EX_retinol[e]
-testosterone	MAM02969e	MAR09429	tststerone[e]	EX_tststerone[e]
-urate	MAM03120e	MAR09075	urate[e]	EX_urate[e]
-gamma-tocopherol	MAM01935e	MAR09153	yvite[e]	EX_yvite[e]
+Metabolite_Name	Mets_HumanGEM	ExRxns_HumanGEM	Mets_Recon3D	ExRxns_Recon3D	Concentration_M
+bilirubin	MAM01396e	MAR09273	bilirub[e]	EX_bilirub[e]	6.84e-06
+Ca2+	MAM01413e	MAR09082	ca2[e]	EX_ca2[e]	0.00339321
+cholesterol	MAM01450e	MAR09285	chsterol[e]	EX_chsterol[e]	0.000801759
+chloride	MAM01442e	MAR09150	cl[e]	EX_cl[e]	0.103
+creatinine	MAM01621e	MAR09460	crtn[e]	EX_crtn[e]	0.000274045
+cortisol	MAM01615e	MAR09293	crtsl[e]	EX_crtsl[e]	1.38e-08
+glucose	MAM01965e	MAR09034	glc_D[e]	EX_glc_D[e]	0.00693828
+K+	MAM02200e	MAR09081	k[e]	EX_k[e]	0.0112
+Na+	MAM02519e	MAR09077	na1[e]	EX_na1[e]	0.137
+Pi	MAM02751e	MAR09072	pi[e]	EX_pi[e]	0.0010319
+progesterone	MAM02769e	MAR09393	prgstrn[e]	EX_prgstrn[e]	2.54e-10
+prostaglandin E1	MAM02785e	MAR09396	prostge1[e]	EX_prostge1[e]	8.36e-09
+retinol	MAM02834e	MAR09147	retinol[e]	EX_retinol[e]	3.14e-07
+testosterone	MAM02969e	MAR09429	tststerone[e]	EX_tststerone[e]	1.39e-09
+urate	MAM03120e	MAR09075	urate[e]	EX_urate[e]	0.000172506
+gamma-tocopherol	MAM01935e	MAR09153	yvite[e]	EX_yvite[e]	2.55e-06
