@@ -1,5 +1,5 @@
 Metabolite_Name	Mets_HumanGEM	ExRxns_HumanGEM	Mets_Recon3D	ExRxns_Recon3D	Concentration_M
-trans-4-hydroxy-L-proline	MAM03037e		4hpro_LT[e]	EX_4hpro_LT[e]	0.00015252
+trans-4-hydroxy-L-proline	MAM03037e	MAR08386	4hpro_LT[e]	EX_4hpro[e]	0.00015252
 cystine	MAM01629e	MAR09363	Lcystin[e]	EX_Lcystin[e]	0.000207522
 aquacob(III)alamin	MAM01361e	MAR09269	aqcobal[e]	EX_aqcobal[e]	3.68903e-09
 arginine	MAM01365e	MAR09066	arg_L[e]	EX_arg_L[e]	0.00114811
