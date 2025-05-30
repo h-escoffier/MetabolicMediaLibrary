@@ -13,152 +13,117 @@
 # See the License for the specific language governing permissions and       #src
 # limitations under the License.         
 
-# # Creation of an medium constraint metabolic model 
-#
-# In this tutorial, we show how to constrain a human genome-scale model (Human-GEM)
-# using the composition of RPMI-1640 medium supplemented with 5% FBS.
-#
-# The medium composition are taken from the [MedumMetaMod repoitory](https://github.com/h-escoffier/MediumMetaMod). 
+# # Tutorial: Medium specific Gap-Filling a Human Metabolic Model with COBREXA.jl
+# ## Overview
+# 
+# This tutorial demonstrates how to apply gap-filling to a human genome-scale metabolic model (Human-GEM) constrained with the composition of RPMI-1640 + 5% FBS medium.
+
+# ---
+ 
+# ## Requirements
 
 using COBREXA
 using CSV, DataFrames
 import JSONFBCModels, SBMLFBCModels, HiGHS
 import AbstractFBCModels as A
+import AbstractFBCModels.CanonicalModel as CM
 import ConstraintTrees as C
 
-# ## Load the HumanGEM model
+# ## 1. Load and convert the Human-GEM SBML model.
 #
 # You can download the HumanGEM model in XML format from https://github.com/SysBioChalmers/Human-GEM
 
 model_path = "integration_scripts/data/Human-GEM.xml"
-model = load_model(model_path)
+sbml_model = load_model(model_path)
+model = convert(CM.Model, load_model(model_path)) 
 
-# ## Inspecting the medium composition
-#
+model.reactions["MAR13082"].lower_bound = 0.02729
+
+# ---
+
+# ## 2. Load Medium Composition
 # We load a TSV file that contains the list of metabolites present in RPMI and FBS.
 
 rpmi1640 = CSV.read("media/RPMI1640.tsv", DataFrame; delim='\t')
 fbs = CSV.read("media/FBS.tsv", DataFrame; delim='\t')
 
-# Create a DataFrame with the medium composition (RPMI-1640 and FBS)
 combined = vcat(rpmi1640, fbs)
-group_cols = [:Mets_Recon3D, :Mets_HumanGEM, :ExRxns_Recon3D, :ExRxns_HumanGEM]
-medium = combine(groupby(combined, group_cols), :Concentration_M => sum => :Concentration_M)
+group_cols = [:Mets_HumanGEM, :ExRxns_HumanGEM]
+df_medium = combine(groupby(combined, group_cols), :Concentration_M => sum => :Concentration_M) # TODO: Convert conventration to fluxes
 
-# Convert concentration (in M) to fluxes (in mmol/gDW/h) based on the function Conc2Rate developed by Ines Thiele
-# and Loic Marx
-
-# Cell concentration in cell/mL : 1e6 based on : 
-# > For a typical screening experiment, cells are inoculated into 96 well 
-# > microtiter plates in 100 μL at plating densities ranging from 5,000 to 40,000 
-# > cells/well depending on the doubling time of individual cell lines.
-
-# and 
-
-# > Inoculation Density for MCF7 cells in 96-well plates: 10,000 cells/well
-
-function conc_to_flux(conc_M, cell_conc; cell_weight_g=400e-12, doubling_time_h=24)
-    return conc_M / (cell_conc * cell_weight_g * doubling_time_h * 1000)
+medium = Dict{String, Float64}()
+for row in eachrow(df_medium)
+    medium[row.ExRxns_HumanGEM] = -1000.0
 end
 
-medium.Flux_mmol_gDW_h = conc_to_flux.(medium.Concentration_M, 1e5)
-
-# TODO : Convert fluxes in mmol/gDW/h to fluxes in mg/gDW/h
-
-# Store the medium composition in a Dictionary with the exchange reaction IDs as keys and the concentrations as values.
-medium_fluxes = Dict{String, Float64}()
-for row in eachrow(medium)
-    medium_fluxes[row.ExRxns_HumanGEM] = -1*(row.Flux_mmol_gDW_h)
-end
-
-# We also add some metabolites that are **always** included in the media definitions, as they represent essential environmental conditions or atmospheric gases (e.g., oxygen). 
-const mandatory_ex_rxns = Dict(
-    "MAR09048" => -1000.0, # Oxygen - O2
-    "MAR09047" => -1000.0, # Water - H2O
-    "MAR09058" => -1000.0, # Carbon Dioxide - CO2
-    "MAR09079" => -1000.0, # Proton - H 
-    ) 
-
-medium_fluxes = merge(medium_fluxes, mandatory_ex_rxns)
-
-# ## Apply medium constraints to the model
-
-# Use ContraintTrees to represent the model strucuture and constraints
-model_cst = flux_balance_constraints(model)
-
-model_opt = optimized_values(
-    model_cst,
-    objective = model_cst.objective.value,
-    optimizer = HiGHS.Optimizer,
+mandatory_ex_rxns = Dict(
+    "MAR09048" => -1000.0,  # O2
+    "MAR09047" => -1000.0,  # H2O
+    "MAR09058" => -1000.0,  # CO2
+    "MAR09079" => -1000.0,  # H+
 )
 
-model_opt.objective
+medium = merge(medium, mandatory_ex_rxns)
+medium 
 
-# We need to create a constraint that will be represent the medium constraints.
-# Thus, we need first to identiy the exchange reactions in the model.
+# ---
+
+# ## 3. Identify Exchange Reactions
 
 function get_exchange_rxns(model)
     S = A.stoichiometry(model)
-
-    # Identify reactions with only one non-zero entry in the S matrix
     ex_rxn_idx = [i for i in 1:size(S, 2) if count(!iszero, S[:, i]) == 1]
-
-    # Identify the exchange reactions
-    exchange_rxns = A.reactions(model)[ex_rxn_idx]
-    return exchange_rxns
+    A.reactions(model)[ex_rxn_idx]
 end
 
 ex_rxns = get_exchange_rxns(model)
 
-# Create Dict of exchange reactions and their corresponding fluxes
-medium_constraints = Dict()
+# ---
+
+# ## 4. Integrate Medium into the Model
+
+medium_model = deepcopy(model)
+
 for rxn in ex_rxns
-    ub = 1000.0
-    lb = rxn in keys(medium_fluxes) ? medium_fluxes[rxn] : 0.0
-    # lb = rxn in keys(medium_fluxes) ? -1000.0 : 0.0
-    medium_constraints[rxn] = (lb, ub)
+    if rxn in keys(medium)
+        medium_model.reactions[rxn].lower_bound = medium[rxn]
+    else
+        medium_model.reactions[rxn].lower_bound = 0.0
+    end
 end
 
-# Add the medium constraints to ConstraintTree
-medium_model_cst = model_cst * :medium_constraint^C.ConstraintTree(Symbol(ex_rxn) => C.Constraint(model_cst.fluxes[Symbol(ex_rxn)].value, (lb, ub)) for (ex_rxn, (lb, ub)) in medium_constraints)
-# medium_model_cst = model_cst * :medium_constraint^C.ConstraintTree(Symbol(ex_rxn) => C.Constraint(model_cst.fluxes[Symbol(ex_rxn)].value, (flux, 1000.0)) for (ex_rxn, flux) in medium_fluxes)
+# ---
 
-# ## Perform FBA on medium constrained model
+# ## 5. Perform Flux Balance Analysis (FBA) on the Medium Constrained Model and the Base Model
 
-medium_model_opt = optimized_values(
-    medium_model_cst,
-    objective = medium_model_cst.objective.value,
+flux_balance_analysis(medium_model, optimizer = HiGHS.Optimizer) |> println
+flux_balance_analysis(model, optimizer = HiGHS.Optimizer) |> println
+
+# ---
+
+# ## 6. Making the model feasible based on the likelihood of the medium composition
+
+# Create cost based on the data 
+# Set the cost of the reactions in the medium to 0. 
+medium_rxns = keys(medium)
+blood_rxns = []
+other_med_rxns = []
+discouraged_rxns = ["MAR09053"]
+
+flux_cost = r -> r in medium_rxns     ? 0.0 :
+              r in blood_rxns         ? 0.5 :
+              r in other_med_rxns     ? 1.0 :
+              r in discouraged_rxns   ? 10.0 :
+              2.0 # default 
+
+gap_fill = gap_filling_analysis(
+    medium_model,        # incomplete model
+    model,               # reference model
+    0.02729,             # target objective value set to the proliferation rate of the cell line
+    universal_reaction_cost = flux_cost,
+    max_cost = 10,       # maximum number of reactions to add
     optimizer = HiGHS.Optimizer,
 )
 
-medium_model_opt.objective
-
-medium_model_fva_fluxes = constraints_variability(medium_model_cst, medium_model_cst.fluxes, optimizer = HiGHS.Optimizer)
-
-# ## Optional : Save the uptakes and secretions fluxes of the model 
-
-data_medium_model = DataFrame(
-    Rxn = [String(key) for key in keys(medium_model_opt.fluxes)],
-    Value = [medium_model_opt.fluxes[key] for key in keys(medium_model_opt.fluxes)]
-)
-
-data_model = DataFrame(
-    Rxn = [String(key) for key in keys(model_opt.fluxes)],
-    Value = [model_opt.fluxes[key] for key in keys(model_opt.fluxes)]
-)
-
-data_medium_model = filter(row -> row.Rxn in ex_rxns, data_medium_model)
-data_model = filter(row -> row.Rxn in ex_rxns, data_model)
-
-data_total = DataFrame(
-    Rxn = [String(key) for key in keys(ec_variabilities.fluxes)],
-    Lower = [ec_variabilities.fluxes[key][1] for key in keys(ec_variabilities.fluxes)],
-    Upper = [ec_variabilities.fluxes[key][2] for key in keys(ec_variabilities.fluxes)],
-)
-
-
-# Write to a TSV file
-CSV.write("medium_model.tsv", data_medium_model; delim='\t')
-CSV.write("model.tsv", data_model; delim='\t')
-CSV.write("medium_model_fva.tsv", data_total; delim='\t')
+filled_reactions = [k for (k, v) in gap_fill.fill_flags if v != 0]
 
