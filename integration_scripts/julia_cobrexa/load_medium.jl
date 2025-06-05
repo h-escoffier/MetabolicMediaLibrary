@@ -29,6 +29,10 @@ import AbstractFBCModels as A
 import AbstractFBCModels.CanonicalModel as CM
 import ConstraintTrees as C
 
+# Optional  
+# import Pkg; Pkg.pkg"add Gurobi_jll@11.0.3"
+import Gurobi
+
 # ## 1. Load and convert the Human-GEM SBML model.
 #
 # You can download the HumanGEM model in XML format from https://github.com/SysBioChalmers/Human-GEM
@@ -37,6 +41,11 @@ model_path = "integration_scripts/data/Human-GEM.xml"
 sbml_model = load_model(model_path)
 model = convert(CM.Model, load_model(model_path)) 
 
+# Check the objective of the model 
+A.objective(model)
+# If you want to set the objective to a specific reaction use : 
+# A.objective(model) = "MAR13082" # Biomass reaction
+# Set the objective function to the proliferation rate of the cell line 
 model.reactions["MAR13082"].lower_bound = 0.02729
 
 # ---
@@ -92,12 +101,17 @@ for rxn in ex_rxns
     end
 end
 
+# Test if we close all the exchanges reactions of the model
+# for rxn in ex_rxns
+#     medium_model.reactions[rxn].lower_bound = 0.0
+# end
+
 # ---
 
 # ## 5. Perform Flux Balance Analysis (FBA) on the Medium Constrained Model and the Base Model
 
-flux_balance_analysis(medium_model, optimizer = HiGHS.Optimizer) |> println
-flux_balance_analysis(model, optimizer = HiGHS.Optimizer) |> println
+flux_balance_analysis(medium_model, optimizer = Gurobi.Optimizer) |> println
+flux_balance_analysis(model, optimizer = Gurobi.Optimizer) |> println
 
 # ---
 
@@ -105,25 +119,66 @@ flux_balance_analysis(model, optimizer = HiGHS.Optimizer) |> println
 
 # Create cost based on the data 
 # Set the cost of the reactions in the medium to 0. 
-medium_rxns = keys(medium)
-blood_rxns = []
-other_med_rxns = []
-discouraged_rxns = ["MAR09053"]
+# Define the reaction sets explicitly
+medium_rxns = Set(keys(medium))
 
-flux_cost = r -> r in medium_rxns     ? 0.0 :
-              r in blood_rxns         ? 0.5 :
-              r in other_med_rxns     ? 1.0 :
-              r in discouraged_rxns   ? 10.0 :
-              2.0 # default 
+function fluxes_costs(rxn; medium_cost=0.1, default_cost=500.0)
+    return rxn in medium_rxns ? medium_cost : default_cost
+end
 
-gap_fill = gap_filling_analysis(
+gap_fill = gap_filling_analysis(  # Around 10 minutes to run this step
     medium_model,        # incomplete model
     model,               # reference model
     0.02729,             # target objective value set to the proliferation rate of the cell line
-    universal_reaction_cost = flux_cost,
-    max_cost = 10,       # maximum number of reactions to add
-    optimizer = HiGHS.Optimizer,
+    universal_reaction_cost = fluxes_costs,  # cost of universal reactions
+    max_cost = Inf,       # maximum number of reactions to add
+    optimizer = Gurobi.Optimizer,
 )
 
-filled_reactions = [k for (k, v) in gap_fill.fill_flags if v != 0]
+# ---
 
+# for rxn in filled_reactions
+#     pass 
+# # TODO: Optimisation of the gap-filling step by the utilsation of Gurobi / Parallelisation ? 
+# end
+
+filled_reactions = [k for (k, v) in gap_fill.fill_flags if v > 1e-6]
+
+
+for (rxn, flag) in gap_fill.fill_flags
+    if flag != 0
+        println("Filled reaction: ", rxn)
+        println("Flag reaction: ", flag)
+    end
+end
+
+
+# Open filled reactions
+for rxn in filled_reactions
+    rxn_id = String(rxn) 
+    if rxn_id in keys(medium)
+        println("Medium reaction: ", medium_model.reactions[rxn_id].name)
+    else 
+        println(medium_model.reactions[rxn_id].name)    
+    end
+    # medium_model.reactions[rxn_id].lower_bound = -1000.0
+end
+
+# Check the objective value of the model after gap-filling
+fba_result = flux_balance_analysis(medium_model, optimizer = HiGHS.Optimizer)
+
+# Check the fluxes 
+for (rxn, flux) in fba_result.fluxes
+    rxn_id = String(rxn)
+    if rxn_id in ex_rxns && flux < 0
+        println(medium_model.reactions[rxn_id].name)
+        println("Reaction: $rxn, Flux: $flux")
+    end
+end
+
+
+test = _ -> 1.0 
+flux_cost = k -> (startswith(string(k), "EX_") ? 0.1 : 1.0)
+
+flux_cost("EX_glc__D_e") # Should return 0.1
+flux_cost("test") # Should return 1
