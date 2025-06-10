@@ -24,6 +24,7 @@
 
 using COBREXA
 using CSV, DataFrames
+using SparseArrays
 import JSONFBCModels, SBMLFBCModels, HiGHS
 import AbstractFBCModels as A
 import AbstractFBCModels.CanonicalModel as CM
@@ -42,9 +43,10 @@ sbml_model = load_model(model_path)
 model = convert(CM.Model, load_model(model_path)) 
 
 # Check the objective of the model 
-A.objective(model)
+objective = A.objective(model)
+# objective_idx, _ = findnz(objective_rxn)
 # If you want to set the objective to a specific reaction use : 
-# A.objective(model) = "MAR13082" # Biomass reaction
+A.objective(model) = "MAR13082" # Biomass reaction
 # Set the objective function to the proliferation rate of the cell line 
 model.reactions["MAR13082"].lower_bound = 0.02729
 
@@ -53,12 +55,14 @@ model.reactions["MAR13082"].lower_bound = 0.02729
 # ## 2. Load Medium Composition
 # We load a TSV file that contains the list of metabolites present in RPMI and FBS.
 
-rpmi1640 = CSV.read("media/RPMI1640.tsv", DataFrame; delim='\t')
-fbs = CSV.read("media/FBS.tsv", DataFrame; delim='\t')
+# rpmi1640 = CSV.read("media/RPMI1640.tsv", DataFrame; delim='\t')
+# fbs = CSV.read("media/FBS.tsv", DataFrame; delim='\t')
 
-combined = vcat(rpmi1640, fbs)
-group_cols = [:Mets_HumanGEM, :ExRxns_HumanGEM]
-df_medium = combine(groupby(combined, group_cols), :Concentration_M => sum => :Concentration_M) # TODO: Convert conventration to fluxes
+# combined = vcat(rpmi1640, fbs)
+# group_cols = [:Mets_HumanGEM, :ExRxns_HumanGEM]
+# df_medium = combine(groupby(combined, group_cols), :Concentration_M => sum => :Concentration_M) # TODO: Convert conventration to fluxes
+
+df_medium = CSV.read("media/MPM.tsv", DataFrame; delim='\t', comment="#")
 
 medium = Dict{String, Float64}()
 for row in eachrow(df_medium)
@@ -94,17 +98,16 @@ ex_rxns = get_exchange_rxns(model)
 medium_model = deepcopy(model)
 
 for rxn in ex_rxns
+    # Skip changing the objective reaction
+    if rxn == "MAR13082" # objective
+        continue
+    end
     if rxn in keys(medium)
         medium_model.reactions[rxn].lower_bound = medium[rxn]
     else
         medium_model.reactions[rxn].lower_bound = 0.0
     end
 end
-
-# Test if we close all the exchanges reactions of the model
-# for rxn in ex_rxns
-#     medium_model.reactions[rxn].lower_bound = 0.0
-# end
 
 # ---
 
@@ -113,20 +116,30 @@ end
 flux_balance_analysis(medium_model, optimizer = Gurobi.Optimizer) |> println
 flux_balance_analysis(model, optimizer = Gurobi.Optimizer) |> println
 
+# fba_medium_model = flux_balance_analysis(medium_model, optimizer = Gurobi.Optimizer)
+# fba_model = flux_balance_analysis(model, optimizer = Gurobi.Optimizer)
+
 # ---
 
 # ## 6. Making the model feasible based on the likelihood of the medium composition
 
 # Create cost based on the data 
 # Set the cost of the reactions in the medium to 0. 
-# Define the reaction sets explicitly
 medium_rxns = Set(keys(medium))
+# discouraged_rxns = Set(["MAR13051", "MAR13042", "MAR09276"])
+discouraged_rxns = Set()
 
-function fluxes_costs(rxn; medium_cost=0.1, default_cost=500.0)
-    return rxn in medium_rxns ? medium_cost : default_cost
+function fluxes_costs(rxn; medium_cost=0.1, default_cost=500.0, discouraged_cost=1e8)
+    if rxn in medium_rxns
+        return medium_cost
+    elseif rxn in discouraged_rxns
+        return discouraged_cost
+    else
+        return default_cost
+    end
 end
 
-gap_fill = gap_filling_analysis(  # Around 10 minutes to run this step
+gap_fill = gap_filling_analysis(  
     medium_model,        # incomplete model
     model,               # reference model
     0.02729,             # target objective value set to the proliferation rate of the cell line
@@ -137,35 +150,32 @@ gap_fill = gap_filling_analysis(  # Around 10 minutes to run this step
 
 # ---
 
-# for rxn in filled_reactions
-#     pass 
-# # TODO: Optimisation of the gap-filling step by the utilsation of Gurobi / Parallelisation ? 
-# end
+filled_reactions = [k for (k, v) in gap_fill.fill_flags if v > 0]  
 
-filled_reactions = [k for (k, v) in gap_fill.fill_flags if v > 1e-6]
-
-
-for (rxn, flag) in gap_fill.fill_flags
-    if flag != 0
-        println("Filled reaction: ", rxn)
-        println("Flag reaction: ", flag)
+for (k, v) in gap_fill.fill_flags
+    if v > 0
+        println("k: $k, v: $v")
     end
 end
 
+# Questions : 
+# Some reactions have a flag of 0.XX, then the cost looks wierd ? 
+# Why the objective reeaction is always include in the filled reactions ?
 
-# Open filled reactions
+# ## 7. Complete the Medium Model with the Filled Reactions
 for rxn in filled_reactions
     rxn_id = String(rxn) 
-    if rxn_id in keys(medium)
-        println("Medium reaction: ", medium_model.reactions[rxn_id].name)
-    else 
-        println(medium_model.reactions[rxn_id].name)    
+    
+    if rxn_id == "MAR13082" # Don't change the objective value
+        continue
     end
-    # medium_model.reactions[rxn_id].lower_bound = -1000.0
+    
+    println(medium_model.reactions[rxn_id].name)    
+    medium_model.reactions[rxn_id].lower_bound = -1000.0
 end
 
 # Check the objective value of the model after gap-filling
-fba_result = flux_balance_analysis(medium_model, optimizer = HiGHS.Optimizer)
+fba_result = flux_balance_analysis(medium_model, optimizer = Gurobi.Optimizer)
 
 # Check the fluxes 
 for (rxn, flux) in fba_result.fluxes
@@ -175,10 +185,3 @@ for (rxn, flux) in fba_result.fluxes
         println("Reaction: $rxn, Flux: $flux")
     end
 end
-
-
-test = _ -> 1.0 
-flux_cost = k -> (startswith(string(k), "EX_") ? 0.1 : 1.0)
-
-flux_cost("EX_glc__D_e") # Should return 0.1
-flux_cost("test") # Should return 1
