@@ -25,14 +25,29 @@
 using COBREXA
 using CSV, DataFrames
 using SparseArrays
-import JSONFBCModels, SBMLFBCModels, HiGHS
+using JSONFBCModels, SBMLFBCModels, HiGHS
 import AbstractFBCModels as A
 import AbstractFBCModels.CanonicalModel as CM
 import ConstraintTrees as C
 
 # Optional  
 # import Pkg; Pkg.pkg"add Gurobi_jll@11.0.3"
-import Gurobi
+using Gurobi, JuMP
+using SCIP
+
+# Set Gurobi parameters
+gurobi_optimizer = optimizer_with_attributes(
+    Gurobi.Optimizer,
+    "IntFeasTol" => 1e-9,
+)
+
+# OR 
+
+# Set SCIP parameters
+scip_optimizer = optimizer_with_attributes(
+    SCIP.Optimizer,
+    "numerics/feastol" => 1e-9
+)
 
 # ## 1. Load and convert the Human-GEM SBML model.
 #
@@ -113,11 +128,14 @@ end
 
 # ## 5. Perform Flux Balance Analysis (FBA) on the Medium Constrained Model and the Base Model
 
-flux_balance_analysis(medium_model, optimizer = Gurobi.Optimizer) |> println
-flux_balance_analysis(model, optimizer = Gurobi.Optimizer) |> println
+# flux_balance_analysis(medium_model, optimizer = Gurobi.Optimizer) |> println
+# flux_balance_analysis(model, optimizer = Gurobi.Optimizer) |> println
 
-# fba_medium_model = flux_balance_analysis(medium_model, optimizer = Gurobi.Optimizer)
-# fba_model = flux_balance_analysis(model, optimizer = Gurobi.Optimizer)
+# flux_balance_analysis(medium_model, optimizer = SCIP.Optimizer) |> println
+# flux_balance_analysis(model, optimizer = SCIP.Optimizer) |> println
+
+fba_medium_model = flux_balance_analysis(medium_model, optimizer = scip_optimizer)
+fba_model = flux_balance_analysis(model, optimizer = scip_optimizer)
 
 # ---
 
@@ -145,10 +163,10 @@ gap_fill = gap_filling_analysis(
     0.02729,             # target objective value set to the proliferation rate of the cell line
     universal_reaction_cost = fluxes_costs,  # cost of universal reactions
     max_cost = Inf,       # maximum number of reactions to add
-    optimizer = Gurobi.Optimizer,
+    optimizer = scip_optimizer,
 )
 
-# ---
+# --- # 
 
 filled_reactions = [k for (k, v) in gap_fill.fill_flags if v > 0]  
 
@@ -166,16 +184,24 @@ end
 for rxn in filled_reactions
     rxn_id = String(rxn) 
     
-    if rxn_id == "MAR13082" # Don't change the objective value
-        continue
-    end
+    # if rxn_id == "MAR13082" # Don't change the objective value
+    #     continue
+    # end
     
     println(medium_model.reactions[rxn_id].name)    
-    medium_model.reactions[rxn_id].lower_bound = -1000.0
+    # medium_model.reactions[rxn_id].lower_bound = -1000.0
+end
+
+medium_model.reactions["MAR09167"].lower_bound = -1000.0
+
+for rxn in medium_model.reactions
+    if rxn.first in ex_rxns && medium_model.reactions[rxn.first].lower_bound < 0
+        println("Filled reaction: $(medium_model.reactions[rxn.first].name) : $(medium_model.reactions[rxn.first].lower_bound)")
+    end
 end
 
 # Check the objective value of the model after gap-filling
-fba_result = flux_balance_analysis(medium_model, optimizer = Gurobi.Optimizer)
+fba_result = flux_balance_analysis(medium_model, optimizer = scip_optimizer)
 
 # Check the fluxes 
 for (rxn, flux) in fba_result.fluxes

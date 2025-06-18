@@ -15,4 +15,5 @@ tempCodeRunnerFile.py
 
 # Ignore personal files 
 conversion/* 
-todo.txt
+todo.txt,
+exp_gapfilling/*

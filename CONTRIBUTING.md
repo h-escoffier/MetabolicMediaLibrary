@@ -16,6 +16,7 @@ To add a new medium :
 
 2. **Fill out the columns**:
    - Use the following format:
+
    
    | Metabolite_Name        | Mets_HumanGEM | ExRxns_HumanGEM | Mets_Recon3D | ExRxns_Recon3D | Concentration_M |
    | :--------------------- | :------------ | :---------------| :------------| :--------------| :---------------|
