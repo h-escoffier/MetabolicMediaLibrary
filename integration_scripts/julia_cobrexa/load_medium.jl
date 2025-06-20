@@ -61,9 +61,12 @@ model = convert(CM.Model, load_model(model_path))
 
 # Check the objective of the model 
 objective = A.objective(model)
-# objective_idx, _ = findnz(objective_rxn)
+objective_idx, _ = findnz(objective)
+rxn = A.reactions(model)[objective_idx]
+println("Objective reaction: $(first(rxn)) - $(model.reactions[first(rxn)].name)")
 # If you want to set the objective to a specific reaction use : 
-A.objective(model) = "MAR13082" # Biomass reaction
+# A.objective(model) = "MAR13082" # Biomass reaction
+
 # Set the objective function to the proliferation rate of the cell line 
 model.reactions["MAR13082"].lower_bound = 0.02729
 
@@ -175,10 +178,6 @@ for (k, v) in gap_fill.fill_flags
     end
 end
 
-# Questions : 
-# Some reactions have a flag of 0.XX, then the cost looks wierd ? 
-# Why the objective reaction is always include in the filled reactions ?
-
 # ## 7. Complete the Medium Model with the Filled Reactions
 for rxn in filled_reactions
     rxn_id = String(rxn) 
@@ -191,12 +190,11 @@ for rxn in filled_reactions
     medium_model.reactions[rxn_id].lower_bound = -1000.0
 end
 
-# medium_model.reactions["MAR09167"].lower_bound = -1000.0
-
 # Check the objective value of the model after gap-filling
 fba_result = flux_balance_analysis(medium_model, optimizer = gurobi_optimizer)
 fba_result = flux_balance_analysis(medium_model, optimizer = scip_optimizer)
 
+# Print the reactions that are possible to uptake based on the medium composition
 for rxn in medium_model.reactions
     if String(first(rxn)) in ex_rxns && medium_model.reactions[first(rxn)].lower_bound < 0
         full_rxn = medium_model.reactions[first(rxn)]
@@ -204,11 +202,6 @@ for rxn in medium_model.reactions
     end
 end
 
-# Test the uptake of the medium model. Solver related issue 
-
-matching_rxn_ids = String[]
-
-# Check the fluxes 
 for (rxn, flux) in fba_result.fluxes
     rxn_id = String(rxn)
     if rxn_id in ex_rxns && flux < 0
@@ -221,6 +214,9 @@ for (rxn, flux) in fba_result.fluxes
     #     # medium_model.reactions[rxn_id].lower_bound = 0.0
     # end
 end
+
+# Test the uptake of the medium model. Solver related issue 
+matching_rxn_ids = String[]
 
 for rxn in ex_rxns
     if rxn in keys(matching_rxn_ids)
