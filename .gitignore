@@ -20,7 +20,7 @@ exp_gapfilling/*
 afac/*
 
 # Rm integration scripts for now 
-intergration_scripts/* 
+integration_scripts/* 
 
 # Ignore env 
 .venv
