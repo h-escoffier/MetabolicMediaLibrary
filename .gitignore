@@ -19,8 +19,5 @@ todo.txt,
 exp_gapfilling/*
 afac/*
 
-# Rm integration scripts for now 
-integration_scripts/* 
-
 # Ignore env 
 .venv
