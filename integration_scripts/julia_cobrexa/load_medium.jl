@@ -1,4 +1,4 @@
-# Copyright (c) 2021-2024, University of Luxembourg                         #src
+# Copyright (c) 2021-2025, University of Luxembourg                         #src
 # Copyright (c) 2021-2024, Heinrich-Heine University Duesseldorf            #src
 #                                                                           #src
 # Licensed under the Apache License, Version 2.0 (the "License");           #src
@@ -73,7 +73,7 @@ model.reactions["MAR13082"].lower_bound = 0.02729
 # ---
 
 # ## 2. Load Medium Composition
-# We load a TSV file that contains the list of metabolites present in RPMI and FBS.
+# # We load a TSV file that contains the list of metabolites present in RPMI and FBS.
 
 rpmi1640 = CSV.read("media/RPMI1640.tsv", DataFrame; delim='\t')
 fbs = CSV.read("media/FBS.tsv", DataFrame; delim='\t')
@@ -96,8 +96,63 @@ mandatory_ex_rxns = Dict(
     "MAR09079" => -1000.0,  # H+
 )
 
-medium = merge(medium, mandatory_ex_rxns)
+add2 = Dict(
+    "MAR09167" => -1000.0,  # lipoic acid 
+    "MAR09050" => -1000.0,  # HDL
+    "MAR09153" => -1000.0,  # gamma-tocopherol or gamma-tocotrienol
+)
+
+medium = merge(medium, mandatory_ex_rxns, add2)
 medium 
+
+# ## 2. Load Medium Composition
+# We load a TSV file that contains the list of metabolites present in MPM.
+
+# mpm = CSV.read("media/MPM.tsv", DataFrame; delim='\t', comment="#")
+
+# group_cols = [:Mets_HumanGEM, :ExRxns_HumanGEM]
+# df_medium = combine(groupby(mpm, group_cols), :Concentration_M => sum => :Concentration_M) # TODO: Convert conventration to fluxes
+
+# medium = Dict{String, Float64}()
+# for row in eachrow(df_medium)
+#     medium[row.ExRxns_HumanGEM] = -1000.0
+# end
+
+# add = Dict(
+#     "MAR09071" => -1000.0,  # glutamate
+#     "MAR09132" => -1000.0,  # acetoacetate
+#     "MAR09147" => -1000.0,  # retinol
+#     "MAR09151" => -1000.0,  # alpha-tocopherol
+#     "MAR09730" => -1000.0,  # albumin
+#     "MAR04140" => -1000.0,  # apotransferin
+#     "MAR10235" => -1000.0,  # cortisone
+#     "MAR09035" => -1000.0,  # linoleate
+#     "MAR00650" => -1000.0,  # oleate
+#     "MAR09809" => -1000.0,  # butyrate
+#     "MAR11933" => -1000.0,  # 1,3-diaminopropane
+# )
+
+# add2 = Dict(
+#     "MAR09167" => -1000.0,  # lipoic acid 
+#     "MAR09050" => -1000.0,  # HDL
+#     "MAR09153" => -1000.0,  # gamma-tocopherol or gamma-tocotrienol
+# )
+
+# mandatory_ex_rxns = Dict(
+#     "MAR09048" => -1000.0,  # O2
+#     "MAR09047" => -1000.0,  # H2O
+#     "MAR09058" => -1000.0,  # CO2
+#     "MAR09079" => -1000.0,  # H+
+# )
+
+# medium = merge(medium, mandatory_ex_rxns, add, add2) 
+
+
+# data = DataFrame(
+#     Rxn = [String(key) for key in keys(medium)],
+# )
+
+# CSV.write("medium.tsv", data; delim='\t')
 
 # ---
 
@@ -157,13 +212,13 @@ function fluxes_costs(rxn; medium_cost=0.1, default_cost=500.0, discouraged_cost
 end
 
 # Remove the biomass reaction from the orginal model to avoid it being added during the gap-filling
-delete!(model.reactions, "MAR13082")
+universal_model = deepcopy(model)
+delete!(universal_model.reactions, "MAR13082")
 
 gap_fill = gap_filling_analysis(  
     medium_model,        # incomplete model
-    model,               # reference model
+    universal_model,               # reference model
     0.02729,             # target objective value set to the proliferation rate of the cell line
-    universal_reaction_cost = fluxes_costs,  # cost of universal reactions
     max_cost = Inf,       # maximum number of reactions to add
     optimizer = gurobi_optimizer,
 )
@@ -177,6 +232,19 @@ for (k, v) in gap_fill.fill_flags
         println("k: $k, v: $v")
     end
 end
+
+gap_fill2 = gap_filling_analysis(
+    medium_model,
+    universal_model,
+    0.02729,
+    max_cost = Inf,
+    known_fills = [gap_fill.fill_flags],
+    # known_fills = [gap_fill.fill_flags, gap_fill2.fill_flags],
+    optimizer = gurobi_optimizer,
+)
+
+filled_reactions = [k for (k, v) in gap_fill2.fill_flags if v > 0]  
+
 
 # ## 7. Complete the Medium Model with the Filled Reactions
 for rxn in filled_reactions
@@ -226,3 +294,9 @@ for rxn in ex_rxns
     end
 end
 
+
+x = medium_optimization_analysis(
+    model,
+    fba_result.objective * 0.9,
+    optimizer = HiGHS.Optimizer,
+)

@@ -6,13 +6,23 @@ This folder contains definitions of various culture media used for metabolic mod
 
 | Medium Name                            | Reference/Source Link                        | Notes            |
 | :------------------------------------- | :------------------------------------------- | :--------------- |
-| [RPMI-1640](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/RPMI1640.tsv) | [Thermo Fisher RPMI-1640](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.187.html) | None |
+| [BrainPhys](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/BrainPhys.tsv) | [Cedric Bardy et al. PNAS, 2015](https://www.pnas.org/doi/10.1073/pnas.1504393112) | None |
 | [DMEM](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/DMEM.tsv) | [Thermo Fisher DMEM](https://www.thermofisher.com/us/en/home/technical-resources/media-formulation.8.html) | None |
 | [DMEM/F-12](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/DMEM_F12.tsv) | [Thermo Fisher DMEM/F-12](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.55.html) | None |
-| [MEM](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/MEM.tsv) | [Merck MEM](https://www.sigmaaldrich.com/LU/en/technical-documents/technical-article/cell-culture-and-cell-culture-analysis/mammalian-cell-culture/mem-formulation) | None |
+| [F-12](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/F12.tsv) | [Merck F-12](https://www.sigmaaldrich.com/LU/en/technical-documents/technical-article/cell-culture-and-cell-culture-analysis/mammalian-cell-culture/f-12-ham?srsltid=AfmBOoqrWDn1_6PSjzpu0KCUrf_7UevFI1FZB-5uyR-J_NFjUgbndt3A) | None |
 | [FBS](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/FBS.tsv) | [Price, P.J., Gregory In Vitro Cell.Dev.Biol.-Plant 18, 1982](https://doi.org/10.1007/BF02810081) | Prostaglandin F removed to causing infinitely large objective values |
+| [HPLM](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/HPLM.tsv) | [Thermo Fisher HPLM](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.360.html) | None |
+| [IMDM](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/IMDM.tsv) | [Thermo Fisher IMDM](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.76.html) | None |
+| [MCDB 131](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/MCDB131.tsv) | [Thermo Fisher MCDB 131](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.85.html) | None |
+| [MEM](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/MEM.tsv) | [Thermo Fisher MEM](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.101.html) | None |
+| [MPM](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/MPM.tsv) | [Jasmin Renate Preis et al. BioRxiv, 2024](https://doi.org/10.1101/2024.08.12.607529) | None |
+| [NCTC-135](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/NCTC135.tsv) | [Thermo Fisher NCTC-135](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.320.html) | None |
+| [Plasmax](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/Plasmax.tsv) | [Plasmax Formulation](https://cancertools.org/wp-content/uploads/PlasmaxTM-formulation-compared-to-historic-media-CancerTools.org_.pdf) | None |
+| [RPMI-1640](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/RPMI1640.tsv) | [Thermo Fisher RPMI-1640](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.187.html) | None |
+| [Williams' E](https://github.com/h-escoffier/MediumMetaMod/blob/main/media/Williams_E.tsv) | [Thermo Fisher Williams' E](https://www.thermofisher.com/lu/en/home/technical-resources/media-formulation.314.html) | None |
 
-> **Note:** Feel free to contribute new media by creating a new file and adding an entry to this table.
+> [!NOTE]  
+> Feel free to contribute new media by creating a new file and adding an entry to this table.
 
 -----------------------
 
@@ -27,4 +37,5 @@ Some metabolites are always included in the media definitions, as they represent
 | Carbon dioxide         | MAM01596e     | MAR09058        | co2[e]       | EX_co2[e]      |
 | Proton                 | MAM02039e     | MAR09079        | h[e]         | EX_h[e]        |
 
+> [!TIP]
 > Modify these defaults in your script or media file as needed for your specific application.

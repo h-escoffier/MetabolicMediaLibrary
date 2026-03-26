@@ -17,3 +17,10 @@ tempCodeRunnerFile.py
 conversion/* 
 todo.txt,
 exp_gapfilling/*
+afac/*
+
+# Rm integration scripts for now 
+intergration_scripts/* 
+
+# Ignore env 
+.venv
