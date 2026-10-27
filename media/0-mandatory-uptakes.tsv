@@ -1,0 +1,5 @@
+Metabolite_Name	Mets_HumanGEM	ExRxns_HumanGEM	Mets_Recon3D	ExRxns_Recon3D	Concentration_M
+Oxygen	MAM02630e	MAR09048	o2[e]	EX_o2[e]	-100.0
+Water	MAM02040e	MAR09047	h2o[e]	EX_h2o[e]	-100.0
+Carbon dioxide	MAM01596e	MAR09058	co2[e]	EX_co2[e]	-100.0
+Proton	MAM02039e	MAR09079	h[e]	EX_h[e]	-100.0
